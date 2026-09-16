@@ -1,0 +1,1544 @@
+[
+  {
+    "slug": "brown-butter-banana-pancakes",
+    "title": "Brown butter banana pancakes",
+    "blurb": "Uses the bananas nobody wants.",
+    "description": "Speckled bananas, nutty brown butter and a batter you can mix in one bowl. Fluffy enough for a Saturday, quick enough for a Tuesday.",
+    "categories": ["breakfast", "kid-friendly"],
+    "tags": ["No nuts", "Make ahead"],
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "imageAlt": "A stack of golden banana pancakes with syrup running down the sides",
+    "time": 25,
+    "level": "Easy",
+    "cost": "£0.70",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "qty": 2,
+        "name": "very ripe bananas"
+      },
+      {
+        "qty": 1,
+        "name": "egg"
+      },
+      {
+        "qty": 200,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "self-raising flour"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "caster sugar"
+      },
+      {
+        "unit": "pinch",
+        "name": "fine salt"
+      },
+      {
+        "name": "maple syrup, to serve"
+      }
+    ],
+    "steps": [
+      "Melt the butter in a small pan over a medium heat and keep it going until it foams, smells nutty and turns the colour of a hazelnut. Take it off the heat.",
+      "Mash the bananas in a big bowl until nearly smooth. Whisk in the egg, the milk and most of the brown butter.",
+      "Add the flour, baking powder, sugar and salt and stir until just combined. Lumps are fine; overmixing is not.",
+      "Heat a non-stick pan over a medium heat with a little of the leftover butter. Drop in spoonfuls of batter and cook for 2 minutes until bubbles appear, then flip and cook for 1 minute more.",
+      "Keep the cooked ones warm under a tea towel while you finish the batch. Serve with maple syrup and any banana that survived."
+    ],
+    "added": "2026-09-13"
+  },
+  {
+    "slug": "green-chilli-cheese-toastie",
+    "title": "Green chilli cheese toastie",
+    "blurb": "The toastie to beat all toasties.",
+    "description": "Two cheeses for pull and flavour, a green chilli for heat, and mayonnaise on the outside instead of butter so the crust goes evenly, deeply golden.",
+    "categories": ["lunch", "quick", "veggie"],
+    "tags": ["One pan", "No nuts"],
+    "image": "https://images.unsplash.com/photo-1528736235302-52922df5c122",
+    "imageAlt": "A grilled cheese sandwich cut in half with melted cheese stretching between the halves",
+    "time": 10,
+    "level": "Easy",
+    "cost": "£1.20",
+    "servings": 1,
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "slices",
+        "name": "white bloomer or sourdough"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "mature cheddar, grated"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "mozzarella, grated"
+      },
+      {
+        "qty": 1,
+        "name": "green chilli, finely sliced"
+      },
+      {
+        "qty": 2,
+        "name": "spring onions, finely sliced"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "mayonnaise"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "butter, softened"
+      }
+    ],
+    "steps": [
+      "Mix the cheddar, mozzarella, chilli and spring onions in a bowl.",
+      "Spread the mayonnaise over one side of each slice of bread. That is the outside.",
+      "Butter the inside of one slice, pile on the cheese mixture and close the sandwich, mayo sides out.",
+      "Cook in a dry non-stick pan over a medium-low heat for 3 to 4 minutes a side, pressing down with a spatula, until deep gold and the cheese is fully melted.",
+      "Rest for a minute before cutting, or the filling will run away."
+    ],
+    "added": "2026-09-11"
+  },
+  {
+    "slug": "hidden-veg-tomato-pasta",
+    "title": "Hidden veg tomato pasta",
+    "blurb": "Four vegetables they will not detect.",
+    "description": "A smooth, sweet tomato sauce that quietly carries a whole tray of vegetables. Make a double batch and freeze half for the night nobody wants to cook.",
+    "categories": ["kid-friendly", "dinner", "veggie"],
+    "tags": ["Freezer friendly", "No nuts", "Make ahead"],
+    "image": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590",
+    "imageAlt": "A bowl of pasta in a smooth tomato sauce topped with grated parmesan",
+    "time": 30,
+    "level": "Easy",
+    "cost": "£1.10",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 1,
+        "name": "onion, finely chopped"
+      },
+      {
+        "qty": 2,
+        "name": "carrots, finely chopped"
+      },
+      {
+        "qty": 1,
+        "name": "courgette, finely chopped"
+      },
+      {
+        "qty": 1,
+        "name": "red pepper, finely chopped"
+      },
+      {
+        "qty": 3,
+        "unit": "cloves",
+        "name": "garlic, crushed"
+      },
+      {
+        "qty": 2,
+        "unit": "tins",
+        "name": "chopped tomatoes (400g each)"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "sugar"
+      },
+      {
+        "qty": 400,
+        "unit": "g",
+        "name": "pasta shapes"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "parmesan, finely grated"
+      }
+    ],
+    "steps": [
+      "Warm the oil in a large pan over a medium heat. Add the onion, carrots, courgette and pepper with a pinch of salt and cook for 10 minutes, stirring now and then, until soft.",
+      "Add the garlic and cook for 1 minute, then tip in the tomatoes, oregano and sugar. Half fill one tin with water and add that too. Simmer for 15 minutes.",
+      "Blend the sauce until completely smooth with a stick blender. This is the whole trick.",
+      "Meanwhile cook the pasta in plenty of salted water until just tender. Save a mug of the cooking water and drain.",
+      "Toss the pasta through the sauce with a splash of the pasta water and most of the parmesan. Serve with the rest on top."
+    ],
+    "added": "2026-09-09"
+  },
+  {
+    "slug": "salted-honey-tahini-cookies",
+    "title": "Salted honey tahini cookies",
+    "blurb": "Chewy middles, crackly tops.",
+    "description": "Tahini does the job of half the butter and all of the flavour. These stay chewy for days, and the dough freezes well for emergencies.",
+    "categories": ["dessert", "baking"],
+    "tags": ["Make ahead", "Freezer friendly"],
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
+    "imageAlt": "Crackled golden cookies sprinkled with flaky sea salt on a baking sheet",
+    "time": 35,
+    "level": "Medium",
+    "cost": "£0.35",
+    "servings": 12,
+    "ingredients": [
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "tahini, well stirred"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "runny honey"
+      },
+      {
+        "qty": 80,
+        "unit": "g",
+        "name": "light brown sugar"
+      },
+      {
+        "qty": 1,
+        "name": "egg"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "qty": 160,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "bicarbonate of soda"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "fine salt"
+      },
+      {
+        "unit": "pinch",
+        "name": "flaky sea salt, for the tops"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 180°C fan and line two baking trays.",
+      "Beat the tahini, honey and brown sugar together until smooth and glossy, then beat in the egg and vanilla.",
+      "Mix the flour, baking powder, bicarbonate and fine salt, then fold into the wet mixture until no dry streaks remain. The dough will be soft.",
+      "Scoop 12 balls onto the trays, well spaced. Flatten each one slightly with damp fingers.",
+      "Bake for 11 to 12 minutes until the edges are set and the tops have cracked but the middles still look a little underdone.",
+      "Sprinkle with flaky salt straight out of the oven and leave on the tray for 10 minutes before moving. They firm up as they cool."
+    ],
+    "added": "2026-09-07"
+  },
+  {
+    "slug": "charred-broccoli-grain-bowl",
+    "title": "Charred broccoli grain bowl",
+    "blurb": "Lunch that holds up till Thursday.",
+    "description": "Nutty grains, broccoli cooked hard in a hot pan and a lemon tahini dressing that gets better in the fridge. Cook once, eat three times.",
+    "categories": ["veggie", "lunch"],
+    "tags": ["Make ahead", "Vegan"],
+    "image": "https://images.unsplash.com/photo-1505576633757-0ac1084af824",
+    "imageAlt": "A grain bowl with charred broccoli, avocado and seeds drizzled with tahini dressing",
+    "time": 25,
+    "level": "Easy",
+    "cost": "£2.10",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "pearl barley or farro"
+      },
+      {
+        "qty": 1,
+        "name": "head of broccoli, cut into small florets"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "soy sauce"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "tahini"
+      },
+      {
+        "qty": 1,
+        "name": "lemon, juiced"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "maple syrup"
+      },
+      {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic, grated"
+      },
+      {
+        "qty": 1,
+        "name": "avocado, sliced"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "toasted mixed seeds"
+      },
+      {
+        "unit": "handful",
+        "name": "coriander or parsley leaves"
+      }
+    ],
+    "steps": [
+      "Cook the grains in salted water until tender with a little bite, about 20 minutes. Drain well.",
+      "While they cook, get a frying pan very hot. Add the oil and the broccoli in a single layer and leave it for 3 minutes until the undersides are charred. Toss, splash in the soy sauce and cook for 2 more minutes.",
+      "Whisk the tahini, lemon juice, maple syrup and garlic with 3 tablespoons of water until it loosens into a pourable dressing. Season.",
+      "Divide the grains between bowls, top with broccoli, avocado and seeds, and spoon over the dressing. Finish with the herbs.",
+      "For lunches, box the grains and broccoli together and keep the dressing and avocado separate until eating."
+    ],
+    "added": "2026-09-05"
+  },
+  {
+    "slug": "sausage-and-butter-bean-traybake",
+    "title": "Sausage and butter bean traybake",
+    "blurb": "One tray, zero washing up.",
+    "description": "Sausages roast on top of onions, peppers and tomatoes until everything underneath turns into its own sauce. Butter beans go in at the end to soak it up.",
+    "categories": ["dinner", "kid-friendly"],
+    "tags": ["One pan", "Freezer friendly", "No nuts"],
+    "image": "https://images.unsplash.com/photo-1624772404867-08060beaaa1b",
+    "imageAlt": "A roasting tray of browned sausages with roasted peppers, onions and tomatoes",
+    "time": 40,
+    "level": "Easy",
+    "cost": "£2.30",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 8,
+        "name": "good pork sausages"
+      },
+      {
+        "qty": 2,
+        "name": "red onions, cut into wedges"
+      },
+      {
+        "qty": 1,
+        "name": "red pepper, cut into strips"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "name": "cherry tomatoes"
+      },
+      {
+        "qty": 4,
+        "unit": "cloves",
+        "name": "garlic, skin on and bashed"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "dried thyme"
+      },
+      {
+        "qty": 2,
+        "unit": "tins",
+        "name": "butter beans (400g each), drained"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "balsamic vinegar"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200°C fan. Tip the onions, pepper, tomatoes and garlic into a large roasting tray. Toss with the oil, paprika, thyme and a good pinch of salt.",
+      "Sit the sausages on top and roast for 25 minutes, turning the sausages once, until they are browned and the vegetables have slumped.",
+      "Stir in the butter beans and balsamic vinegar, coating the beans in the tray juices, and return to the oven for 10 to 15 minutes.",
+      "Squeeze the garlic out of its skins and stir it through. Serve with bread for the sauce, or over mash."
+    ],
+    "added": "2026-09-03"
+  },
+  {
+    "slug": "cheesy-leek-and-potato-soup",
+    "title": "Cheesy leek and potato soup",
+    "blurb": "Freezes well, reheats better.",
+    "description": "The soup for the first cold week of the year. Sweet leeks, floury potatoes and a handful of cheddar stirred in right at the end.",
+    "categories": ["lunch", "kid-friendly", "veggie"],
+    "tags": ["Freezer friendly", "One pan", "No nuts"],
+    "image": "https://images.unsplash.com/photo-1616501268826-ee9731c915d4",
+    "imageAlt": "A bowl of creamy pale green leek and potato soup topped with chives",
+    "time": 35,
+    "level": "Easy",
+    "cost": "£0.90",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "qty": 3,
+        "name": "leeks, washed and sliced"
+      },
+      {
+        "qty": 600,
+        "unit": "g",
+        "name": "floury potatoes, peeled and cubed"
+      },
+      {
+        "qty": 1,
+        "unit": "l",
+        "name": "vegetable stock"
+      },
+      {
+        "qty": 100,
+        "unit": "ml",
+        "name": "double cream"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "mature cheddar, grated"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "Dijon mustard"
+      },
+      {
+        "unit": "handful",
+        "name": "chives, snipped"
+      }
+    ],
+    "steps": [
+      "Melt the butter in a large pan over a medium-low heat. Add the leeks with a pinch of salt and cook gently for 10 minutes until very soft but not coloured.",
+      "Add the potatoes and stock, bring to a simmer and cook for 20 minutes until the potatoes fall apart when pressed.",
+      "Blend until smooth, then stir in the cream, cheddar and mustard over a low heat until the cheese has melted. Do not let it boil.",
+      "Season generously and serve with chives on top. Freeze before adding the cheese and cream if you are batching it."
+    ],
+    "added": "2026-09-01"
+  },
+  {
+    "slug": "crispy-chicken-goujons",
+    "title": "Crispy chicken goujons",
+    "blurb": "Cornflake crumb, proper crunch.",
+    "description": "Baked, not fried, and louder than anything from a freezer bag. Make a big batch and freeze them raw for a ten-minute dinner later.",
+    "categories": ["kid-friendly", "dinner"],
+    "tags": ["No nuts", "Freezer friendly", "Make ahead"],
+    "image": "https://images.unsplash.com/photo-1619019187211-adf2f6119afd",
+    "imageAlt": "Golden crumbed chicken strips on a board with a small bowl of dip",
+    "time": 25,
+    "level": "Easy",
+    "cost": "£1.60",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "chicken breast, cut into finger-width strips"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "cornflakes"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "panko breadcrumbs"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "garlic granules"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "qty": 2,
+        "name": "eggs, beaten"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 220°C fan and line a baking tray. Crush the cornflakes in a bag with a rolling pin until they are coarse crumbs, then mix with the panko, paprika, garlic granules and a pinch of salt.",
+      "Set up three bowls: flour, beaten egg, and the crumb. Dip each strip of chicken through them in that order, pressing the crumb on firmly.",
+      "Lay the goujons on the tray with space between them and drizzle or spray with the oil.",
+      "Bake for 18 to 20 minutes, turning halfway, until deep golden and cooked through.",
+      "To freeze, open-freeze the crumbed raw strips on a tray, then bag them. Cook from frozen, adding 5 minutes."
+    ],
+    "added": "2026-08-30"
+  },
+  {
+    "slug": "sweetcorn-and-cheddar-fritters",
+    "title": "Sweetcorn and cheddar fritters",
+    "blurb": "Breakfast, lunch or a bribe.",
+    "description": "A tin of sweetcorn, a handful of cheese and a quick batter. Crisp edges, soft middles, and they are just as good cold in a lunchbox.",
+    "categories": ["breakfast", "kid-friendly", "quick", "veggie"],
+    "tags": ["No nuts", "Make ahead"],
+    "image": "https://images.unsplash.com/photo-1696265498747-efc4c0dd7b98",
+    "imageAlt": "Golden sweetcorn fritters stacked on a plate with a dollop of yoghurt",
+    "time": 20,
+    "level": "Easy",
+    "cost": "£0.80",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 340,
+        "unit": "g",
+        "name": "tinned sweetcorn, drained"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "self-raising flour"
+      },
+      {
+        "qty": 2,
+        "name": "eggs"
+      },
+      {
+        "qty": 60,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "qty": 80,
+        "unit": "g",
+        "name": "cheddar, grated"
+      },
+      {
+        "qty": 3,
+        "name": "spring onions, sliced"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil"
+      }
+    ],
+    "steps": [
+      "Whisk the eggs and milk in a large bowl, then stir in the flour, paprika and a pinch of salt to make a thick batter.",
+      "Fold in the sweetcorn, cheddar and spring onions.",
+      "Heat the oil in a frying pan over a medium heat. Drop in heaped tablespoons of batter, flatten slightly and cook for 2 to 3 minutes a side until golden and set.",
+      "Drain on kitchen paper. Serve warm with yoghurt, or cool completely and box them for lunch."
+    ],
+    "added": "2026-08-27"
+  },
+  {
+    "slug": "peanut-noodle-bowls",
+    "title": "Peanut noodle bowls",
+    "blurb": "Mild enough, good enough for adults.",
+    "description": "A peanut sauce whisked in a jug, noodles and edamame in one pot, and crunchy things on top. Fifteen minutes, one pan, no arguments.",
+    "categories": ["dinner", "quick", "kid-friendly"],
+    "tags": ["One pan", "Vegan"],
+    "image": "https://images.unsplash.com/photo-1610554675919-858d84c76d40",
+    "imageAlt": "A bowl of noodles in peanut sauce topped with edamame, carrot ribbons and crushed peanuts",
+    "time": 15,
+    "level": "Easy",
+    "cost": "£1.40",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "rice noodles"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "frozen edamame beans"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "smooth peanut butter"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "soy sauce"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "rice vinegar"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "maple syrup"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "sesame oil"
+      },
+      {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic, grated"
+      },
+      {
+        "qty": 1,
+        "name": "carrot, peeled into ribbons"
+      },
+      {
+        "qty": 2,
+        "name": "spring onions, sliced"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "roasted peanuts, crushed"
+      },
+      {
+        "qty": 1,
+        "name": "lime, cut into wedges"
+      }
+    ],
+    "steps": [
+      "Cook the noodles according to the packet, adding the edamame for the last 3 minutes. Drain, saving a mug of the water.",
+      "Whisk the peanut butter, soy sauce, rice vinegar, maple syrup, sesame oil and garlic with 4 tablespoons of the hot noodle water until smooth and pourable.",
+      "Return the noodles and edamame to the pan, pour over the sauce and toss until everything is coated, loosening with more water if needed.",
+      "Divide between bowls and top with carrot, spring onions and peanuts. Squeeze over lime at the table."
+    ],
+    "added": "2026-08-24"
+  },
+  {
+    "slug": "overnight-oats-with-roasted-plums",
+    "title": "Overnight oats with roasted plums",
+    "blurb": "Breakfast that made itself while you slept.",
+    "description": "Oats soaked in milk and yoghurt until they turn creamy, topped with plums roasted until they collapse into their own syrup. Five minutes tonight, none tomorrow.",
+    "categories": ["breakfast", "veggie"],
+    "tags": ["Make ahead", "No nuts"],
+    "image": "https://images.unsplash.com/photo-1490371475955-4cb3bfc72f71",
+    "imageAlt": "A jar of overnight oats topped with roasted plum halves and a drizzle of syrup",
+    "time": 15,
+    "level": "Easy",
+    "cost": "£0.95",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "rolled oats"
+      },
+      {
+        "qty": 250,
+        "unit": "ml",
+        "name": "milk, dairy or oat"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "natural yoghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "chia seeds"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "qty": 4,
+        "name": "ripe plums, halved and stoned"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "light brown sugar"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      }
+    ],
+    "steps": [
+      "Stir the oats, milk, yoghurt, chia seeds, honey and vanilla together in a jar or tub. Cover and refrigerate overnight, or for at least 4 hours.",
+      "Heat the oven to 180°C fan. Put the plums cut side up in a small dish, sprinkle with the sugar and cinnamon and roast for 15 minutes until soft and syrupy. They keep in the fridge for 3 days.",
+      "In the morning, loosen the oats with a splash more milk if they are too thick, then spoon the plums and their juices on top."
+    ],
+    "added": "2026-08-20"
+  },
+  {
+    "slug": "granola",
+    "title": "Granola",
+    "blurb": "Our big-batch version. Do not skimp on the maple syrup.",
+    "description": "Our double batch of Cookie and Kate’s granola: 650g of oats, a proper pile of nuts, less oil than the original and the full amount of maple syrup, because 12 tablespoons was not sweet enough. Makes about 32 servings and keeps for a couple of weeks.",
+    "categories": ["breakfast"],
+    "tags": ["Make ahead", "Big batch"],
+    "image": "/recipes/granola.jpg",
+    "imageAlt": "Big clumps of golden granola on a baking sheet",
+    "time": 35,
+    "level": "Easy",
+    "servings": 32,
+    "ingredients": [
+      {
+        "qty": 650,
+        "unit": "g",
+        "name": "old-fashioned rolled oats"
+      },
+      {
+        "qty": 375,
+        "unit": "g",
+        "name": "walnuts and other nuts, roughly chopped"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "sea salt"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      },
+      {
+        "qty": 6,
+        "unit": "tbsp",
+        "name": "coconut or olive oil (the original uses 240ml, this is plenty)"
+      },
+      {
+        "qty": 16,
+        "unit": "tbsp",
+        "name": "maple syrup or honey (the full amount; 12 tbsp was not sweet enough)"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "dried fruit, chopped if large"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 175°C and line two large, rimmed baking sheets with baking paper.",
+      "In a very large bowl, mix the oats, nuts, salt and cinnamon.",
+      "Pour in the oil, maple syrup and vanilla and stir until every oat and nut is coated. Divide between the two trays and spread into an even layer.",
+      "Bake for 21 to 24 minutes until lightly golden, stirring halfway and swapping the trays between shelves. Press the granola back down after stirring if you want big clumps. It crisps up as it cools.",
+      "Leave to cool completely without touching it, at least 45 minutes, then add the dried fruit and break into clusters.",
+      "Store in an airtight container at room temperature for up to two weeks, or freeze for up to three months."
+    ],
+    "video": {
+      "url": "https://content.jwplatform.com/videos/25MAdmjx.mp4"
+    },
+    "source": {
+      "name": "cookieandkate.com",
+      "url": "https://cookieandkate.com/healthy-granola-recipe/"
+    },
+    "added": "2026-09-16",
+    "featured": true
+  },
+  {
+    "slug": "zucchini-pesto-pasta",
+    "title": "Zucchini pesto pasta",
+    "blurb": "Courgettes, pesto and penne in about half an hour.",
+    "description": "Courgettes cooked until just tender, folded through pesto and penne with a splash of the pasta water. Dinner in about half an hour, and it takes any short pasta you have.",
+    "categories": ["dinner", "veggie"],
+    "tags": ["Weeknight"],
+    "image": "/recipes/zucchini-pesto-pasta.jpg",
+    "imageAlt": "Penne tossed with pesto and sliced zucchini, topped with grated parmesan",
+    "time": 35,
+    "level": "Easy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "qty": 225,
+        "unit": "g",
+        "name": "penne, or any short pasta"
+      },
+      {
+        "qty": 3,
+        "name": "medium zucchini (courgettes)"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "garlic, minced"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 240,
+        "unit": "g",
+        "name": "basil pesto"
+      },
+      {
+        "qty": 120,
+        "unit": "ml",
+        "name": "pasta cooking water"
+      },
+      {
+        "qty": 45,
+        "unit": "g",
+        "name": "parmesan, coarsely grated, to serve"
+      },
+      {
+        "name": "salt and freshly ground black pepper"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of water to the boil with about 2 tsp of salt.",
+      "Trim the zucchini, halve them lengthways and slice into half-moons. Measure out the pesto and mince the garlic.",
+      "Cook the pasta in the boiling water until just al dente. Before draining, scoop out 120ml of the cooking water.",
+      "Meanwhile, heat the olive oil in a very large frying pan over a medium-high heat. Add the garlic and cook for about a minute, until you can smell it. Do not let it brown.",
+      "Add the zucchini, season with salt and pepper and cook for about 5 minutes, until tender with a little bite.",
+      "Stir the pesto through the zucchini, then add the drained pasta and enough of the cooking water to bring everything together. Cook for a couple of minutes more so the pasta takes on the pesto.",
+      "Serve hot with the parmesan on top. Keeps in the fridge for a day or two."
+    ],
+    "source": {
+      "name": "kalynskitchen.com",
+      "url": "https://kalynskitchen.com/recipe-for-easy-penne-pasta-with-2/"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "baked-feta-salmon-pasta",
+    "title": "Baked feta salmon pasta",
+    "blurb": "The baked feta pasta, with salmon. One dish, high protein.",
+    "description": "Salmon fillets roasted on top of a block of feta and cherry tomatoes, which collapse into a creamy sauce. Spinach wilts in at the end and the penne gets tossed through. One dish and about 35 minutes.",
+    "categories": ["dinner"],
+    "tags": ["One pan", "High protein"],
+    "image": "/recipes/baked-feta-salmon-pasta.jpg",
+    "imageAlt": "Salmon fillets baked on a block of feta with cherry tomatoes, tossed with penne and spinach",
+    "time": 35,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 4,
+        "name": "salmon fillets (about 170g each), skin removed"
+      },
+      {
+        "qty": 225,
+        "unit": "g",
+        "name": "block of feta"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "cherry tomatoes"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "qty": 140,
+        "unit": "g",
+        "name": "fresh baby spinach"
+      },
+      {
+        "qty": 225,
+        "unit": "g",
+        "name": "penne, cooked al dente (keep a little of the cooking water)"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200°C.",
+      "Put the feta, cherry tomatoes and salmon in a 23x33cm baking dish. Drizzle with the olive oil and scatter over the oregano, garlic powder, salt and pepper.",
+      "Bake for 20 to 25 minutes, until the salmon is cooked through and flakes easily and the tomatoes have burst.",
+      "Take the dish out and add the spinach straight in. Leave it for 2 to 3 minutes to wilt.",
+      "Flake the salmon with a fork and mash the feta and tomatoes together until creamy, then stir everything into a sauce.",
+      "Add the cooked penne and toss until coated. Loosen with 2 to 3 tablespoons of the pasta water if it needs it."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/watch/?v=941794878888162"
+    },
+    "source": {
+      "name": "Feel Good Foodie on Facebook",
+      "url": "https://www.facebook.com/feelgoodfoodie/videos/941794878888162/"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "creamy-roasted-eggplant-and-tomato-pasta",
+    "title": "Creamy roasted eggplant and tomato pasta",
+    "blurb": "Silky, smoky, and all made in one pan.",
+    "description": "Whole eggplant, tomatoes and garlic cooked down under a lid until they collapse, mashed into a smoky sauce with oat cream, chilli crisp and vegan parmesan, then tossed with linguine. Throw a zucchini into the pan too if you have one.",
+    "categories": ["dinner", "veggie"],
+    "tags": ["Vegan", "One pan"],
+    "image": "/recipes/creamy-roasted-eggplant-and-tomato-pasta.webp",
+    "imageAlt": "Linguine in a creamy, smoky roasted eggplant and tomato sauce topped with chilli crisp and parsley",
+    "time": 35,
+    "level": "Easy",
+    "servings": 3,
+    "ingredients": [
+      {
+        "qty": 2,
+        "name": "medium eggplants (halved lengthwise)"
+      },
+      {
+        "qty": 3,
+        "name": "large tomatoes (tops cut off)"
+      },
+      {
+        "qty": 1,
+        "name": "zucchini (courgette), halved lengthways, optional"
+      },
+      {
+        "qty": 6,
+        "name": "garlic cloves (peeled)"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "salt (plus a pinch for the cut surfaces)"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "red pepper flakes"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "chili crisp"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "vegan parmesan"
+      },
+      {
+        "qty": 240,
+        "unit": "ml",
+        "name": "oat cream or any vegan cream"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "name": "linguine or spaghetti"
+      },
+      {
+        "name": "Reserved pasta water as needed"
+      },
+      {
+        "name": "Extra vegan parmesan"
+      },
+      {
+        "name": "Fresh parsley (chopped)"
+      }
+    ],
+    "steps": [
+      "Heat the olive oil in a large deep pan over a medium heat. Put the eggplant halves in cut side down and sprinkle the cut surfaces with a pinch of salt. Add the tomatoes, the garlic cloves and the zucchini, if using. Cover and cook for 20 to 25 minutes until everything is completely soft and collapsing, turning the eggplant halfway if needed.",
+      "Use tongs to pull away the tomato and eggplant skins and discard them. Mash everything together in the pan with a potato masher or fork until you have a thick, chunky sauce.",
+      "Add the salt, pepper, smoked paprika, red pepper flakes, chili crisp, and vegan parmesan. Stir everything together and let it simmer for a couple of minutes.",
+      "Pour in the oat cream and stir until the sauce turns creamy and everything is well combined. Let it bubble gently for 2 to 3 minutes.",
+      "Meanwhile, cook the linguine in salted boiling water until al dente. Reserve some pasta water before draining.",
+      "Add the cooked pasta directly into the sauce and toss to coat. If the sauce is too thick, add a splash of pasta water to loosen it up until every strand is coated.",
+      "Plate up and finish with extra vegan parmesan and fresh chopped parsley."
+    ],
+    "source": {
+      "name": "drveganblog.com",
+      "url": "https://drveganblog.com/creamy-roasted-eggplant-and-tomato-pasta/"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "blueberry-banana-muffins",
+    "title": "Blueberry banana muffins",
+    "blurb": "Banana, peanut butter and oats. No flour, no fuss.",
+    "description": "Ten muffins from one bowl: mashed banana and peanut butter for the body, oats and a heaped spoon of baking powder for lift, blueberries throughout. About 6g of protein each.",
+    "categories": ["breakfast", "baking", "kid-friendly"],
+    "tags": ["High protein", "Make ahead"],
+    "image": "/recipes/blueberry-banana-muffins.jpg",
+    "imageAlt": "Golden blueberry muffins in paper cases on a wire rack",
+    "time": 35,
+    "level": "Easy",
+    "servings": 10,
+    "ingredients": [
+      {
+        "qty": 2,
+        "name": "ripe bananas"
+      },
+      {
+        "qty": 2,
+        "name": "eggs"
+      },
+      {
+        "qty": 250,
+        "unit": "g",
+        "name": "peanut butter"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "maple syrup"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "rolled oats"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "baking powder, heaped"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "blueberries"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 180°C and line a muffin tin with 10 paper cases.",
+      "Mash the bananas in a large bowl, then beat in the eggs, peanut butter and maple syrup until smooth.",
+      "Stir in the oats and baking powder, then fold in the blueberries.",
+      "Divide between the cases and bake for 25 minutes, until risen and golden and a skewer comes out clean.",
+      "Cool in the tin for 10 minutes. They keep for 3 days in a tin, or freeze."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/reel/862546166470502"
+    },
+    "source": {
+      "name": "Facebook reel",
+      "url": "https://www.facebook.com/reel/862546166470502"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "high-protein-salmon-toast",
+    "title": "High-protein salmon toast",
+    "blurb": "Mix, pile on toast, done. About 30g of protein a serve.",
+    "description": "Flaked salmon, avocado, Greek yoghurt and cucumber with a squeeze of citrus, mixed in one bowl and piled onto toast or a baked sweet potato. Makes two generous serves.",
+    "categories": ["lunch", "quick"],
+    "tags": ["High protein", "No cook"],
+    "image": "/recipes/high-protein-salmon-toast.jpg",
+    "imageAlt": "Toast piled with a creamy salmon, avocado and cucumber mixture",
+    "time": 10,
+    "level": "Easy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 240,
+        "unit": "g",
+        "name": "cooked salmon"
+      },
+      {
+        "qty": 70,
+        "unit": "g",
+        "name": "avocado"
+      },
+      {
+        "qty": 80,
+        "unit": "g",
+        "name": "0% Greek yoghurt"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "cucumber"
+      },
+      {
+        "qty": 1,
+        "name": "lemon or lime, juiced"
+      },
+      {
+        "name": "salt and pepper"
+      },
+      {
+        "name": "hot sauce and fresh dill, optional"
+      },
+      {
+        "qty": 4,
+        "unit": "slices",
+        "name": "bread, toasted, or 2 baked sweet potatoes"
+      }
+    ],
+    "steps": [
+      "Flake the salmon into a bowl. Dice the cucumber and avocado and add them with the yoghurt and citrus juice.",
+      "Season with salt and pepper, add hot sauce and dill if you like, and mix until creamy.",
+      "Pile half the mixture onto two slices of toast, or a baked sweet potato, per serve."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/reel/1917326828896482"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by Adam Hoad)",
+      "url": "https://www.facebook.com/reel/1917326828896482"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "three-chicken-marinades",
+    "title": "Three chicken marinades",
+    "blurb": "Honey garlic, lemon herb, or creamy chipotle lime.",
+    "description": "Three marinades that each coat about 700g of chicken: a sticky honey garlic glaze, a bright lemon garlic herb, and a creamy chipotle lime. Thirty minutes minimum, overnight is where the magic happens.",
+    "categories": ["dinner"],
+    "tags": ["Make ahead", "High protein"],
+    "image": "/recipes/three-chicken-marinades.jpg",
+    "imageAlt": "Three bowls of marinated chicken: honey garlic, lemon herb and chipotle lime",
+    "time": 10,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "group": "Honey garlic glaze",
+        "qty": 60,
+        "unit": "ml",
+        "name": "low-sodium soy sauce"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "rice vinegar"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "garlic, freshly grated"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "fresh ginger, grated"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 1.5,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "group": "Honey garlic glaze",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "chilli flakes, optional"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 60,
+        "unit": "ml",
+        "name": "olive oil"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "name": "large lemon, juice and zest"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 5,
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "Dijon mustard"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "Italian seasoning"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "onion powder"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "group": "Lemon garlic herb",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 60,
+        "unit": "g",
+        "name": "fat-free Greek yoghurt"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive or avocado oil"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "name": "lime, juiced"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 2,
+        "name": "chipotle peppers in adobo"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "adobo sauce"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 4,
+        "unit": "cloves",
+        "name": "garlic"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "onion powder"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "group": "Creamy chipotle lime",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "honey"
+      }
+    ],
+    "steps": [
+      "Pick a marinade and whisk its ingredients together in a bowl or a zip bag. Blend the chipotle one if you want it smooth.",
+      "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
+      "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through. Brush the honey garlic glaze on towards the end so the honey does not burn."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/reel/2079088426050790"
+    },
+    "source": {
+      "name": "Facebook reel",
+      "url": "https://www.facebook.com/reel/2079088426050790"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "loaded-sweet-potato-taco-bowl",
+    "title": "Loaded sweet potato taco bowl",
+    "blurb": "A roasted sweet potato, smashed, then piled high.",
+    "description": "A whole sweet potato roasted until caramelised, smashed in a bowl and topped with seasoned beef mince, mozzarella, tomato, onion, jalapeños and avocado. A big single serve that keeps you full for hours.",
+    "categories": ["dinner"],
+    "tags": ["High protein"],
+    "image": "/recipes/loaded-sweet-potato-taco-bowl.jpg",
+    "imageAlt": "A bowl of smashed roasted sweet potato topped with beef mince, cheese, tomato, jalapeños and avocado",
+    "time": 50,
+    "level": "Easy",
+    "servings": 1,
+    "ingredients": [
+      {
+        "qty": 1,
+        "name": "large sweet potato (about 350g)"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "extra-lean beef mince"
+      },
+      {
+        "qty": 35,
+        "unit": "g",
+        "name": "fat-free mozzarella, grated"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "tomato, diced"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "onion, diced"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "jalapeños, sliced"
+      },
+      {
+        "qty": 0.5,
+        "name": "medium avocado (about 75g)"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "lime juice"
+      },
+      {
+        "name": "flaky salt"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 220°C. Slice the sweet potato in half lengthways and season the cut sides with flaky salt.",
+      "Lay it cut side down on a lined baking tray and bake for about 40 minutes, until soft and caramelised.",
+      "While it cooks, brown the beef mince in a frying pan and season it to your liking.",
+      "Put both sweet potato halves in a bowl and smash the flesh gently with a fork to make a base.",
+      "Top with the mince, mozzarella, tomato, onion, jalapeños and avocado. Finish with the lime juice and a sprinkle of flaky salt."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/reel/1319767380370916"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by Jack Early)",
+      "url": "https://www.facebook.com/reel/1319767380370916"
+    },
+    "added": "2026-09-16"
+  },
+  {
+    "slug": "easy-baked-salmon",
+    "title": "Easy baked salmon",
+    "blurb": "Lemon, garlic and herbs. On the table in 25 minutes.",
+    "description": "Salmon fillets rubbed with olive oil, garlic, herbs and lemon juice, each topped with a slice of lemon and baked until just flaky. Finish under the grill for a minute if you like colour on top.",
+    "categories": ["dinner", "quick"],
+    "tags": ["One pan"],
+    "image": "/recipes/easy-baked-salmon.jpg",
+    "imageAlt": "Baked salmon fillets topped with lemon slices and herbs in a baking dish",
+    "time": 25,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 4,
+        "name": "salmon fillets (about 170g each)"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "garlic, minced"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "Italian herb seasoning (or ¼ tsp each of dried thyme, parsley, oregano and basil)"
+      },
+      {
+        "qty": 1,
+        "name": "medium lemon, half juiced and half thinly sliced"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "salt, or to taste"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "cracked black pepper"
+      },
+      {
+        "name": "fresh thyme or parsley, to serve"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200°C and grease a large baking dish. Arrange the salmon fillets in it and season generously with salt and pepper.",
+      "Stir together the olive oil, garlic, herbs and the juice of half the lemon. Spoon it over the salmon and rub it over the tops and sides so there are no dry spots.",
+      "Thinly slice the other half of the lemon and lay a slice on each fillet.",
+      "Bake for 12 to 15 minutes, until the salmon is opaque and flakes when pulled with a fork. Grill for the last minute or two if you want colour on top.",
+      "Scatter with fresh thyme or parsley and serve."
+    ],
+    "video": {
+      "url": "https://content.jwplatform.com/videos/pOyB6d7Z.mp4"
+    },
+    "source": {
+      "name": "lecremedelacrumb.com",
+      "url": "https://www.lecremedelacrumb.com/best-easy-healthy-baked-salmon/"
+    },
+    "added": "2026-09-16"
+  }
+]

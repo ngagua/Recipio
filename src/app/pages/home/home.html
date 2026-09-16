@@ -1,0 +1,140 @@
+<section class="wrap pt-[76px] md:pt-28" aria-labelledby="hero-title">
+  <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 lg:gap-16">
+    <div>
+      <p class="eyebrow animate-rise flex items-center gap-2 text-acid">
+        <span class="size-[7px] rounded-full bg-acid" aria-hidden="true"></span>This week
+      </p>
+      <h1
+        id="hero-title"
+        class="animate-rise mt-[18px] font-display text-[52px] leading-[0.9] font-bold tracking-[-0.035em] text-balance text-bone [animation-delay:80ms] md:text-[64px] lg:text-[80px]"
+      >
+        <a [routerLink]="['/recipes', featured.slug]" class="text-bone hover:text-bone">{{
+          featured.title
+        }}</a>
+      </h1>
+      <p
+        class="animate-rise mt-[18px] flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[13px] font-medium text-meta [animation-delay:160ms] md:text-sm"
+      >
+        <span>{{ featured.time }} min</span>
+        <span class="opacity-40" aria-hidden="true">/</span>
+        <span>Serves {{ featured.servings }}</span>
+        @if (featured.cost) {
+          <span class="opacity-40" aria-hidden="true">/</span>
+          <span>{{ featured.cost }} a head</span>
+        }
+      </p>
+      <p
+        class="animate-rise mt-4 max-w-md text-[15px] leading-relaxed text-muted [animation-delay:220ms] md:text-lg"
+      >
+        {{ featured.blurb }}
+      </p>
+      <a
+        [routerLink]="['/recipes', featured.slug]"
+        class="animate-rise mt-6 inline-flex h-12 items-center gap-2 rounded-full bg-acid px-6 text-[13px] font-bold tracking-[0.1em] text-surface uppercase transition-colors [animation-delay:280ms] hover:bg-acid-hi hover:text-surface md:mt-8"
+        >See the recipe<span class="ms text-xl" aria-hidden="true">arrow_forward</span></a
+      >
+    </div>
+    <a
+      [routerLink]="['/recipes', featured.slug]"
+      class="group relative mt-8 block aspect-[4/3] overflow-hidden rounded-[6px] border border-line bg-raised md:mt-0"
+      [attr.aria-label]="featured.title"
+    >
+      <img
+        [ngSrc]="featured.image"
+        [alt]="featured.imageAlt ?? ''"
+        fill
+        priority
+        sizes="(min-width: 768px) 50vw, 100vw"
+        class="object-cover transition-transform duration-500 ease-expo group-hover:scale-[1.03]"
+      />
+    </a>
+  </div>
+</section>
+
+<section class="mt-12 md:mt-20" aria-labelledby="meals-title">
+  <div class="wrap flex items-baseline justify-between pb-4">
+    <h2 id="meals-title" class="eyebrow text-dim">Browse by meal</h2>
+    <span class="caps text-dim md:hidden" aria-hidden="true">Swipe</span>
+  </div>
+  <div
+    class="rail flex snap-x snap-mandatory gap-4 overflow-x-auto px-[22px] pb-2 md:mx-auto md:grid md:max-w-6xl md:grid-cols-4 md:gap-5 md:px-6"
+  >
+    @for (c of categories; track c.slug) {
+      <a
+        [routerLink]="['/category', c.slug]"
+        class="group relative aspect-[4/5] w-[220px] shrink-0 snap-start overflow-hidden rounded-2xl bg-raised transition-transform duration-500 ease-expo hover:scale-[1.02] md:w-auto"
+      >
+        @if (c.image) {
+          <img
+            [ngSrc]="c.image"
+            alt=""
+            fill
+            ngSrcset="320w, 480w, 640w, 960w"
+            sizes="(min-width: 768px) 25vw, 220px"
+            class="object-cover transition-transform duration-700 ease-expo group-hover:scale-110"
+          />
+        }
+        <div
+          class="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,9,8,0.05)_35%,rgba(7,9,8,0.85)_100%)]"
+          aria-hidden="true"
+        ></div>
+        <div class="absolute inset-x-5 bottom-5">
+          <p
+            class="font-display text-[22px] leading-[1.05] font-semibold tracking-[-0.02em] text-bone md:text-2xl"
+          >
+            {{ c.name }}
+          </p>
+          <p class="mt-1 text-xs font-medium text-muted">{{ c.count }} recipes</p>
+        </div>
+      </a>
+    }
+  </div>
+</section>
+
+<section class="wrap pt-[42px] md:pt-20" aria-labelledby="new-title">
+  <h2
+    appReveal
+    id="new-title"
+    class="font-display text-[34px] leading-none font-bold tracking-[-0.035em] text-bone md:text-[56px]"
+  >
+    New this week
+  </h2>
+  <p appReveal class="mt-1.5 mb-6 text-sm leading-[1.55] text-muted md:mb-10 md:text-base">
+    Six things worth cooking before Sunday.
+  </p>
+  <div
+    class="grid grid-cols-2 gap-x-3.5 gap-y-6 md:grid-cols-3 md:gap-x-6 md:gap-y-10 lg:grid-cols-4"
+  >
+    @for (r of latest; track r.slug; let i = $index) {
+      <app-recipe-card [appReveal]="i" [recipe]="r" />
+    }
+  </div>
+</section>
+
+@if (kids) {
+  <div class="wrap mt-11 pb-16 md:mt-20 md:pb-24">
+    <section
+      appReveal
+      class="rounded-[6px] bg-acid p-6 md:flex md:items-end md:justify-between md:gap-12 md:p-12"
+      aria-labelledby="kids-title"
+    >
+      <div>
+        <p class="eyebrow mb-3 text-acid-ink">Kid friendly</p>
+        <h2
+          id="kids-title"
+          class="max-w-2xl font-display text-[30px] leading-[0.98] font-bold tracking-[-0.035em] text-surface md:text-[56px]"
+        >
+          Dinners that end without a negotiation
+        </h2>
+        <p class="mt-3 mb-[22px] text-sm leading-normal text-acid-deep md:mb-0 md:text-base">
+          {{ kids.count }} recipes tested on people under ten.
+        </p>
+      </div>
+      <a
+        routerLink="/category/kid-friendly"
+        class="inline-flex h-12 shrink-0 items-center rounded-full bg-surface px-6 text-[13px] font-semibold tracking-[0.04em] text-bone transition-colors hover:bg-ink hover:text-bone"
+        >See the collection</a
+      >
+    </section>
+  </div>
+}

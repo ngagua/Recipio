@@ -1,3 +1,167 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import 'tailwindcss';
+
+@theme {
+  --color-ink: #070908;
+  --color-surface: #0e1210;
+  --color-raised: #161b18;
+  --color-hair: #1b211d;
+  --color-line: #232a25;
+  --color-line-2: #2a322c;
+  --color-acid: #89df92;
+  --color-acid-hi: #a5fcad;
+  --color-acid-ink: #00531a;
+  --color-acid-deep: #00390f;
+  --color-bone: #efe9dd;
+  --color-body: #dcd7cc;
+  --color-meta: #c8cfc7;
+  --color-muted: #98a29a;
+  --color-dim: #7a867f;
+
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Instrument Sans', sans-serif;
+
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-page-in: page-in 420ms var(--ease-expo) both;
+  --animate-sheet-in: sheet-in 450ms var(--ease-expo) both;
+  --animate-rise: rise 900ms var(--ease-expo) both;
+
+  @keyframes page-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes sheet-in {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@layer base {
+  html {
+    background: var(--color-ink);
+    color-scheme: dark;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-bone);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-acid);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: var(--color-acid);
+    color: var(--color-surface);
+  }
+  /* Lenis drives the window scroller */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis:not(.lenis-autoToggle).lenis-stopped {
+    overflow: clip;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+}
+
+@layer components {
+  /* Material Symbols Rounded, subset in index.html */
+  .ms {
+    font-family: 'Material Symbols Rounded';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+  }
+  .ms.fill {
+    font-variation-settings:
+      'FILL' 1,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+  }
+}
+
+/* Page container: 22px gutters on phones, 24px from md, 72rem max */
+@utility wrap {
+  margin-inline: auto;
+  max-width: var(--container-6xl);
+  padding-inline: 22px;
+  @variant md {
+    padding-inline: 1.5rem;
+  }
+}
+@utility eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+@utility caps {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+/* Horizontal scroller without a visible scrollbar */
+@utility rail {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+@utility icon-btn {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 9999px;
+  color: var(--color-bone);
+  transition: background-color 200ms;
+  &:hover {
+    background: var(--color-raised);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

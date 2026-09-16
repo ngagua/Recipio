@@ -1,0 +1,48 @@
+<div class="wrap pt-[76px] md:pt-28">
+  <h1
+    class="font-display text-[50px] leading-[0.92] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
+  >
+    All recipes
+  </h1>
+  <p class="caps mt-3.5 text-dim" aria-live="polite">
+    {{ results().length }} of {{ total }} recipes
+  </p>
+  <label
+    class="mt-6 flex h-14 items-center gap-3 rounded-full border border-line-2 bg-raised px-5 transition-colors focus-within:border-acid md:max-w-xl"
+  >
+    <span class="ms text-muted" aria-hidden="true">search</span>
+    <span class="sr-only">Search recipes</span>
+    <input
+      #search
+      id="search"
+      type="search"
+      autocomplete="off"
+      placeholder="Search by name or ingredient"
+      [value]="query()"
+      (input)="onSearch($event)"
+      class="w-full bg-transparent text-base text-bone outline-none placeholder:text-dim"
+    />
+  </label>
+</div>
+
+<div
+  class="rail flex gap-2 overflow-x-auto px-[22px] pt-[26px] pb-2 md:mx-auto md:max-w-6xl md:flex-wrap md:px-6"
+>
+  @for (c of categories; track c.slug) {
+    <a
+      [routerLink]="['/category', c.slug]"
+      class="shrink-0 rounded-full border border-line-2 px-[17px] py-[9px] text-[13px] font-medium text-muted transition-colors hover:border-acid hover:text-bone"
+      >{{ c.name }} <span class="text-dim">{{ c.count }}</span></a
+    >
+  }
+</div>
+
+<div
+  class="wrap grid grid-cols-2 gap-x-3.5 gap-y-6 pt-6 pb-16 md:grid-cols-3 md:gap-x-6 md:gap-y-10 md:pb-24 lg:grid-cols-4"
+>
+  @for (r of results(); track r.slug; let i = $index) {
+    <app-recipe-card [appReveal]="i" [recipe]="r" />
+  } @empty {
+    <p class="col-span-full py-10 text-muted">Nothing matches “{{ query() }}” yet.</p>
+  }
+</div>
