@@ -1944,5 +1944,55 @@
       "url": "https://www.mob.co.uk/recipes/ultimate-hummus"
     },
     "added": "2026-09-17"
+  },
+  {
+    "slug": "healthy-cheesecake",
+    "title": "Healthy cheesecake",
+    "blurb": "Four ingredients and no crust: Greek yogurt, eggs, honey and vanilla whisked in one bowl, baked until just set and chilled overnight.",
+    "description": "A crustless cheesecake made from thick Greek yogurt, eggs, honey and vanilla: whisk in one bowl, bake until the edges are set and the middle still wobbles, then cool and chill for at least four hours (overnight is better). It sets to a smooth, custardy slice with a good amount of protein and no refined sugar. Use thick yogurt, not a watery one, and do not overbake. Fold in a handful of blueberries or add lemon zest to the batter if you like; it keeps for 4 to 5 days in the fridge, and slices freeze for a month.",
+    "categories": ["dessert", "baking"],
+    "tags": ["High protein", "Make ahead", "Eggs"],
+    "image": "/recipes/healthy-cheesecake.jpg",
+    "imageAlt": "A golden crustless yogurt cheesecake with a lightly browned top on a white plate",
+    "time": 50,
+    "level": "Easy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "thick plain Greek yogurt"
+      },
+      {
+        "qty": 3,
+        "name": "large eggs"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "name": "honey and fresh berries, to serve (optional)"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 170°C. Line an 18cm round tin with baking parchment, covering the base and sides.",
+      "Whisk the yogurt, eggs, honey and vanilla in a large bowl until completely smooth, with no streaks of egg left.",
+      "Pour into the tin and tap it on the counter a few times to knock out the large air bubbles.",
+      "Bake for 35 to 40 minutes, until the edges are set and the centre still has a slight wobble. It firms up as it cools, so do not bake it until the middle is solid.",
+      "Cool completely in the tin at room temperature, then chill for at least 4 hours, or overnight for the best texture.",
+      "Slice while cold and serve with a drizzle of honey and a few berries."
+    ],
+    "source": {
+      "name": "food.niceyummy.com",
+      "url": "https://food.niceyummy.com/healthy-cheesecake/"
+    },
+    "added": "2026-09-17"
   }
 ]
