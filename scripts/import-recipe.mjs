@@ -41,7 +41,7 @@ const findRecipe = (node) => {
 };
 let ld;
 for (const m of html.matchAll(
-  /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
+  /<script[^>]+type=["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi,
 )) {
   try {
     ld = findRecipe(JSON.parse(m[1].trim()));
@@ -200,6 +200,9 @@ const CUP_GRAMS = [
   ['pesto', 240],
   ['cherry tomatoes', 150],
   ['tomatoes', 180],
+  ['sweet potato', 135],
+  ['potato', 150],
+  ['cauliflower', 100],
   ['onion', 160],
   ['peppers', 150],
   ['pepper', 150],
@@ -236,7 +239,7 @@ const gramsPerCup = (name) => {
 const metricText = (s, g) =>
   s
     .replace(
-      new RegExp(`(${NUMBER})\\s*(cups?|fl\\.? ?oz|ounces?|oz|pounds?|lbs?)\\b`, 'gi'),
+      new RegExp(`(${NUMBER})[\\s-]*(cups?|fl\\.? ?oz|ounces?|oz|pounds?|lbs?)\\b`, 'gi'),
       (_, n, u) => {
         const q = toNumber(n);
         const unit = u.toLowerCase();
@@ -252,6 +255,10 @@ const metricText = (s, g) =>
     )
     .replace(
       new RegExp(`(${NUMBER})[- ]?inch(?:es)?\\b`, 'gi'),
+      (_, n) => `${Math.round(toNumber(n) * 2.54)}cm`,
+    )
+    .replace(
+      new RegExp(`(${NUMBER})\\s*["”″]`, 'g'), // 1” cubes
       (_, n) => `${Math.round(toNumber(n) * 2.54)}cm`,
     )
     .replace(
@@ -330,7 +337,10 @@ const parseIngredient = (raw) => {
   }
   if (name.startsWith('of ')) name = name.slice(3);
   const parsed = metric(unit ? { qty, unit, name } : { qty, name });
-  return { ...parsed, name: metricText(parsed.name, gramsPerCup(parsed.name)) };
+  const cleanName = metricText(parsed.name, gramsPerCup(parsed.name))
+    // "400 grams (13.5 oz.) tomatoes" converts to "(385g.) tomatoes": drop a leading bracketed amount, it duplicates qty
+    .replace(/^\(\s*~?[\d.]+\s*(?:g|kg|ml|l)\.?\)\s*/i, '');
+  return { ...parsed, name: cleanName };
 };
 
 const steps = [];

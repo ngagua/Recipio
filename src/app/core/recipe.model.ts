@@ -7,6 +7,7 @@ export const CATEGORIES = [
   { slug: 'quick', name: 'Quick & easy' },
   { slug: 'veggie', name: 'Veggie' },
   { slug: 'baking', name: 'Baking' },
+  { slug: 'sauces', name: 'Sauces' },
 ] as const;
 
 export type CategorySlug = (typeof CATEGORIES)[number]['slug'];
@@ -56,6 +57,8 @@ export interface Recipe {
   source?: { name: string; url: string };
   /** Shown in the home hero. First match wins. */
   featured?: boolean;
+  /** Category slug whose browse tile shows this recipe's photo. */
+  cover?: string;
   /** ISO date; the home page lists newest first. */
   added: string;
 }

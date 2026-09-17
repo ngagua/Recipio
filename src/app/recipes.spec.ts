@@ -19,6 +19,11 @@ describe('recipes.json', () => {
       expect(r.servings, `${r.slug} needs servings for the stepper`).toBeGreaterThan(0);
       expect(r.image, `${r.slug} image must be a URL or a /path`).toMatch(/^(https:\/\/|\/)/);
       expect(r.added, `${r.slug} added must be an ISO date`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      if (r.cover)
+        expect(
+          r.categories,
+          `${r.slug}: cover "${r.cover}" is not one of its categories`,
+        ).toContain(r.cover);
     }
   });
 });

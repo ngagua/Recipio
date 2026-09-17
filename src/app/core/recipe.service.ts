@@ -17,6 +17,7 @@ export class RecipeService {
     return CATEGORIES.map((c) => {
       const inCategory = this.all.filter((r) => r.categories.includes(c.slug));
       const cover =
+        inCategory.find((r) => r.cover === c.slug) ??
         inCategory.find((r) => !r.video && !used.has(r.image)) ??
         inCategory.find((r) => !r.video) ??
         inCategory.find((r) => !used.has(r.image)) ??

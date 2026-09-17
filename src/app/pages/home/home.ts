@@ -14,7 +14,7 @@ import { RecipeCard } from '../../shared/recipe-card';
 export class Home {
   private readonly recipes = inject(RecipeService);
   protected readonly featured = this.recipes.featured;
-  protected readonly categories = this.recipes.categories;
+  protected readonly categories = this.recipes.categories.filter((c) => c.count > 0);
   protected readonly latest = this.recipes.all.slice(0, 6);
   protected readonly kids = this.recipes.category('kid-friendly');
 }

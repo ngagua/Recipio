@@ -84,7 +84,9 @@
           >
             {{ c.name }}
           </p>
-          <p class="mt-1 text-xs font-medium text-muted">{{ c.count }} recipes</p>
+          <p class="mt-1 text-xs font-medium text-muted">
+            {{ c.count }} {{ c.count === 1 ? 'recipe' : 'recipes' }}
+          </p>
         </div>
       </a>
     }
@@ -127,7 +129,7 @@
           Dinners that end without a negotiation
         </h2>
         <p class="mt-3 mb-[22px] text-sm leading-normal text-acid-deep md:mb-0 md:text-base">
-          {{ kids.count }} recipes tested on people under ten.
+          {{ kids.count }} {{ kids.count === 1 ? 'recipe' : 'recipes' }} tested on people under ten.
         </p>
       </div>
       <a
