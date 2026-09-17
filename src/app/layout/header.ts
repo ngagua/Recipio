@@ -25,9 +25,11 @@ import { UiState } from '../core/ui-state.service';
           <a
             [routerLink]="item.path"
             routerLinkActive="text-acid"
+            #link="routerLinkActive"
             [routerLinkActiveOptions]="{ exact: item.path === '/' }"
             ariaCurrentWhenActive="page"
-            class="text-[13px] font-semibold tracking-[0.1em] text-muted uppercase transition-colors hover:text-bone"
+            class="text-[13px] font-semibold tracking-[0.1em] uppercase transition-colors hover:text-bone"
+            [class.text-muted]="!link.isActive"
             >{{ item.label }}</a
           >
         }

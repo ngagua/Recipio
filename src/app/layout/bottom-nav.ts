@@ -17,7 +17,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           #link="routerLinkActive"
           [routerLinkActiveOptions]="{ exact: item.path === '/' }"
           ariaCurrentWhenActive="page"
-          class="flex min-w-20 flex-col items-center gap-1 px-4 py-2 text-dim transition-colors"
+          class="flex min-w-20 flex-col items-center gap-1 px-4 py-2 transition-colors"
+          [class.text-dim]="!link.isActive"
         >
           <span class="ms text-[23px]" [class.fill]="link.isActive" aria-hidden="true">{{
             item.icon
