@@ -1672,5 +1672,75 @@
       "url": "https://www.facebook.com/reel/1420816160095976"
     },
     "added": "2026-09-17"
+  },
+  {
+    "slug": "georgian-salad",
+    "title": "Georgian salad",
+    "blurb": "Tomato, cucumber and red onion in a walnut, garlic and blue fenugreek dressing.",
+    "description": "The tomato and cucumber salad from every Georgian table, in its walnut version: the walnuts are blended with garlic, lemon juice, Kakhetian oil, coriander and utskho suneli into a thick dressing that clings to the vegetables. Kakhetian oil is unrefined sunflower oil; utskho suneli is blue fenugreek. Both are worth finding, but ordinary sunflower oil and a pinch of ground fenugreek will get you close.",
+    "categories": ["lunch", "quick", "veggie"],
+    "tags": ["Salad", "Georgian", "Walnuts", "No cook", "Vegan"],
+    "image": "/recipes/georgian-salad.jpg",
+    "imageAlt": "A plate of tomato, cucumber and red onion salad coated in a crumbly walnut dressing with herbs",
+    "time": 15,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 3,
+        "name": "tomatoes"
+      },
+      {
+        "qty": 3,
+        "name": "small cucumbers, or 2 large"
+      },
+      {
+        "qty": 125,
+        "unit": "g",
+        "name": "walnuts"
+      },
+      {
+        "qty": 0.5,
+        "name": "onion, preferably red"
+      },
+      {
+        "unit": "handful",
+        "name": "fresh herbs: coriander, basil or parsley"
+      },
+      {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic, or 2 (optional)"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lemon juice"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "Kakhetian oil (unrefined sunflower oil)"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "utskho suneli (blue fenugreek)"
+      },
+      {
+        "unit": "to taste",
+        "name": "salt and pepper"
+      }
+    ],
+    "steps": [
+      "Wash the vegetables. Cut the cucumbers and tomatoes into the size you like, cubes or half-moons, and slice the onion into thin half-rings.",
+      "Make the dressing: put the walnuts, utskho suneli, garlic, lemon juice, Kakhetian oil, the coriander and salt in a food processor and blend to a smooth paste.",
+      "Put the chopped vegetables and the finely chopped herbs in a bowl, add the walnut dressing, the basil and the onion, and toss to coat. Taste for salt and pepper."
+    ],
+    "source": {
+      "name": "gemrielia.ge",
+      "url": "https://gemrielia.ge/"
+    },
+    "added": "2026-09-17"
   }
 ]
