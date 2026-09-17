@@ -1183,7 +1183,8 @@
       "name": "cookieandkate.com",
       "url": "https://cookieandkate.com/how-to-make-tzatziki/"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "cover": "sauces"
   },
   {
     "slug": "red-lentil-curry",
@@ -1820,6 +1821,127 @@
     "source": {
       "name": "theplantbasedschool.com",
       "url": "https://theplantbasedschool.com/carrot-cake-overnight-oats/"
+    },
+    "added": "2026-09-17"
+  },
+  {
+    "slug": "ultimate-carbonara",
+    "title": "Ultimate carbonara",
+    "blurb": "No cream, lots of black pepper: egg yolks, smoked bacon, two cheeses and starchy pasta water, plus a little garlic.",
+    "description": "Mob's take on the classic, and there is no cream anywhere near it. Egg yolks are whisked with grated pecorino, parmesan and a very generous amount of black pepper, crisp smoked bacon and sliced garlic wait in the pan, and the drained spaghetti is tossed through with ladles of starchy pasta water until it turns silky. Crack the eggs into a separate bowl first, keep the whites for meringue, and if it looks thick add more pasta water: it should be smooth, not scrambled.",
+    "categories": ["dinner", "quick"],
+    "tags": ["Pasta"],
+    "image": "/recipes/ultimate-carbonara.jpg",
+    "imageAlt": "Tongs lifting a tangle of creamy carbonara spaghetti flecked with bacon out of a black frying pan",
+    "time": 25,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 6,
+        "name": "egg yolks (freeze the whites for meringue)"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "name": "smoked streaky bacon"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "name": "Pecorino Romano"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "name": "parmesan, plus a little to serve"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "spaghetti"
+      },
+      {
+        "qty": 2,
+        "unit": "cloves",
+        "name": "garlic, thinly sliced"
+      },
+      {
+        "name": "salt, for the pasta water"
+      },
+      {
+        "name": "black pepper, freshly cracked, lots of it"
+      }
+    ],
+    "steps": [
+      "Grate the pecorino and parmesan into a bowl, setting a pinch of parmesan aside for serving. Add the egg yolks and a very generous amount of black pepper (a good carbonara is peppery, hence the name) and whisk together.",
+      "Chop the bacon into small pieces and fry in a large pan over a medium heat until crisp.",
+      "Meanwhile cook the spaghetti in a large pan of well-salted boiling water: pasta water should taste almost as salty as the sea.",
+      "Add the sliced garlic to the crisp bacon and let it soften. If anything starts to catch, add a spoonful of the starchy pasta water.",
+      "A minute before the pasta is ready, while still quite al dente, ladle out some pasta water (about 1½ ladles per person) into a bowl. Drain the pasta and tip it into the bacon pan with about ½ a ladle of pasta water per person. Cook together over a medium heat until the water has evaporated and the pasta is silky, then take off the heat.",
+      "Let it cool for 1 minute, then add the egg and cheese mixture with another ½ ladle of pasta water per person and mix well. If it looks too thick, add a little more water: it should be silky smooth. Serve with the reserved parmesan and a twist or two more of black pepper."
+    ],
+    "source": {
+      "name": "mob.co.uk",
+      "url": "https://www.mob.co.uk/recipes/mobs-ultimate-carbonara"
+    },
+    "added": "2026-09-17"
+  },
+  {
+    "slug": "hummus",
+    "title": "Hummus",
+    "blurb": "Silky hummus from a jar of chickpeas, tahini, cumin and lemon, blitzed with the chickpea liquid and finished with olive oil and za’atar.",
+    "description": "Mob's silky hummus, and the trick is what goes in the blender: a whole jar of chickpeas with their liquid, tahini, a little garlic, cumin and lemon, blitzed until completely smooth. The olive oil is not blended in but poured over at the end, which is what keeps it light, and the best chickpeas and extra virgin olive oil you can find make a real difference. It keeps for 3 to 5 days in the fridge.",
+    "categories": ["sauces", "veggie", "quick"],
+    "tags": ["Dip", "Vegan", "No cook"],
+    "image": "/recipes/hummus.jpg",
+    "imageAlt": "A speckled bowl of swirled hummus topped with olive oil, whole chickpeas and za’atar, a hand dipping a piece of bread into it",
+    "time": 10,
+    "level": "Easy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "jar",
+        "name": "chickpeas (570g jar), liquid kept"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "tahini"
+      },
+      {
+        "qty": 1,
+        "unit": "clove",
+        "name": "garlic (optional)"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "qty": 1,
+        "name": "lemon"
+      },
+      {
+        "name": "salt and pepper"
+      },
+      {
+        "name": "extra virgin olive oil, to serve"
+      },
+      {
+        "name": "za’atar, to serve"
+      }
+    ],
+    "steps": [
+      "Pour the liquid from the top of the chickpea jar into a jug, then tip the chickpeas and the rest of their liquid into a blender or food processor. Add the tahini, finely grate in the garlic if using, and add the cumin and the juice of half the lemon.",
+      "Blitz until silky smooth. If it is still a little coarse, add some of the reserved chickpea liquid and blitz again. Season to taste with salt, pepper and more lemon juice.",
+      "Spoon into a bowl, top with a generous drizzle of extra virgin olive oil and a sprinkling of za’atar, and serve with everything."
+    ],
+    "source": {
+      "name": "mob.co.uk",
+      "url": "https://www.mob.co.uk/recipes/ultimate-hummus"
     },
     "added": "2026-09-17"
   }

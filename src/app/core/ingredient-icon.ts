@@ -80,6 +80,7 @@ const ICONS: [string, ...string[]][] = [
     'mozzarella',
     'parmesan',
     'parmigiano',
+    'pecorino',
     'cheddar',
     'ricotta',
   ],
@@ -98,7 +99,18 @@ const ICONS: [string, ...string[]][] = [
   ['🥜', 'peanut'],
   ['icons/nut.svg', 'walnut', 'pecan', 'almond', 'cashew', 'hazelnut', 'pistachio', 'nuts'],
   ['icons/seeds.svg', 'chia', 'seeds'],
-  ['icons/spice.svg', 'curry', 'garam masala', 'cumin', 'nutmeg', 'turmeric', 'suneli', 'spice'],
+  [
+    'icons/spice.svg',
+    'curry',
+    'garam masala',
+    'cumin',
+    'nutmeg',
+    'turmeric',
+    'suneli',
+    'spice',
+    "za'atar",
+    'zaatar',
+  ],
   ['icons/cinnamon.svg', 'cinnamon'],
   ['icons/mustard.svg', 'mustard'],
   ['🧂', 'salt'],
@@ -127,6 +139,6 @@ function find(text: string): string | undefined {
 
 /** Icon for an ingredient, guessed from its name. The part before the first comma, bracket or "and" decides ("salt and pepper" is salt). */
 export function ingredientIcon(name: string): string {
-  const text = name.toLowerCase();
+  const text = name.toLowerCase().replace(/[‘’]/g, "'");
   return find(text.split(/[,(:]| and /)[0]) ?? find(text) ?? FALLBACK_ICON;
 }
