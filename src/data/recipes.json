@@ -1742,5 +1742,85 @@
       "url": "https://gemrielia.ge/"
     },
     "added": "2026-09-17"
+  },
+  {
+    "slug": "carrot-cake-overnight-oats",
+    "title": "Carrot cake overnight oats",
+    "blurb": "Oats, yogurt and grated carrot with cinnamon, ginger and nutmeg. Tastes like cake, counts as breakfast.",
+    "description": "Carrot cake flavours in a jar of overnight oats: grated carrot, cinnamon, ginger and nutmeg stirred into oats, Greek yogurt and milk, with raisins for sweetness and walnuts on top for crunch. Make two jars the night before and breakfast is done. Swap the yogurt and milk for plant-based ones to keep it vegan.",
+    "categories": ["breakfast"],
+    "tags": ["Overnight", "No cook", "Meal prep", "Vegan"],
+    "image": "/recipes/carrot-cake-overnight-oats.jpg",
+    "imageAlt": "A glass jar of carrot cake overnight oats with raisins and cinnamon, a gold spoon standing in it",
+    "time": 10,
+    "level": "Easy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 90,
+        "unit": "g",
+        "name": "rolled oats"
+      },
+      {
+        "qty": 245,
+        "unit": "g",
+        "name": "Greek yogurt (or plant-based)"
+      },
+      {
+        "qty": 240,
+        "unit": "ml",
+        "name": "milk, dairy or plant-based"
+      },
+      {
+        "qty": 65,
+        "unit": "g",
+        "name": "carrot, finely grated"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "maple syrup or honey"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground ginger"
+      },
+      {
+        "unit": "pinch",
+        "name": "ground nutmeg"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "raisins (optional)"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "walnuts or pecans, chopped, to serve"
+      }
+    ],
+    "steps": [
+      "Whisk the yogurt, milk, maple syrup, vanilla, cinnamon, ginger and nutmeg in a large bowl until smooth. It should look light brown.",
+      "Stir in the grated carrot and raisins, then the oats, mixing until everything is coated.",
+      "Cover the bowl or divide between jars and refrigerate for at least 6 hours, or overnight, so the oats soften.",
+      "In the morning, stir. Loosen with a splash of milk if it is too thick. Eat cold or warm briefly in the microwave, topped with the walnuts, a drizzle of maple syrup and a sprinkle of cinnamon."
+    ],
+    "source": {
+      "name": "theplantbasedschool.com",
+      "url": "https://theplantbasedschool.com/carrot-cake-overnight-oats/"
+    },
+    "added": "2026-09-17"
   }
 ]

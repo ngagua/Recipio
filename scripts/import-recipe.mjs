@@ -89,6 +89,7 @@ const decode = (s) =>
 const text = (v) =>
   decode(String(v ?? '').replace(/<[^>]+>/g, ''))
     .replace(/,?\s*\(?see notes?\)?/gi, '') // the notes are not imported
+    .replace(/([.!?])(?=[A-Z])/g, '$1 ') // "jars.Place": sentences glued together by stripped markup
     .replace(/\s+/g, ' ')
     .trim();
 const slugify = (s) =>
