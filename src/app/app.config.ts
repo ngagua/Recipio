@@ -2,7 +2,7 @@ import { IMAGE_LOADER } from '@angular/common';
 import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { provideRouter, withComponentInputBinding, withInMemoryScrolling } from '@angular/router';
-import { recipeImageLoader } from './core/image-loader';
+import { recipeImageLoaderFactory } from './core/image-loader';
 import { routes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
@@ -14,6 +14,6 @@ export const appConfig: ApplicationConfig = {
       withInMemoryScrolling({ scrollPositionRestoration: 'top', anchorScrolling: 'enabled' }),
     ),
     provideClientHydration(withEventReplay()),
-    { provide: IMAGE_LOADER, useValue: recipeImageLoader },
+    { provide: IMAGE_LOADER, useFactory: recipeImageLoaderFactory },
   ],
 };
