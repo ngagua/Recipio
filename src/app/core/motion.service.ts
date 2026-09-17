@@ -36,6 +36,13 @@ export class MotionService {
     this.lenis.on('scroll', ScrollTrigger.update);
     gsap.ticker.add((time) => this.lenis?.raf(time * 1000));
     gsap.ticker.lagSmoothing(0);
+    // Filtering a list changes the page height without a scroll or resize, which would leave every
+    // armed reveal trigger at its old position (and its element invisible). Recalculate when the body resizes.
+    let frame = 0;
+    new ResizeObserver(() => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    }).observe(document.body);
   }
 
   /** Freeze the page behind an overlay such as cook mode. */
