@@ -10,6 +10,7 @@ import {
   signal,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { ingredientIcon } from '../../core/ingredient-icon';
 import { formatQuantity } from '../../core/quantity';
 import { CATEGORIES } from '../../core/recipe.model';
 import { RecipeService } from '../../core/recipe.service';
@@ -42,6 +43,7 @@ export class RecipePage {
     if (!r) return [];
     const ratio = this.servings() / r.servings;
     return r.ingredients.map((i) => ({
+      icon: ingredientIcon(i.name),
       qty: formatQuantity(i, ratio),
       name: i.name,
       group: i.group,

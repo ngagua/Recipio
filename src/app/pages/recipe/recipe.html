@@ -180,6 +180,16 @@
             }
             <li class="flex items-baseline gap-3.5 border-b border-hair px-0.5 py-4">
               <span
+                class="flex w-7 shrink-0 justify-center self-center text-[22px] leading-none"
+                aria-hidden="true"
+              >
+                @if (i.icon.endsWith('.svg')) {
+                  <img [src]="i.icon" width="28" height="28" alt="" />
+                } @else {
+                  {{ i.icon }}
+                }
+              </span>
+              <span
                 class="w-[86px] shrink-0 font-display text-base font-semibold tracking-[-0.01em] text-acid tabular-nums"
                 >{{ i.qty }}</span
               >
