@@ -1,6 +1,6 @@
 /**
  * Icon per keyword: an emoji where one matches the ingredient, otherwise a CC0 illustration from
- * svgrepo.com in `public/icons`. A keyword matches at a word start; the longest match wins, ties go
+ * svgrepo.com in `public/icons`. A keyword matches a whole word (plural or not); the longest match wins, ties go
  * to the earliest.
  */
 const ICONS: [string, ...string[]][] = [
@@ -35,7 +35,7 @@ const ICONS: [string, ...string[]][] = [
   ['🫛', 'peas'],
   ['🫘', 'lentil', 'bean', 'chickpea'],
   ['🥑', 'avocado'],
-  ['🫒', 'olive', 'oil', 'olive oil', 'avocado oil'],
+  ['🫒', 'olive', 'oil', 'olive oil', 'avocado oil', 'sesame oil'],
   ['🌻', 'sunflower'],
   [
     '🌿',
@@ -87,18 +87,18 @@ const ICONS: [string, ...string[]][] = [
   ['🍝', 'pasta', 'penne', 'spaghetti', 'linguine', 'tagliatelle', 'noodle'],
   ['🍚', 'rice'],
   ['🥣', 'oats', 'granola'],
-  ['icons/flour.svg', 'flour'],
+  ['icons/flour.svg', 'flour', 'cornflour', 'cornstarch'],
   ['icons/baking-powder.svg', 'baking powder', 'baking soda', 'bicarbonate'],
   ['🫓', 'tortilla', 'flatbread', 'pita'],
-  ['🍞', 'bread', 'toast', 'sourdough'],
+  ['🍞', 'bread', 'toast', 'sourdough', 'breadcrumb'],
   ['🍯', 'honey', 'syrup'],
   ['icons/maple-syrup.svg', 'maple'],
   ['icons/sugar.svg', 'sugar'],
   ['icons/vanilla.svg', 'vanilla'],
   ['🍫', 'chocolate', 'cocoa'],
   ['🥜', 'peanut'],
-  ['icons/nut.svg', 'walnut', 'pecan', 'almond', 'cashew', 'hazelnut', 'pistachio', 'nuts'],
-  ['icons/seeds.svg', 'chia', 'seeds'],
+  ['icons/nut.svg', 'walnut', 'pecan', 'almond', 'cashew', 'hazelnut', 'pistachio', 'nut'],
+  ['icons/seeds.svg', 'chia', 'seed', 'sesame'],
   [
     'icons/spice.svg',
     'curry',
@@ -121,7 +121,7 @@ const ICONS: [string, ...string[]][] = [
   ['💧', 'water', 'pasta water', 'cooking water'],
 ];
 const KEYS = ICONS.flatMap(([icon, ...keys]) =>
-  keys.map((key) => ({ icon, key, re: new RegExp(`\\b${key}`) })),
+  keys.map((key) => ({ icon, key, re: new RegExp(`\\b${key}(?:s|es|ies|y)?\\b`) })),
 );
 export const FALLBACK_ICON = '🥄';
 

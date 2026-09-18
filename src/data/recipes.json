@@ -1994,5 +1994,121 @@
       "url": "https://food.niceyummy.com/healthy-cheesecake/"
     },
     "added": "2026-09-17"
+  },
+  {
+    "slug": "spicy-peanut-butter-noodles",
+    "title": "Spicy peanut butter noodles",
+    "blurb": "Rice noodles in a peanut, soy, ginger and sriracha sauce whisked together in the pan. Vegan, and about 15 minutes.",
+    "description": "Garlic and ginger softened in a little oil, then peanut butter, tamari, rice vinegar, sesame oil, sriracha and a spoon of maple syrup whisked in with hot water until smooth. Rice noodles are tossed through half the sauce to start, with the rest added to taste, and the bowl finished with crushed peanuts, spring onions and chilli flakes. It makes more sauce than you strictly need, which is the point: stir in tofu, chicken or vegetables and there is enough to coat them too.",
+    "categories": ["dinner", "quick", "veggie"],
+    "tags": ["Pasta", "Vegan", "Weeknight"],
+    "image": "/recipes/spicy-peanut-butter-noodles.jpg",
+    "imageAlt": "A bowl of rice noodles coated in peanut sauce, topped with crushed peanuts, sliced spring onions and chilli flakes, chopsticks resting on the rim",
+    "time": 15,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "name": "brown rice noodles, or any noodles"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 3,
+        "unit": "cloves",
+        "name": "garlic (large), finely chopped"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "fresh ginger, grated"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 170,
+        "unit": "g",
+        "name": "smooth peanut butter"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 4,
+        "unit": "tbsp",
+        "name": "low-sodium tamari or soy sauce"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 80,
+        "unit": "ml",
+        "name": "hot water, plus more to loosen"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "rice vinegar"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "toasted sesame oil"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "sriracha"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "maple syrup or honey"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "chilli flakes (optional)"
+      },
+      {
+        "group": "Peanut sauce",
+        "qty": 2,
+        "unit": "tsp",
+        "name": "chilli garlic sauce (optional)"
+      },
+      {
+        "group": "To serve",
+        "name": "crushed peanuts"
+      },
+      {
+        "group": "To serve",
+        "name": "spring onions, sliced"
+      },
+      {
+        "group": "To serve",
+        "name": "chilli flakes"
+      }
+    ],
+    "steps": [
+      "Cook the noodles in a large pan of boiling water according to the packet.",
+      "Meanwhile, fry the garlic in the oil in a pan over a low heat for about 2 minutes, until golden. Add the ginger and cook for 1 minute more.",
+      "Take the pan off the heat and add the rest of the sauce ingredients, starting with 80ml of hot water. Whisk until smooth, adding more water until it is the consistency you like; how much depends on the peanut butter.",
+      "Taste and adjust: more soy sauce for salt, more sriracha for heat.",
+      "Toss the drained noodles with about half the sauce, then add more to taste. Serve with crushed peanuts, spring onions and chilli flakes, and any vegetables or protein you like."
+    ],
+    "source": {
+      "name": "eatwithclarity.com",
+      "url": "https://eatwithclarity.com/spicy-peanut-butter-noodles/"
+    },
+    "added": "2026-09-18"
   }
 ]

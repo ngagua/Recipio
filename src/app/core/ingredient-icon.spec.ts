@@ -13,8 +13,10 @@ describe('ingredientIcon', () => {
     expect(ingredientIcon('salt and freshly ground black pepper')).toBe('🧂');
   });
 
-  it('matches at word starts only', () => {
+  it('matches whole words, plural or not', () => {
     expect(ingredientIcon('unsalted butter, melted')).toBe('🧈');
+    expect(ingredientIcon('toasted sesame oil')).toBe('🫒');
+    expect(ingredientIcon('blueberries')).toBe('🫐');
   });
 
   it('falls back to a spoon', () => {
