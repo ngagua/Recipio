@@ -1,19 +1,20 @@
 export const CATEGORIES = [
-  { slug: 'breakfast', name: 'Breakfast' },
-  { slug: 'lunch', name: 'Lunch' },
-  { slug: 'dinner', name: 'Dinner' },
-  { slug: 'kid-friendly', name: 'Kid friendly' },
-  { slug: 'dessert', name: 'Dessert' },
-  { slug: 'quick', name: 'Quick & easy' },
-  { slug: 'veggie', name: 'Veggie' },
-  { slug: 'baking', name: 'Baking' },
-  { slug: 'sauces', name: 'Sauces' },
+  { slug: 'breakfast', name: 'Breakfast', nameKa: 'საუზმე' },
+  { slug: 'lunch', name: 'Lunch', nameKa: 'სადილი' },
+  { slug: 'dinner', name: 'Dinner', nameKa: 'ვახშამი' },
+  { slug: 'kid-friendly', name: 'Kid friendly', nameKa: 'ბავშვებისთვის' },
+  { slug: 'dessert', name: 'Dessert', nameKa: 'დესერტი' },
+  { slug: 'quick', name: 'Quick & easy', nameKa: 'სწრაფი და მარტივი' },
+  { slug: 'veggie', name: 'Veggie', nameKa: 'ვეგეტარიანული' },
+  { slug: 'baking', name: 'Baking', nameKa: 'ცხობა' },
+  { slug: 'sauces', name: 'Sauces', nameKa: 'სოუსები' },
 ] as const;
 
 export type CategorySlug = (typeof CATEGORIES)[number]['slug'];
 
 export interface Category {
   slug: CategorySlug;
+  /** In the current language. */
   name: string;
   count: number;
   /** Cover photo: the first recipe filed under the category. */
@@ -61,4 +62,20 @@ export interface Recipe {
   cover?: string;
   /** ISO date; the home page lists newest first. */
   added: string;
+}
+
+/** Georgian text for one recipe, in src/data/recipes.ka.json; rows and steps line up with the English by index. */
+export interface RecipeTranslation {
+  title: string;
+  blurb: string;
+  description?: string;
+  imageAlt?: string;
+  ingredients: { name: string; unit?: string }[];
+  steps: string[];
+}
+
+export interface Translations {
+  tags: Record<string, string>;
+  groups: Record<string, string>;
+  recipes: Record<string, RecipeTranslation>;
 }

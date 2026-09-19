@@ -1,14 +1,16 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component, computed, input } from '@angular/core';
+import { Component, computed, inject, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { CATEGORIES, Recipe } from '../core/recipe.model';
+import { LangService } from '../core/lang.service';
+import { Recipe } from '../core/recipe.model';
+import { RecipeService } from '../core/recipe.service';
 
 @Component({
   selector: 'app-recipe-card',
   imports: [RouterLink, NgOptimizedImage],
   host: { class: 'block' },
   template: `
-    <a [routerLink]="['/recipes', recipe().slug]" class="group block">
+    <a [routerLink]="lang.link('/recipes/' + recipe().slug)" class="group block">
       <div class="relative aspect-[4/5] overflow-hidden rounded-[3px] bg-raised">
         <img
           [ngSrc]="recipe().image"
@@ -19,7 +21,7 @@ import { CATEGORIES, Recipe } from '../core/recipe.model';
         />
         <span
           class="absolute top-2 left-2 rounded-[2px] bg-ink/70 px-2 py-1 text-[10px] font-semibold tracking-[0.1em] text-bone uppercase backdrop-blur-sm"
-          >{{ recipe().time }} min</span
+          >{{ lang.t('minutes')(recipe().time) }}</span
         >
       </div>
       <h3
@@ -33,7 +35,9 @@ import { CATEGORIES, Recipe } from '../core/recipe.model';
 })
 export class RecipeCard {
   readonly recipe = input.required<Recipe>();
+  protected readonly lang = inject(LangService);
+  private readonly recipes = inject(RecipeService);
   protected readonly categoryName = computed(
-    () => CATEGORIES.find((c) => c.slug === this.recipe().categories[0])?.name ?? '',
+    () => this.recipes.category(this.recipe().categories[0])?.name ?? '',
   );
 }

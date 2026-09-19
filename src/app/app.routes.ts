@@ -1,23 +1,37 @@
 import { inject } from '@angular/core';
 import { ResolveFn, Routes } from '@angular/router';
+import { UI } from './core/lang.model';
+import { langOfRoute } from './core/lang.service';
 import { RecipeService } from './core/recipe.service';
 
-const recipeTitle: ResolveFn<string> = (route) =>
-  `${inject(RecipeService).bySlug(route.paramMap.get('slug') ?? '')?.title ?? 'Recipe not found'} · Recipio`;
+const homeTitle: ResolveFn<string> = (route) => UI[langOfRoute(route)].siteTitle;
+const browseTitle: ResolveFn<string> = (route) => UI[langOfRoute(route)].allRecipesTitle;
+const savedTitle: ResolveFn<string> = (route) => UI[langOfRoute(route)].savedRecipesTitle;
 
-const categoryTitle: ResolveFn<string> = (route) =>
-  `${inject(RecipeService).category(route.paramMap.get('slug') ?? '')?.name ?? 'Category not found'} recipes · Recipio`;
+const recipeTitle: ResolveFn<string> = (route) => {
+  const lang = langOfRoute(route);
+  const recipe = inject(RecipeService).bySlug(route.paramMap.get('slug') ?? '', lang);
+  return `${recipe?.title ?? UI[lang].recipeNotFound} · Recipio`;
+};
 
-export const routes: Routes = [
+const categoryTitle: ResolveFn<string> = (route) => {
+  const lang = langOfRoute(route);
+  const category = inject(RecipeService).category(route.paramMap.get('slug') ?? '', lang);
+  return category
+    ? UI[lang].categoryTitle(category.name)
+    : `${UI[lang].categoryNotFound} · Recipio`;
+};
+
+const pages: Routes = [
   {
     path: '',
     loadComponent: () => import('./pages/home/home').then((m) => m.Home),
-    title: 'Recipio · recipes worth cooking again',
+    title: homeTitle,
   },
   {
     path: 'recipes',
     loadComponent: () => import('./pages/browse/browse').then((m) => m.Browse),
-    title: 'All recipes · Recipio',
+    title: browseTitle,
   },
   {
     path: 'recipes/:slug',
@@ -32,7 +46,13 @@ export const routes: Routes = [
   {
     path: 'saved',
     loadComponent: () => import('./pages/saved/saved').then((m) => m.Saved),
-    title: 'Saved recipes · Recipio',
+    title: savedTitle,
   },
+];
+
+/** The same pages twice: English at the root, Georgian under /ka. */
+export const routes: Routes = [
+  ...pages,
+  { path: 'ka', children: pages },
   { path: '**', redirectTo: '' },
 ];

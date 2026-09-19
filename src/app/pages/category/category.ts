@@ -1,5 +1,6 @@
 import { Component, computed, inject, input, linkedSignal } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LangService } from '../../core/lang.service';
 import { RecipeService } from '../../core/recipe.service';
 import { RevealDirective } from '../../core/reveal.directive';
 import { RecipeRow } from '../../shared/recipe-row';
@@ -13,6 +14,7 @@ import { RecipeRow } from '../../shared/recipe-row';
 export class CategoryPage {
   readonly slug = input.required<string>();
   private readonly recipes = inject(RecipeService);
+  protected readonly lang = inject(LangService);
   protected readonly category = computed(() => this.recipes.category(this.slug()));
   protected readonly all = computed(() => this.recipes.byCategory(this.slug()));
   /** Neighbouring non-empty categories in menu order, wrapping at the ends, so a reader can walk through the meals without going back. */
@@ -38,7 +40,7 @@ export class CategoryPage {
   }
 
   private neighbour(step: number) {
-    const list = this.recipes.categories.filter((c) => c.count > 0);
+    const list = this.recipes.categories().filter((c) => c.count > 0);
     const i = list.findIndex((c) => c.slug === this.slug());
     return i < 0 ? undefined : list[(i + step + list.length) % list.length];
   }

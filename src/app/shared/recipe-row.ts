@@ -1,7 +1,9 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component, input } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LangService } from '../core/lang.service';
 import { Recipe } from '../core/recipe.model';
+import { RecipeService } from '../core/recipe.service';
 
 @Component({
   selector: 'app-recipe-row',
@@ -9,7 +11,7 @@ import { Recipe } from '../core/recipe.model';
   host: { class: 'block' },
   template: `
     <a
-      [routerLink]="['/recipes', recipe().slug]"
+      [routerLink]="lang.link('/recipes/' + recipe().slug)"
       class="group flex items-center gap-4 border-b border-hair py-[18px]"
     >
       <div class="relative size-[104px] shrink-0 overflow-hidden rounded-[3px] bg-raised">
@@ -30,8 +32,8 @@ import { Recipe } from '../core/recipe.model';
         </h3>
         <p class="mt-[7px] text-[13px] leading-[1.45] text-muted">{{ recipe().blurb }}</p>
         <p class="mt-[11px] flex gap-3.5 text-[11px] font-semibold tracking-[0.1em] uppercase">
-          <span class="text-acid">{{ recipe().time }} min</span>
-          <span class="text-dim">{{ recipe().level }}</span>
+          <span class="text-acid">{{ lang.t('minutes')(recipe().time) }}</span>
+          <span class="text-dim">{{ recipes.level(recipe().level) }}</span>
         </p>
       </div>
     </a>
@@ -39,4 +41,6 @@ import { Recipe } from '../core/recipe.model';
 })
 export class RecipeRow {
   readonly recipe = input.required<Recipe>();
+  protected readonly lang = inject(LangService);
+  protected readonly recipes = inject(RecipeService);
 }

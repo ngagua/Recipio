@@ -11,8 +11,8 @@ import {
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { ingredientIcon } from '../../core/ingredient-icon';
+import { LangService } from '../../core/lang.service';
 import { formatQuantity } from '../../core/quantity';
-import { CATEGORIES } from '../../core/recipe.model';
 import { RecipeService } from '../../core/recipe.service';
 import { SavedService } from '../../core/saved.service';
 import { UiState } from '../../core/ui-state.service';
@@ -26,13 +26,15 @@ import { CookMode } from './cook-mode';
 })
 export class RecipePage {
   readonly slug = input.required<string>();
-  private readonly recipes = inject(RecipeService);
+  protected readonly recipes = inject(RecipeService);
+  protected readonly lang = inject(LangService);
   private readonly ui = inject(UiState);
   protected readonly saved = inject(SavedService);
   protected readonly recipe = computed(() => this.recipes.bySlug(this.slug()));
-  protected readonly category = computed(() =>
-    CATEGORIES.find((c) => c.slug === this.recipe()?.categories[0]),
-  );
+  protected readonly category = computed(() => {
+    const first = this.recipe()?.categories[0];
+    return first && this.recipes.category(first);
+  });
   /** Phones show one panel at a time; from md both are visible side by side. */
   protected readonly tab = signal<'ingredients' | 'method'>('ingredients');
   protected readonly servings = linkedSignal(() => this.recipe()?.servings ?? 4);
@@ -42,8 +44,10 @@ export class RecipePage {
     const r = this.recipe();
     if (!r) return [];
     const ratio = this.servings() / r.servings;
-    return r.ingredients.map((i) => ({
-      icon: ingredientIcon(i.name),
+    // Icons are keyed on English ingredient names, whatever language the list is shown in.
+    const english = this.recipes.bySlug(r.slug, 'en')?.ingredients ?? r.ingredients;
+    return r.ingredients.map((i, n) => ({
+      icon: ingredientIcon(english[n]?.name ?? i.name),
       qty: formatQuantity(i, ratio),
       name: i.name,
       group: i.group,

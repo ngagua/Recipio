@@ -4,27 +4,29 @@
       <div>
         @if (category(); as c) {
           <p class="eyebrow mb-3">
-            <a [routerLink]="['/category', c.slug]" class="text-acid hover:text-acid-hi">{{
-              c.name
-            }}</a>
+            <a
+              [routerLink]="lang.link('/category/' + c.slug)"
+              class="text-acid hover:text-acid-hi"
+              >{{ c.name }}</a
+            >
           </p>
         }
         <h1
-          class="font-display text-[42px] leading-[0.94] font-bold tracking-[-0.04em] text-balance text-bone md:text-[56px] lg:text-[72px]"
+          class="font-display text-[42px] leading-[0.94] ka:leading-[1.08] font-bold tracking-[-0.04em] text-balance text-bone md:text-[56px] lg:text-[72px]"
         >
           {{ r.title }}
         </h1>
         <p
           class="mt-4 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[13px] font-medium text-meta md:mt-6 md:text-sm"
         >
-          <span>{{ r.time }} min</span>
+          <span>{{ lang.t('minutes')(r.time) }}</span>
           <span class="opacity-40" aria-hidden="true">/</span>
-          <span>{{ r.level }}</span>
+          <span>{{ recipes.level(r.level) }}</span>
           <span class="opacity-40" aria-hidden="true">/</span>
-          <span>Serves {{ r.servings }}</span>
-          @if (r.cost) {
+          <span>{{ lang.t('serves')(r.servings) }}</span>
+          @if (r.cost; as cost) {
             <span class="opacity-40" aria-hidden="true">/</span>
-            <span>{{ r.cost }} a head</span>
+            <span>{{ lang.t('perHead')(cost) }}</span>
           }
         </p>
         <p class="mt-4 max-w-xl text-[15px] leading-relaxed text-muted md:mt-5 md:text-lg">
@@ -32,7 +34,7 @@
         </p>
         @if (r.source; as s) {
           <p class="mt-3 text-[13px] text-dim">
-            Adapted from
+            {{ lang.t('adaptedFrom') }}
             <a
               [href]="s.url"
               target="_blank"
@@ -56,7 +58,7 @@
               aria-hidden="true"
               >bookmark</span
             >
-            {{ saved.has(r.slug) ? 'Saved' : 'Save' }}
+            {{ saved.has(r.slug) ? lang.t('saved') : lang.t('save') }}
           </button>
           @if (r.video; as v) {
             <a
@@ -65,12 +67,12 @@
               rel="noopener"
               class="inline-flex h-12 items-center gap-2 rounded-full border border-line-2 px-5 text-[13px] font-semibold tracking-[0.04em] text-bone transition-colors hover:border-acid hover:text-bone"
             >
-              <span class="ms fill text-xl text-acid" aria-hidden="true">play_arrow</span>Watch
-              video
+              <span class="ms fill text-xl text-acid" aria-hidden="true">play_arrow</span
+              >{{ lang.t('watchVideo') }}
               @if (v.duration) {
                 <span class="text-dim">{{ v.duration }}</span>
               }
-              <span class="sr-only">(opens in a new tab)</span>
+              <span class="sr-only">{{ lang.t('opensNewTab') }}</span>
             </a>
           }
           <button
@@ -78,7 +80,7 @@
             (click)="cookOpen.set(true)"
             class="fixed inset-x-[22px] bottom-[98px] z-30 flex h-14 items-center justify-center gap-2 rounded-full bg-acid text-[13px] font-bold tracking-[0.1em] text-surface uppercase shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-colors hover:bg-acid-hi md:static md:inline-flex md:h-12 md:w-auto md:px-6 md:shadow-none"
           >
-            <span class="ms text-xl" aria-hidden="true">skillet</span>Start cook mode
+            <span class="ms text-xl" aria-hidden="true">skillet</span>{{ lang.t('startCookMode') }}
           </button>
         </div>
       </div>
@@ -110,7 +112,7 @@
               : 'text-dim'
           "
         >
-          Ingredients
+          {{ lang.t('ingredients') }}
         </button>
         <button
           type="button"
@@ -123,7 +125,7 @@
               : 'text-dim'
           "
         >
-          Method
+          {{ lang.t('method') }}
         </button>
       </div>
 
@@ -136,18 +138,20 @@
           id="ingredients-title"
           class="sr-only md:not-sr-only md:font-display md:text-2xl md:font-semibold md:tracking-[-0.02em] md:text-bone"
         >
-          Ingredients
+          {{ lang.t('ingredients') }}
         </h2>
         <div
           class="mt-[26px] flex items-center justify-between rounded-[4px] bg-raised px-[18px] py-4 md:mt-5"
         >
           <div>
-            <p class="text-[10px] font-semibold tracking-[0.14em] text-dim uppercase">Servings</p>
+            <p class="text-[10px] font-semibold tracking-[0.14em] text-dim uppercase">
+              {{ lang.t('servingsLabel') }}
+            </p>
             <p
               class="mt-[3px] font-display text-2xl font-semibold tracking-[-0.02em] text-bone"
               aria-live="polite"
             >
-              {{ servings() }} {{ servings() === 1 ? 'serving' : 'servings' }}
+              {{ lang.t('servingCount')(servings()) }}
             </p>
           </div>
           <div class="flex items-center gap-2">
@@ -156,7 +160,7 @@
               (click)="adjust(-1)"
               [disabled]="servings() <= 1"
               class="grid size-11 place-items-center rounded-full border border-line-2 text-bone transition-colors hover:border-acid disabled:opacity-40 disabled:hover:border-line-2"
-              aria-label="Fewer servings"
+              [attr.aria-label]="lang.t('fewerServings')"
             >
               <span class="ms text-[22px]" aria-hidden="true">remove</span>
             </button>
@@ -165,7 +169,7 @@
               (click)="adjust(1)"
               [disabled]="servings() >= maxServings()"
               class="grid size-11 place-items-center rounded-full bg-acid text-surface transition-colors hover:bg-acid-hi disabled:opacity-40"
-              aria-label="More servings"
+              [attr.aria-label]="lang.t('moreServings')"
             >
               <span class="ms text-[22px]" aria-hidden="true">add</span>
             </button>
@@ -180,7 +184,7 @@
             }
             <li class="flex items-baseline gap-3.5 border-b border-hair px-0.5 py-4">
               <span
-                class="flex w-7 shrink-0 justify-center self-center text-[22px] leading-none"
+                class="flex h-6 w-7 shrink-0 items-center justify-center self-start text-[22px] leading-none"
                 aria-hidden="true"
               >
                 @if (i.icon.endsWith('.svg')) {
@@ -208,7 +212,7 @@
           id="method-title"
           class="sr-only md:not-sr-only md:font-display md:text-2xl md:font-semibold md:tracking-[-0.02em] md:text-bone"
         >
-          Method
+          {{ lang.t('method') }}
         </h2>
         <ol class="mt-7 flex flex-col gap-[26px] md:mt-6">
           @for (step of r.steps; track $index) {
@@ -234,12 +238,14 @@
 } @else {
   <div class="wrap pt-[76px] pb-24 md:pt-28">
     <h1
-      class="font-display text-[50px] leading-[0.92] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
+      class="font-display text-[50px] leading-[0.92] ka:leading-[1.08] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
     >
-      Recipe not found
+      {{ lang.t('recipeNotFound') }}
     </h1>
     <p class="mt-4 text-muted">
-      It may have been renamed. <a routerLink="/recipes">Browse all recipes</a>.
+      {{ lang.t('mayBeRenamed') }}
+      <a [routerLink]="lang.link('/recipes')">{{ lang.t('browseAll') }}</a
+      >.
     </p>
   </div>
 }

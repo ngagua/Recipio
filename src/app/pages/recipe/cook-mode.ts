@@ -10,6 +10,7 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
+import { LangService } from '../../core/lang.service';
 import { MotionService } from '../../core/motion.service';
 
 /** Full-screen, one-step-at-a-time view. A native modal dialog: focus trapped, Escape closes, page behind is inert. */
@@ -20,16 +21,16 @@ import { MotionService } from '../../core/motion.service';
       #dlg
       (close)="closed.emit()"
       (keydown)="onKey($event)"
-      aria-label="Cook mode"
+      [attr.aria-label]="lang.t('cookMode')"
       class="fixed inset-0 m-0 h-dvh max-h-none w-screen max-w-none animate-sheet-in flex-col border-0 bg-ink px-6 pt-7 pb-8 text-bone open:flex md:px-12 backdrop:bg-ink"
     >
       <div class="flex items-center justify-between">
-        <p class="eyebrow text-acid">Cook mode</p>
+        <p class="eyebrow text-acid">{{ lang.t('cookMode') }}</p>
         <button
           type="button"
           (click)="dlg.close()"
           class="grid size-11 place-items-center rounded-full border border-line-2 text-bone transition-colors hover:border-acid"
-          aria-label="Close cook mode"
+          [attr.aria-label]="lang.t('closeCookMode')"
         >
           <span class="ms text-[22px]" aria-hidden="true">close</span>
         </button>
@@ -46,7 +47,7 @@ import { MotionService } from '../../core/motion.service';
         class="mt-6 text-[11px] font-semibold tracking-[0.14em] text-dim uppercase"
         aria-live="polite"
       >
-        Step {{ step() + 1 }} of {{ steps().length }}
+        {{ lang.t('stepOf')(step() + 1, steps().length) }}
       </p>
       <div class="flex flex-1 items-center md:mx-auto md:w-full md:max-w-3xl">
         <p
@@ -61,7 +62,7 @@ import { MotionService } from '../../core/motion.service';
           (click)="prev()"
           [disabled]="step() === 0"
           class="grid size-14 shrink-0 place-items-center rounded-full border border-line-2 text-bone transition-colors hover:border-acid disabled:opacity-40 disabled:hover:border-line-2"
-          aria-label="Previous step"
+          [attr.aria-label]="lang.t('previousStep')"
         >
           <span class="ms text-2xl" aria-hidden="true">arrow_back</span>
         </button>
@@ -71,7 +72,7 @@ import { MotionService } from '../../core/motion.service';
           autofocus
           class="h-14 flex-1 rounded-full bg-acid text-[13px] font-bold tracking-[0.1em] text-surface uppercase transition-colors hover:bg-acid-hi"
         >
-          {{ last() ? 'Done' : 'Next step' }}
+          {{ last() ? lang.t('done') : lang.t('nextStep') }}
         </button>
       </div>
     </dialog>
@@ -84,6 +85,7 @@ export class CookMode {
   protected readonly step = signal(0);
   protected readonly last = computed(() => this.step() >= this.steps().length - 1);
   private readonly motion = inject(MotionService);
+  protected readonly lang = inject(LangService);
   private wakeLock?: WakeLockSentinel;
 
   constructor() {

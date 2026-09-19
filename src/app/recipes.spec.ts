@@ -1,5 +1,8 @@
 import recipes from '../data/recipes.json';
-import { CATEGORIES } from './core/recipe.model';
+import kaJson from '../data/recipes.ka.json';
+import { CATEGORIES, Recipe, Translations } from './core/recipe.model';
+
+const ka = kaJson as Translations;
 
 describe('recipes.json', () => {
   const known = new Set<string>(CATEGORIES.map((c) => c.slug));
@@ -25,5 +28,26 @@ describe('recipes.json', () => {
           `${r.slug}: cover "${r.cover}" is not one of its categories`,
         ).toContain(r.cover);
     }
+  });
+});
+
+describe('recipes.ka.json', () => {
+  it('translates every recipe row for row', () => {
+    for (const r of recipes) {
+      const t = ka.recipes[r.slug];
+      expect(t, `${r.slug} has no Georgian translation`).toBeTruthy();
+      expect(t.title, `${r.slug}: Georgian title`).toMatch(/[\u10D0-\u10FF]/);
+      expect(t.ingredients.length, `${r.slug}: ingredient rows differ`).toBe(r.ingredients.length);
+      expect(t.steps.length, `${r.slug}: steps differ`).toBe(r.steps.length);
+      for (const tag of r.tags) expect(ka.tags[tag], `tag "${tag}" has no Georgian`).toBeTruthy();
+      for (const i of r.ingredients as Recipe['ingredients'])
+        if (i.group) expect(ka.groups[i.group], `group "${i.group}" has no Georgian`).toBeTruthy();
+    }
+  });
+
+  it('has no translations for recipes that no longer exist', () => {
+    const slugs = new Set(recipes.map((r) => r.slug));
+    for (const slug of Object.keys(ka.recipes))
+      expect(slugs.has(slug), `${slug} was removed`).toBe(true);
   });
 });

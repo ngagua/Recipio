@@ -1,17 +1,17 @@
 <div class="wrap pt-[76px] md:pt-28">
   <div class="mb-[26px] flex items-center justify-between gap-3">
     <a
-      routerLink="/recipes"
+      [routerLink]="lang.link('/recipes')"
       class="inline-flex items-center gap-1.5 rounded-full border border-line-2 py-2 pr-[15px] pl-[11px] text-xs font-medium tracking-[0.06em] text-muted uppercase transition-colors hover:border-acid hover:text-bone"
     >
-      <span class="ms text-[17px]" aria-hidden="true">arrow_back</span>All recipes
+      <span class="ms text-[17px]" aria-hidden="true">arrow_back</span>{{ lang.t('allRecipes') }}
     </a>
     @if (previous(); as p) {
-      <nav class="flex gap-2" aria-label="Other categories">
+      <nav class="flex gap-2" [attr.aria-label]="lang.t('otherCategories')">
         <a
-          [routerLink]="['/category', p.slug]"
+          [routerLink]="lang.link('/category/' + p.slug)"
           rel="prev"
-          [attr.aria-label]="'Previous category: ' + p.name"
+          [attr.aria-label]="lang.t('previousCategory')(p.name)"
           class="inline-flex items-center gap-1 rounded-full border border-line-2 py-2 pr-2 pl-[7px] text-xs font-medium tracking-[0.06em] text-muted uppercase transition-colors hover:border-acid hover:text-bone md:pr-[15px]"
         >
           <span class="ms text-[17px]" aria-hidden="true">arrow_back</span>
@@ -19,9 +19,9 @@
         </a>
         @if (next(); as n) {
           <a
-            [routerLink]="['/category', n.slug]"
+            [routerLink]="lang.link('/category/' + n.slug)"
             rel="next"
-            [attr.aria-label]="'Next category: ' + n.name"
+            [attr.aria-label]="lang.t('nextCategory')(n.name)"
             class="inline-flex items-center gap-1 rounded-full border border-line-2 py-2 pr-[7px] pl-2 text-xs font-medium tracking-[0.06em] text-muted uppercase transition-colors hover:border-acid hover:text-bone md:pl-[15px]"
           >
             <span class="hidden md:inline">{{ n.name }}</span>
@@ -33,21 +33,23 @@
   </div>
   @if (category(); as c) {
     <h1
-      class="font-display text-[50px] leading-[0.92] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
+      class="font-display text-[50px] leading-[0.92] ka:leading-[1.08] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
     >
       {{ c.name }}
     </h1>
     <p class="caps mt-3.5 text-dim" aria-live="polite">
-      {{ filtered().length }} of {{ c.count }} recipes
+      {{ lang.t('countOf')(filtered().length, c.count) }}
     </p>
   } @else {
     <h1
-      class="font-display text-[50px] leading-[0.92] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
+      class="font-display text-[50px] leading-[0.92] ka:leading-[1.08] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
     >
-      No such category
+      {{ lang.t('noSuchCategory') }}
     </h1>
     <p class="mt-4 text-muted">
-      Try one of the meals on the <a routerLink="/recipes">browse page</a>.
+      {{ lang.t('notFoundHint')
+      }}<a [routerLink]="lang.link('/recipes')">{{ lang.t('browsePage') }}</a
+      >.
     </p>
   }
 </div>
@@ -57,7 +59,7 @@
     <div
       class="rail flex gap-2 overflow-x-auto px-[22px] pt-[26px] pb-2 md:mx-auto md:max-w-6xl md:flex-wrap md:px-6"
       role="group"
-      aria-label="Filter recipes"
+      [attr.aria-label]="lang.t('filterRecipes')"
     >
       @for (f of filters(); track f) {
         <button
@@ -71,7 +73,7 @@
               : 'border-line-2 text-muted hover:text-bone'
           "
         >
-          {{ f }}
+          {{ f === 'All' ? lang.t('all') : f === 'Under 30 min' ? lang.t('under30') : f }}
         </button>
       }
     </div>
@@ -81,7 +83,7 @@
     @for (r of filtered(); track r.slug; let i = $index) {
       <app-recipe-row [appReveal]="i" [recipe]="r" />
     } @empty {
-      <p class="py-10 text-muted">Nothing matches that filter yet.</p>
+      <p class="py-10 text-muted">{{ lang.t('nothingMatchesFilter') }}</p>
     }
   </div>
 }

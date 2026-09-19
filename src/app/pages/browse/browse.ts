@@ -8,6 +8,7 @@ import {
   viewChild,
 } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
+import { LangService } from '../../core/lang.service';
 import { RecipeService } from '../../core/recipe.service';
 import { RevealDirective } from '../../core/reveal.directive';
 import { RecipeCard } from '../../shared/recipe-card';
@@ -20,9 +21,12 @@ import { RecipeCard } from '../../shared/recipe-card';
 })
 export class Browse {
   private readonly recipes = inject(RecipeService);
+  protected readonly lang = inject(LangService);
   private readonly searchInput = viewChild.required<ElementRef<HTMLInputElement>>('search');
-  protected readonly categories = this.recipes.categories.filter((c) => c.count > 0);
-  protected readonly total = this.recipes.all.length;
+  protected readonly categories = computed(() =>
+    this.recipes.categories().filter((c) => c.count > 0),
+  );
+  protected readonly total = computed(() => this.recipes.all().length);
   protected readonly query = signal('');
   protected readonly results = computed(() => this.recipes.search(this.query()));
 

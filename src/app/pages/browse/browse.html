@@ -1,23 +1,23 @@
 <div class="wrap pt-[76px] md:pt-28">
   <h1
-    class="font-display text-[50px] leading-[0.92] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
+    class="font-display text-[50px] leading-[0.92] ka:leading-[1.08] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
   >
-    All recipes
+    {{ lang.t('allRecipes') }}
   </h1>
   <p class="caps mt-3.5 text-dim" aria-live="polite">
-    {{ results().length }} of {{ total }} recipes
+    {{ lang.t('countOf')(results().length, total()) }}
   </p>
   <label
     class="mt-6 flex h-14 items-center gap-3 rounded-full border border-line-2 bg-raised px-5 transition-colors focus-within:border-acid md:max-w-xl"
   >
     <span class="ms text-muted" aria-hidden="true">search</span>
-    <span class="sr-only">Search recipes</span>
+    <span class="sr-only">{{ lang.t('searchRecipes') }}</span>
     <input
       #search
       id="search"
       type="search"
       autocomplete="off"
-      placeholder="Search by name or ingredient"
+      [placeholder]="lang.t('searchPlaceholder')"
       [value]="query()"
       (input)="onSearch($event)"
       class="w-full bg-transparent text-base text-bone outline-none placeholder:text-dim"
@@ -28,9 +28,9 @@
 <div
   class="rail flex gap-2 overflow-x-auto px-[22px] pt-[26px] pb-2 md:mx-auto md:max-w-6xl md:flex-wrap md:px-6"
 >
-  @for (c of categories; track c.slug) {
+  @for (c of categories(); track c.slug) {
     <a
-      [routerLink]="['/category', c.slug]"
+      [routerLink]="lang.link('/category/' + c.slug)"
       class="shrink-0 rounded-full border border-line-2 px-[17px] py-[9px] text-[13px] font-medium text-muted transition-colors hover:border-acid hover:text-bone"
       >{{ c.name }} <span class="text-dim">{{ c.count }}</span></a
     >
@@ -43,6 +43,6 @@
   @for (r of results(); track r.slug; let i = $index) {
     <app-recipe-card [appReveal]="i" [recipe]="r" />
   } @empty {
-    <p class="col-span-full py-10 text-muted">Nothing matches “{{ query() }}” yet.</p>
+    <p class="col-span-full py-10 text-muted">{{ lang.t('nothingMatchesQuery')(query()) }}</p>
   }
 </div>

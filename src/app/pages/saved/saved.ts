@@ -1,5 +1,6 @@
 import { Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LangService } from '../../core/lang.service';
 import { RecipeService } from '../../core/recipe.service';
 import { RevealDirective } from '../../core/reveal.directive';
 import { SavedService } from '../../core/saved.service';
@@ -12,11 +13,11 @@ import { RecipeCard } from '../../shared/recipe-card';
   template: `
     <div class="wrap pt-[76px] md:pt-28">
       <h1
-        class="font-display text-[50px] leading-[0.92] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
+        class="font-display text-[50px] leading-[0.92] ka:leading-[1.08] font-bold tracking-[-0.04em] text-bone md:text-[96px]"
       >
-        Saved
+        {{ lang.t('savedTitle') }}
       </h1>
-      <p class="caps mt-3.5 text-dim">{{ recipes().length }} recipes</p>
+      <p class="caps mt-3.5 text-dim">{{ lang.t('recipeCount')(recipes().length) }}</p>
     </div>
     @if (saved.loaded()) {
       <div
@@ -26,9 +27,8 @@ import { RecipeCard } from '../../shared/recipe-card';
           <app-recipe-card [appReveal]="i" [recipe]="r" />
         } @empty {
           <p class="col-span-full max-w-md py-6 text-muted">
-            Nothing saved yet. Tap the bookmark on any recipe and it will wait for you here, on this
-            device.
-            <a routerLink="/recipes" class="mt-4 block">Browse all recipes</a>
+            {{ lang.t('nothingSaved') }}
+            <a [routerLink]="lang.link('/recipes')" class="mt-4 block">{{ lang.t('browseAll') }}</a>
           </p>
         }
       </div>
@@ -37,6 +37,7 @@ import { RecipeCard } from '../../shared/recipe-card';
 })
 export class Saved {
   protected readonly saved = inject(SavedService);
+  protected readonly lang = inject(LangService);
   private readonly all = inject(RecipeService);
   protected readonly recipes = computed(() =>
     this.saved

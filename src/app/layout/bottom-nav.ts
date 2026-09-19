@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { LangService } from '../core/lang.service';
 
 @Component({
   selector: 'app-bottom-nav',
@@ -12,7 +13,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     >
       @for (item of items; track item.path) {
         <a
-          [routerLink]="item.path"
+          [routerLink]="lang.link(item.path)"
           routerLinkActive="text-acid"
           #link="routerLinkActive"
           [routerLinkActiveOptions]="{ exact: item.path === '/' }"
@@ -24,7 +25,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
             item.icon
           }}</span>
           <span class="text-[10px] font-semibold tracking-[0.08em] uppercase">{{
-            item.label
+            lang.t(item.label)
           }}</span>
         </a>
       }
@@ -32,9 +33,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   `,
 })
 export class BottomNav {
+  protected readonly lang = inject(LangService);
   protected readonly items = [
-    { path: '/', icon: 'home', label: 'Home' },
-    { path: '/recipes', icon: 'grid_view', label: 'Browse' },
-    { path: '/saved', icon: 'bookmark', label: 'Saved' },
-  ];
+    { path: '/', icon: 'home', label: 'navHome' },
+    { path: '/recipes', icon: 'grid_view', label: 'navBrowse' },
+    { path: '/saved', icon: 'bookmark', label: 'navSaved' },
+  ] as const;
 }

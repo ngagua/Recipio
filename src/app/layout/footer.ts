@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LangService } from '../core/lang.service';
 
 @Component({
   selector: 'app-footer',
@@ -10,17 +11,25 @@ import { RouterLink } from '@angular/router';
         <div>
           <p class="font-display text-2xl font-bold tracking-[-0.03em] text-bone">Recipio</p>
           <p class="mt-2 max-w-xs text-sm leading-relaxed text-muted">
-            Recipes rescued from bookmarks, screenshots and group chats. Cooked, then kept.
+            {{ lang.t('footerTagline') }}
           </p>
         </div>
         <nav class="flex gap-6" aria-label="Footer">
-          <a routerLink="/" class="caps text-muted hover:text-bone">Home</a>
-          <a routerLink="/recipes" class="caps text-muted hover:text-bone">Browse</a>
-          <a routerLink="/saved" class="caps text-muted hover:text-bone">Saved</a>
+          <a [routerLink]="lang.link('/')" class="caps text-muted hover:text-bone">{{
+            lang.t('navHome')
+          }}</a>
+          <a [routerLink]="lang.link('/recipes')" class="caps text-muted hover:text-bone">{{
+            lang.t('navBrowse')
+          }}</a>
+          <a [routerLink]="lang.link('/saved')" class="caps text-muted hover:text-bone">{{
+            lang.t('navSaved')
+          }}</a>
         </nav>
       </div>
-      <p class="wrap mt-10 text-[11px] text-dim">Photography via Unsplash.</p>
+      <p class="wrap mt-10 text-[11px] text-dim">{{ lang.t('footerPhoto') }}</p>
     </footer>
   `,
 })
-export class Footer {}
+export class Footer {
+  protected readonly lang = inject(LangService);
+}

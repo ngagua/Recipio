@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* Georgian letters have ascenders and descenders on most glyphs, so display headings need more leading than the Latin cuts: `ka:leading-[1.08]`. */
+@custom-variant ka (&:where(html[lang='ka'] *));
+
 @theme {
   --color-ink: #070908;
   --color-surface: #0e1210;
@@ -17,8 +20,8 @@
   --color-muted: #98a29a;
   --color-dim: #7a867f;
 
-  --font-sans: 'Instrument Sans', system-ui, sans-serif;
-  --font-display: 'Bricolage Grotesque', 'Instrument Sans', sans-serif;
+  --font-sans: 'Instrument Sans', 'Noto Sans Georgian', system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Noto Sans Georgian', 'Instrument Sans', sans-serif;
 
   --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
 
