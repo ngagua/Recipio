@@ -33,6 +33,22 @@ export interface Ingredient {
 
 export type Level = 'Easy' | 'Medium' | 'Hard';
 
+/** Per serving. `basis` says whether the source published it or the site estimated it from the ingredients (scripts/nutrition.mjs). */
+export interface Nutrition {
+  basis: 'source' | 'estimate';
+  /** kcal */
+  calories: number;
+  /** grams */
+  protein: number;
+  fat: number;
+  saturatedFat: number;
+  carbs: number;
+  sugars: number;
+  fibre: number;
+  /** milligrams */
+  sodium: number;
+}
+
 export interface Recipe {
   slug: string;
   title: string;
@@ -54,6 +70,7 @@ export interface Recipe {
   servings: number;
   ingredients: Ingredient[];
   steps: string[];
+  nutrition: Nutrition;
   video?: { url: string; duration?: string };
   source?: { name: string; url: string };
   /** Shown in the home hero. First match wins. */

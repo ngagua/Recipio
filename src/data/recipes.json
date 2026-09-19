@@ -4,8 +4,14 @@
     "title": "Brown butter banana pancakes",
     "blurb": "Uses the bananas nobody wants.",
     "description": "Speckled bananas, nutty brown butter and a batter you can mix in one bowl. Fluffy enough for a Saturday, quick enough for a Tuesday.",
-    "categories": ["breakfast", "kid-friendly"],
-    "tags": ["No nuts", "Make ahead"],
+    "categories": [
+      "breakfast",
+      "kid-friendly"
+    ],
+    "tags": [
+      "No nuts",
+      "Make ahead"
+    ],
     "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
     "imageAlt": "A stack of golden banana pancakes with syrup running down the sides",
     "time": 25,
@@ -61,15 +67,31 @@
       "Heat a non-stick pan over a medium heat with a little of the leftover butter. Drop in spoonfuls of batter and cook for 2 minutes until bubbles appear, then flip and cook for 1 minute more.",
       "Keep the cooked ones warm under a tea towel while you finish the batch. Serve with maple syrup and any banana that survived."
     ],
-    "added": "2026-09-13"
+    "added": "2026-09-13",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 396,
+      "protein": 9,
+      "fat": 15.7,
+      "saturatedFat": 9.1,
+      "carbs": 55.9,
+      "sugars": 13.2,
+      "fibre": 3,
+      "sodium": 797
+    }
   },
   {
     "slug": "granola",
     "title": "Granola",
     "blurb": "Our big-batch version. Do not skimp on the maple syrup.",
     "description": "Our double batch of Cookie and Kate’s granola: 650g of oats, a proper pile of nuts, less oil than the original and the full amount of maple syrup, because 12 tablespoons was not sweet enough. Makes about 32 servings and keeps for a couple of weeks.",
-    "categories": ["breakfast"],
-    "tags": ["Make ahead", "Big batch"],
+    "categories": [
+      "breakfast"
+    ],
+    "tags": [
+      "Make ahead",
+      "Big batch"
+    ],
     "image": "/recipes/granola.jpg",
     "imageAlt": "Big clumps of golden granola on a baking sheet",
     "time": 35,
@@ -132,15 +154,32 @@
       "name": "cookieandkate.com",
       "url": "https://cookieandkate.com/healthy-granola-recipe/"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 217,
+      "protein": 4.5,
+      "fat": 11.5,
+      "saturatedFat": 1.3,
+      "carbs": 26,
+      "sugars": 9.3,
+      "fibre": 3,
+      "sodium": 149
+    }
   },
   {
     "slug": "zucchini-pesto-pasta",
     "title": "Zucchini pesto pasta",
     "blurb": "Courgettes, pesto and penne in about half an hour.",
     "description": "Courgettes cooked until just tender, folded through pesto and penne with a splash of the pasta water. Dinner in about half an hour, and it takes any short pasta you have.",
-    "categories": ["dinner", "veggie"],
-    "tags": ["Weeknight", "Pasta"],
+    "categories": [
+      "dinner",
+      "veggie"
+    ],
+    "tags": [
+      "Weeknight",
+      "Pasta"
+    ],
     "image": "/recipes/zucchini-pesto-pasta.jpg",
     "imageAlt": "Penne tossed with pesto and sliced zucchini, topped with grated parmesan",
     "time": 35,
@@ -198,15 +237,32 @@
       "name": "kalynskitchen.com",
       "url": "https://kalynskitchen.com/recipe-for-easy-penne-pasta-with-2/"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "source",
+      "calories": 383,
+      "protein": 12.9,
+      "fat": 29,
+      "saturatedFat": 5.9,
+      "carbs": 35.5,
+      "sugars": 3.3,
+      "fibre": 17.6,
+      "sodium": 721
+    }
   },
   {
     "slug": "baked-feta-salmon-pasta",
     "title": "Baked feta salmon pasta",
     "blurb": "The baked feta pasta, with salmon. One dish, high protein.",
     "description": "Salmon fillets roasted on top of a block of feta and cherry tomatoes, which collapse into a creamy sauce. Spinach wilts in at the end and the penne gets tossed through. One dish and about 35 minutes.",
-    "categories": ["dinner"],
-    "tags": ["One pan", "High protein", "Pasta"],
+    "categories": [
+      "dinner"
+    ],
+    "tags": [
+      "One pan",
+      "High protein",
+      "Pasta"
+    ],
     "image": "/recipes/baked-feta-salmon-pasta.jpg",
     "imageAlt": "Salmon fillets baked on a block of feta with cherry tomatoes, tossed with penne and spinach",
     "time": 35,
@@ -278,15 +334,33 @@
       "name": "Feel Good Foodie on Facebook",
       "url": "https://www.facebook.com/feelgoodfoodie/videos/941794878888162/"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 819,
+      "protein": 50.7,
+      "fat": 45.2,
+      "saturatedFat": 15.4,
+      "carbs": 48,
+      "sugars": 5,
+      "fibre": 3.3,
+      "sodium": 940
+    }
   },
   {
     "slug": "creamy-roasted-eggplant-and-tomato-pasta",
     "title": "Creamy roasted eggplant and tomato pasta",
     "blurb": "Silky, smoky, and all made in one pan.",
     "description": "Whole eggplant, tomatoes and garlic cooked down under a lid until they collapse, mashed into a smoky sauce with oat cream, chilli crisp and vegan parmesan, then tossed with linguine. Throw a zucchini into the pan too if you have one.",
-    "categories": ["dinner", "veggie"],
-    "tags": ["Vegan", "One pan", "Pasta"],
+    "categories": [
+      "dinner",
+      "veggie"
+    ],
+    "tags": [
+      "Vegan",
+      "One pan",
+      "Pasta"
+    ],
     "image": "/recipes/creamy-roasted-eggplant-and-tomato-pasta.webp",
     "imageAlt": "Linguine in a creamy, smoky roasted eggplant and tomato sauce topped with chilli crisp and parsley",
     "time": 35,
@@ -378,15 +452,33 @@
       "url": "https://drveganblog.com/creamy-roasted-eggplant-and-tomato-pasta/"
     },
     "added": "2026-09-16",
-    "cover": "veggie"
+    "cover": "veggie",
+    "nutrition": {
+      "basis": "source",
+      "calories": 681,
+      "protein": 19,
+      "fat": 26,
+      "saturatedFat": 4,
+      "carbs": 95,
+      "sugars": 14,
+      "fibre": 13,
+      "sodium": 188
+    }
   },
   {
     "slug": "blueberry-banana-muffins",
     "title": "Blueberry banana muffins",
     "blurb": "Banana, peanut butter and oats. No flour, no fuss.",
     "description": "Fifteen muffins from one bowl: mashed banana and peanut butter for the body, oats and a heaped spoon of baking powder for lift, blueberries throughout. About 6g of protein each.",
-    "categories": ["breakfast", "baking", "kid-friendly"],
-    "tags": ["High protein", "Make ahead"],
+    "categories": [
+      "breakfast",
+      "baking",
+      "kid-friendly"
+    ],
+    "tags": [
+      "High protein",
+      "Make ahead"
+    ],
     "image": "/recipes/blueberry-banana-muffins.jpg",
     "imageAlt": "Two blueberry muffins with crumb topping stacked on a board, scattered with fresh blueberries",
     "time": 35,
@@ -441,15 +533,32 @@
       "name": "Facebook reel",
       "url": "https://www.facebook.com/reel/862546166470502"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 214,
+      "protein": 8.5,
+      "fat": 13.9,
+      "saturatedFat": 2.9,
+      "carbs": 17,
+      "sugars": 7.5,
+      "fibre": 3,
+      "sodium": 171
+    }
   },
   {
     "slug": "high-protein-salmon-toast",
     "title": "High-protein salmon toast",
     "blurb": "Mix, pile on toast, done. About 30g of protein a serve.",
     "description": "Flaked salmon, avocado, Greek yoghurt and cucumber with a squeeze of citrus, mixed in one bowl and piled onto toast or a baked sweet potato. Makes two generous serves.",
-    "categories": ["lunch", "quick"],
-    "tags": ["High protein", "No cook"],
+    "categories": [
+      "lunch",
+      "quick"
+    ],
+    "tags": [
+      "High protein",
+      "No cook"
+    ],
     "image": "/recipes/high-protein-salmon-toast.jpg",
     "imageAlt": "Seeded toast topped with smashed avocado, flaked grilled salmon, feta and chives on a plate with a lemon wedge",
     "time": 10,
@@ -504,14 +613,29 @@
       "name": "Facebook reel (recipe by Adam Hoad)",
       "url": "https://www.facebook.com/reel/1917326828896482"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 547,
+      "protein": 39.7,
+      "fat": 22.4,
+      "saturatedFat": 4.5,
+      "carbs": 45.4,
+      "sugars": 6.5,
+      "fibre": 5.9,
+      "sodium": 661
+    }
   },
   {
     "slug": "honey-garlic-chicken-marinade",
     "title": "Honey garlic chicken marinade",
     "blurb": "Soy, honey, ginger and garlic. Sticky, glossy, and it caramelises on the grill.",
     "description": "A sticky soy and honey marinade with grated garlic, ginger and smoked paprika. Enough for about 700g of chicken. Thirty minutes minimum, overnight is where the magic happens. Brush the leftover marinade on at the end so the honey chars rather than burns.",
-    "tags": ["Make ahead", "High protein", "Sticky"],
+    "tags": [
+      "Make ahead",
+      "High protein",
+      "Sticky"
+    ],
     "image": "/recipes/honey-garlic-chicken-marinade.jpg",
     "imageAlt": "Glossy honey garlic chicken breasts in a pan of sticky sauce, sprinkled with parsley",
     "ingredients": [
@@ -561,7 +685,9 @@
       "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
       "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through. Brush the marinade on towards the end so the honey does not burn."
     ],
-    "categories": ["sauces"],
+    "categories": [
+      "sauces"
+    ],
     "time": 10,
     "level": "Easy",
     "servings": 4,
@@ -572,14 +698,29 @@
       "name": "Facebook reel",
       "url": "https://www.facebook.com/reel/2079088426050790"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 65,
+      "protein": 1.6,
+      "fat": 0.2,
+      "saturatedFat": 0,
+      "carbs": 15.6,
+      "sugars": 13.3,
+      "fibre": 0.7,
+      "sodium": 542
+    }
   },
   {
     "slug": "lemon-garlic-herb-chicken-marinade",
     "title": "Lemon garlic herb chicken marinade",
     "blurb": "Olive oil, a whole lemon, five cloves of garlic and dried herbs. Bright and clean.",
     "description": "Olive oil, the juice and zest of a whole lemon, plenty of garlic and a spoon each of Dijon and honey, with dried herbs to round it out. Enough for about 700g of chicken. Thirty minutes minimum, overnight is where the magic happens.",
-    "tags": ["Make ahead", "High protein", "Lemon"],
+    "tags": [
+      "Make ahead",
+      "High protein",
+      "Lemon"
+    ],
     "image": "/recipes/lemon-garlic-herb-chicken-marinade.jpg",
     "imageAlt": "Raw chicken breasts on foil coated in lemon, garlic and chopped herbs, with lemon slices",
     "ingredients": [
@@ -643,7 +784,9 @@
       "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
       "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through."
     ],
-    "categories": ["sauces"],
+    "categories": [
+      "sauces"
+    ],
     "time": 10,
     "level": "Easy",
     "servings": 4,
@@ -654,14 +797,29 @@
       "name": "Facebook reel",
       "url": "https://www.facebook.com/reel/2079088426050790"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 157,
+      "protein": 0.7,
+      "fat": 14,
+      "saturatedFat": 2,
+      "carbs": 8.2,
+      "sugars": 4.8,
+      "fibre": 0.7,
+      "sodium": 626
+    }
   },
   {
     "slug": "creamy-chipotle-lime-chicken-marinade",
     "title": "Creamy chipotle lime chicken marinade",
     "blurb": "Greek yoghurt, chipotles in adobo and lime. Smoky, creamy, a little hot.",
     "description": "Greek yoghurt keeps the chicken tender while chipotles in adobo, lime and cumin bring smoke and heat. Enough for about 700g of chicken. Blend it if you want it smooth. Thirty minutes minimum, overnight is where the magic happens.",
-    "tags": ["Make ahead", "High protein", "Smoky"],
+    "tags": [
+      "Make ahead",
+      "High protein",
+      "Smoky"
+    ],
     "image": "/recipes/creamy-chipotle-lime-chicken-marinade.jpg",
     "imageAlt": "Chargrilled chipotle chicken breasts on a plate with lime wedges and coriander",
     "ingredients": [
@@ -734,7 +892,9 @@
       "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
       "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through."
     ],
-    "categories": ["sauces"],
+    "categories": [
+      "sauces"
+    ],
     "time": 10,
     "level": "Easy",
     "servings": 4,
@@ -745,15 +905,30 @@
       "name": "Facebook reel",
       "url": "https://www.facebook.com/reel/2079088426050790"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 95,
+      "protein": 2.3,
+      "fat": 7.3,
+      "saturatedFat": 1,
+      "carbs": 6.4,
+      "sugars": 2.7,
+      "fibre": 0.9,
+      "sodium": 699
+    }
   },
   {
     "slug": "loaded-sweet-potato-taco-bowl",
     "title": "Loaded sweet potato taco bowl",
     "blurb": "A roasted sweet potato, smashed, then piled high.",
     "description": "A whole sweet potato roasted until caramelised, smashed in a bowl and topped with seasoned beef mince, mozzarella, tomato, onion, jalapeños and avocado. A big single serve that keeps you full for hours.",
-    "categories": ["dinner"],
-    "tags": ["High protein"],
+    "categories": [
+      "dinner"
+    ],
+    "tags": [
+      "High protein"
+    ],
     "image": "/recipes/loaded-sweet-potato-taco-bowl.jpg",
     "imageAlt": "Top-down view of a roasted sweet potato in a black bowl, loaded with beef mince, pico de gallo and a fan of sliced avocado with flaky salt",
     "time": 50,
@@ -816,15 +991,31 @@
       "name": "Facebook reel (recipe by Jack Early)",
       "url": "https://www.facebook.com/reel/1319767380370916"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 773,
+      "protein": 61.2,
+      "fat": 21.6,
+      "saturatedFat": 6.2,
+      "carbs": 84.8,
+      "sugars": 18.8,
+      "fibre": 17,
+      "sodium": 966
+    }
   },
   {
     "slug": "easy-baked-salmon",
     "title": "Easy baked salmon",
     "blurb": "Lemon, garlic and herbs. On the table in 25 minutes.",
     "description": "Salmon fillets rubbed with olive oil, garlic, herbs and lemon juice, each topped with a slice of lemon and baked until just flaky. Finish under the grill for a minute if you like colour on top.",
-    "categories": ["dinner", "quick"],
-    "tags": ["One pan"],
+    "categories": [
+      "dinner",
+      "quick"
+    ],
+    "tags": [
+      "One pan"
+    ],
     "image": "/recipes/easy-baked-salmon.jpg",
     "imageAlt": "Three baked salmon fillets covered in herbs, with lemon slices, on a grey plate",
     "time": 25,
@@ -883,15 +1074,32 @@
       "url": "https://www.lecremedelacrumb.com/best-easy-healthy-baked-salmon/"
     },
     "added": "2026-09-16",
-    "cover": "dinner"
+    "cover": "dinner",
+    "nutrition": {
+      "basis": "source",
+      "calories": 306,
+      "protein": 34,
+      "fat": 18,
+      "saturatedFat": 3,
+      "carbs": 1,
+      "sugars": 1,
+      "fibre": 1,
+      "sodium": 366
+    }
   },
   {
     "slug": "overnight-oats",
     "title": "Overnight oats",
     "blurb": "My one-jar version: oats and chia soaked in almond milk, banana for sweetness, peanut butter because it works.",
     "description": "Overnight oats the way I make them: a small jar of oats and chia soaked in almond milk, mashed banana for sweetness, a spoon of Greek yogurt for tang and protein, and peanut butter because it just goes. Stir it together before bed and breakfast is done. The amounts are for one jar; use the stepper to make a few for the week.",
-    "categories": ["breakfast"],
-    "tags": ["Overnight", "No cook", "Meal prep"],
+    "categories": [
+      "breakfast"
+    ],
+    "tags": [
+      "Overnight",
+      "No cook",
+      "Meal prep"
+    ],
     "image": "/recipes/overnight-oats.jpg",
     "imageAlt": "Four jars of overnight oats topped with apple and pecans, strawberries and peanut butter, peaches and granola, and banana with chocolate chips",
     "time": 10,
@@ -948,15 +1156,34 @@
       "url": "https://www.loveandlemons.com/overnight-oats-recipe/"
     },
     "added": "2026-09-16",
-    "featured": true
+    "featured": true,
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 258,
+      "protein": 6.4,
+      "fat": 6.7,
+      "saturatedFat": 0.9,
+      "carbs": 45.4,
+      "sugars": 15.1,
+      "fibre": 9.5,
+      "sodium": 231
+    }
   },
   {
     "slug": "creamy-sausage-pasta",
     "title": "Creamy sausage pasta",
     "blurb": "Two kinds of sausage in a paprika cream sauce with melted mozzarella. Done in the time the pasta takes.",
     "description": "Sliced sausages, one cheese-filled and one frankfurter, browned and stirred into a quick paprika cream sauce with garlic and a pinch of curry powder, then mozzarella melted through and shells tossed in. It takes as long as the pasta takes to boil, which is why it shows up on busy weeknights.",
-    "categories": ["dinner", "lunch", "quick"],
-    "tags": ["Sausage", "One pan", "Pasta"],
+    "categories": [
+      "dinner",
+      "lunch",
+      "quick"
+    ],
+    "tags": [
+      "Sausage",
+      "One pan",
+      "Pasta"
+    ],
     "image": "/recipes/creamy-sausage-pasta.jpg",
     "imageAlt": "Shell pasta and sliced sausages in an orange paprika cream sauce, a forkful lifted from a white bowl",
     "time": 20,
@@ -1044,15 +1271,33 @@
       "name": "ugcbytamar on Instagram",
       "url": "https://www.instagram.com/p/Dcs89fAOfM9/"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 700,
+      "protein": 26.7,
+      "fat": 42.4,
+      "saturatedFat": 21.8,
+      "carbs": 53.4,
+      "sugars": 4.6,
+      "fibre": 2.8,
+      "sodium": 1128
+    }
   },
   {
     "slug": "rolled-eggs-breakfast-wrap",
     "title": "Rolled egg breakfast wraps",
     "blurb": "Ugandan Rolex technique: a thin omelette cooked onto a tortilla, then filled with halloumi and roast veg. Freezer friendly.",
     "description": "Inspired by the Ugandan Rolex: a thin omelette cooked straight onto a tortilla, then filled with grated halloumi, roasted mushrooms and red onion, wilted spinach and hot sauce. Make four at once, wrap them, freeze them, and breakfast on the go is sorted for the week.",
-    "categories": ["breakfast", "veggie"],
-    "tags": ["Freezer friendly", "Make ahead", "Halloumi"],
+    "categories": [
+      "breakfast",
+      "veggie"
+    ],
+    "tags": [
+      "Freezer friendly",
+      "Make ahead",
+      "Halloumi"
+    ],
     "image": "/recipes/rolled-eggs-breakfast-wrap.jpg",
     "imageAlt": "Three halved breakfast wraps in parchment, showing layers of omelette, mushrooms and spinach",
     "time": 40,
@@ -1121,15 +1366,34 @@
       "name": "mob.co.uk",
       "url": "https://www.mob.co.uk/recipes/rolled-eggs-breakfast-wrap"
     },
-    "added": "2026-09-16"
+    "added": "2026-09-16",
+    "nutrition": {
+      "basis": "source",
+      "calories": 506,
+      "protein": 31,
+      "fat": 27,
+      "saturatedFat": 13,
+      "carbs": 37,
+      "sugars": 8,
+      "fibre": 6,
+      "sodium": 1318
+    }
   },
   {
     "slug": "tzatziki",
     "title": "Tzatziki",
     "blurb": "Greek yogurt, squeezed cucumber, garlic, lemon and dill. Fifteen minutes, keeps for days.",
     "description": "The classic Greek yogurt and cucumber sauce. The one trick is squeezing the grated cucumber dry so the dip stays thick. Makes about 600ml: enough to go with the chicken marinades, pile onto flatbreads, or eat with vegetables all week.",
-    "categories": ["sauces", "quick", "veggie"],
-    "tags": ["Dip", "Make ahead", "Greek"],
+    "categories": [
+      "sauces",
+      "quick",
+      "veggie"
+    ],
+    "tags": [
+      "Dip",
+      "Make ahead",
+      "Greek"
+    ],
     "image": "/recipes/tzatziki.jpg",
     "imageAlt": "A patterned bowl of tzatziki drizzled with olive oil, with grilled pitta and crudités alongside",
     "time": 15,
@@ -1184,15 +1448,33 @@
       "url": "https://cookieandkate.com/how-to-make-tzatziki/"
     },
     "added": "2026-09-17",
-    "cover": "sauces"
+    "cover": "sauces",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 108,
+      "protein": 5.9,
+      "fat": 7.7,
+      "saturatedFat": 2.8,
+      "carbs": 4.3,
+      "sugars": 3,
+      "fibre": 0.3,
+      "sodium": 217
+    }
   },
   {
     "slug": "red-lentil-curry",
     "title": "Red lentil curry",
     "blurb": "Slow-cooked onions and carrots, red lentils and coconut milk. One pot, pantry staples.",
     "description": "A simple, deeply savoury curry from pantry staples: onions and carrots cooked slowly until sweet, curry powder, a tin of tomatoes, a tin of coconut milk and a handful of red lentils that melt into the sauce. Vegan, one pot, and better the next day. Serve with rice or flatbreads.",
-    "categories": ["dinner", "veggie"],
-    "tags": ["Vegan", "One pan", "Curry"],
+    "categories": [
+      "dinner",
+      "veggie"
+    ],
+    "tags": [
+      "Vegan",
+      "One pan",
+      "Curry"
+    ],
     "image": "/recipes/red-lentil-curry.jpg",
     "imageAlt": "A bowl of orange red lentil curry topped with parsley, with the pot and a dish of dried lentils beside it",
     "time": 55,
@@ -1259,15 +1541,34 @@
       "name": "occasionallyeggs.com",
       "url": "https://www.occasionallyeggs.com/red-lentil-curry/"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "source",
+      "calories": 366,
+      "protein": 11,
+      "fat": 23,
+      "saturatedFat": 18,
+      "carbs": 33,
+      "sugars": 6,
+      "fibre": 12,
+      "sodium": 781
+    }
   },
   {
     "slug": "avocado-toast",
     "title": "Avocado toast",
     "blurb": "Crisp toast, mashed avocado with lemon and salt, a fried egg on top if you like.",
     "description": "The ten-minute breakfast: bread toasted until properly crisp, a ripe avocado mashed with lemon juice and salt so it keeps some texture, then chilli flakes and a thread of olive oil. Add a fried or poached egg to make it a meal.",
-    "categories": ["breakfast", "quick", "veggie"],
-    "tags": ["Toast", "Eggs", "10 minutes"],
+    "categories": [
+      "breakfast",
+      "quick",
+      "veggie"
+    ],
+    "tags": [
+      "Toast",
+      "Eggs",
+      "10 minutes"
+    ],
     "image": "/recipes/avocado-toast.jpg",
     "imageAlt": "Avocado toast topped with a fried egg, basil leaves and everything seasoning on a white plate",
     "time": 10,
@@ -1316,15 +1617,34 @@
       "name": "albino-monkey.com",
       "url": "https://www.albino-monkey.com/pages/breakfast-avocado-toast"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 247,
+      "protein": 5.5,
+      "fat": 14.9,
+      "saturatedFat": 2.2,
+      "carbs": 25.4,
+      "sugars": 2.4,
+      "fibre": 6.7,
+      "sodium": 484
+    }
   },
   {
     "slug": "vegetable-omelette",
     "title": "Vegetable omelette",
     "blurb": "Three eggs, pepper, mushroom and spinach, folded over melted cheese. Ten minutes.",
     "description": "A soft, fluffy omelette for one. The vegetables are softened first so the eggs cook fast over gentle heat, then the pan is tilted so the raw egg runs underneath and the omelette folds over cheese while the top is still barely set.",
-    "categories": ["breakfast", "quick", "veggie"],
-    "tags": ["Eggs", "10 minutes", "High protein"],
+    "categories": [
+      "breakfast",
+      "quick",
+      "veggie"
+    ],
+    "tags": [
+      "Eggs",
+      "10 minutes",
+      "High protein"
+    ],
     "image": "/recipes/vegetable-omelette.jpg",
     "imageAlt": "A folded omelette with melted cheese and chives on a white plate with lettuce and tomato",
     "time": 10,
@@ -1380,15 +1700,34 @@
       "name": "albino-monkey.com",
       "url": "https://www.albino-monkey.com/pages/breakfast-vegetable-omelette"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 454,
+      "protein": 29.2,
+      "fat": 34.4,
+      "saturatedFat": 16.3,
+      "carbs": 7,
+      "sugars": 4.5,
+      "fibre": 1.7,
+      "sodium": 859
+    }
   },
   {
     "slug": "balsamic-roasted-vegetables",
     "title": "Balsamic roasted vegetables",
     "blurb": "Sweet potato, peppers and broccoli roasted hot, then glazed with balsamic. A week of sides in one tray.",
     "description": "A big tray of roasted vegetables for the week: sweet potato gets a head start in a hot oven, peppers and broccoli join later, and a splash of balsamic at the end glazes everything as it finishes browning. Eat them warm as a side or cold on salads. Vegan and gluten-free.",
-    "categories": ["dinner", "veggie"],
-    "tags": ["Vegan", "Side", "Sheet pan", "Meal prep"],
+    "categories": [
+      "dinner",
+      "veggie"
+    ],
+    "tags": [
+      "Vegan",
+      "Side",
+      "Sheet pan",
+      "Meal prep"
+    ],
     "image": "/recipes/balsamic-roasted-vegetables.jpg",
     "imageAlt": "Roasted sweet potato, broccoli and red and green peppers piled on a speckled plate with a serving spoon",
     "time": 50,
@@ -1444,15 +1783,36 @@
       "name": "joyfoodsunshine.com",
       "url": "https://joyfoodsunshine.com/balsamic-roasted-vegetables/"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 172,
+      "protein": 3.1,
+      "fat": 9.5,
+      "saturatedFat": 1.3,
+      "carbs": 20.5,
+      "sugars": 6.3,
+      "fibre": 4.4,
+      "sodium": 447
+    }
   },
   {
     "slug": "tomato-egg-cottage-cheese-pot",
     "title": "Tomato and egg cottage cheese pot",
     "blurb": "Oregano-marinated cherry tomatoes, cottage cheese, cucumber and a jammy egg in a jar. Prep the night before.",
     "description": "Cherry tomatoes marinated in oregano and olive oil until they release their juices, which become the dressing, layered in a jar with cool cottage cheese, crunchy cucumber and a seven-minute egg, then basil torn over the top. Eat it straight away or keep it sealed in the fridge for a couple of days.",
-    "categories": ["breakfast", "lunch", "quick", "veggie"],
-    "tags": ["High protein", "Meal prep", "No cook", "Eggs"],
+    "categories": [
+      "breakfast",
+      "lunch",
+      "quick",
+      "veggie"
+    ],
+    "tags": [
+      "High protein",
+      "Meal prep",
+      "No cook",
+      "Eggs"
+    ],
     "image": "/recipes/tomato-egg-cottage-cheese-pot.jpg",
     "imageAlt": "A white bowl of cottage cheese, halved jammy eggs, cherry tomatoes, cucumber and basil",
     "time": 17,
@@ -1508,15 +1868,34 @@
       "name": "mob.co.uk",
       "url": "https://www.mob.co.uk/recipes/summer-tomato-and-egg-cottage-cheese-pot"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "source",
+      "calories": 411,
+      "protein": 30,
+      "fat": 28,
+      "saturatedFat": 9,
+      "carbs": 15,
+      "sugars": 10,
+      "fibre": 3,
+      "sodium": 718
+    }
   },
   {
     "slug": "parmesan-asparagus-with-poached-eggs",
     "title": "Parmesan asparagus with poached eggs",
     "blurb": "Blanched asparagus grilled under a crust of parmesan, a poached egg on top, toast on the side.",
     "description": "Simple and elegant: thick asparagus blanched until just tender, brushed with butter, showered with Parmigiano-Reggiano and flashed under the grill, then topped with a poached egg cooked in the same water. Break the yolk over the spears and mop it up with toast.",
-    "categories": ["breakfast", "lunch", "veggie"],
-    "tags": ["Eggs", "Asparagus", "High protein"],
+    "categories": [
+      "breakfast",
+      "lunch",
+      "veggie"
+    ],
+    "tags": [
+      "Eggs",
+      "Asparagus",
+      "High protein"
+    ],
     "image": "/recipes/parmesan-asparagus-with-poached-eggs.jpg",
     "imageAlt": "Two fried eggs with chilli flakes and herbs on a bed of roasted asparagus spears",
     "time": 30,
@@ -1566,15 +1945,33 @@
       "name": "foodandwine.com",
       "url": "https://www.foodandwine.com/recipes/parmesan-asparagus-with-poached-eggs"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 186,
+      "protein": 12.5,
+      "fat": 13.3,
+      "saturatedFat": 6.6,
+      "carbs": 5.1,
+      "sugars": 2.5,
+      "fibre": 2.4,
+      "sodium": 281
+    }
   },
   {
     "slug": "creamy-lemon-garlic-salmon-pasta",
     "title": "Creamy lemon garlic salmon pasta",
     "blurb": "Seared salmon flaked through egg pasta in a lemon, garlic and parmesan cream sauce.",
     "description": "Salmon seared in olive oil and flaked into ribbons of egg pasta coated in a sauce of butter, onion, garlic, chicken stock and cream, sharpened with lemon juice and zest and thickened with Parmigiano-Reggiano. The caption only listed the ingredients; the method here is how it goes together in the video.",
-    "categories": ["dinner"],
-    "tags": ["Pasta", "Salmon", "High protein", "Weeknight"],
+    "categories": [
+      "dinner"
+    ],
+    "tags": [
+      "Pasta",
+      "Salmon",
+      "High protein",
+      "Weeknight"
+    ],
     "image": "/recipes/creamy-lemon-garlic-salmon-pasta.jpg",
     "imageAlt": "Tongs lifting creamy tagliatelle with flakes of seared salmon and chopped parsley",
     "time": 30,
@@ -1672,15 +2069,36 @@
       "name": "Zachs.foods on Facebook",
       "url": "https://www.facebook.com/reel/1420816160095976"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 928,
+      "protein": 38.6,
+      "fat": 60.8,
+      "saturatedFat": 27.9,
+      "carbs": 54.4,
+      "sugars": 3.9,
+      "fibre": 2.8,
+      "sodium": 1726
+    }
   },
   {
     "slug": "georgian-salad",
     "title": "Georgian salad",
     "blurb": "Tomato, cucumber and red onion in a walnut, garlic and blue fenugreek dressing.",
     "description": "The tomato and cucumber salad from every Georgian table, in its walnut version: the walnuts are blended with garlic, lemon juice, Kakhetian oil, coriander and utskho suneli into a thick dressing that clings to the vegetables. Kakhetian oil is unrefined sunflower oil; utskho suneli is blue fenugreek. Both are worth finding, but ordinary sunflower oil and a pinch of ground fenugreek will get you close.",
-    "categories": ["lunch", "quick", "veggie"],
-    "tags": ["Salad", "Georgian", "Walnuts", "No cook", "Vegan"],
+    "categories": [
+      "lunch",
+      "quick",
+      "veggie"
+    ],
+    "tags": [
+      "Salad",
+      "Georgian",
+      "Walnuts",
+      "No cook",
+      "Vegan"
+    ],
     "image": "/recipes/georgian-salad.jpg",
     "imageAlt": "A plate of tomato, cucumber and red onion salad coated in a crumbly walnut dressing with herbs",
     "time": 15,
@@ -1742,15 +2160,33 @@
       "name": "gemrielia.ge",
       "url": "https://gemrielia.ge/"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 261,
+      "protein": 6.5,
+      "fat": 22.9,
+      "saturatedFat": 2.2,
+      "carbs": 12.7,
+      "sugars": 5.2,
+      "fibre": 4.1,
+      "sodium": 107
+    }
   },
   {
     "slug": "carrot-cake-overnight-oats",
     "title": "Carrot cake overnight oats",
     "blurb": "Oats, yogurt and grated carrot with cinnamon, ginger and nutmeg. Tastes like cake, counts as breakfast.",
     "description": "Carrot cake flavours in a jar of overnight oats: grated carrot, cinnamon, ginger and nutmeg stirred into oats, Greek yogurt and milk, with raisins for sweetness and walnuts on top for crunch. Make two jars the night before and breakfast is done. Swap the yogurt and milk for plant-based ones to keep it vegan.",
-    "categories": ["breakfast"],
-    "tags": ["Overnight", "No cook", "Meal prep", "Vegan"],
+    "categories": [
+      "breakfast"
+    ],
+    "tags": [
+      "Overnight",
+      "No cook",
+      "Meal prep",
+      "Vegan"
+    ],
     "image": "/recipes/carrot-cake-overnight-oats.jpg",
     "imageAlt": "A glass jar of carrot cake overnight oats with raisins and cinnamon, a gold spoon standing in it",
     "time": 10,
@@ -1822,15 +2258,31 @@
       "name": "theplantbasedschool.com",
       "url": "https://theplantbasedschool.com/carrot-cake-overnight-oats/"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "source",
+      "calories": 440,
+      "protein": 22,
+      "fat": 12,
+      "saturatedFat": 1,
+      "carbs": 63,
+      "sugars": 22,
+      "fibre": 8,
+      "sodium": 228
+    }
   },
   {
     "slug": "ultimate-carbonara",
     "title": "Ultimate carbonara",
     "blurb": "No cream, lots of black pepper: egg yolks, smoked bacon, two cheeses and starchy pasta water, plus a little garlic.",
     "description": "Mob's take on the classic, and there is no cream anywhere near it. Egg yolks are whisked with grated pecorino, parmesan and a very generous amount of black pepper, crisp smoked bacon and sliced garlic wait in the pan, and the drained spaghetti is tossed through with ladles of starchy pasta water until it turns silky. Crack the eggs into a separate bowl first, keep the whites for meringue, and if it looks thick add more pasta water: it should be smooth, not scrambled.",
-    "categories": ["dinner", "quick"],
-    "tags": ["Pasta"],
+    "categories": [
+      "dinner",
+      "quick"
+    ],
+    "tags": [
+      "Pasta"
+    ],
     "image": "/recipes/ultimate-carbonara.jpg",
     "imageAlt": "Tongs lifting a tangle of creamy carbonara spaghetti flecked with bacon out of a black frying pan",
     "time": 25,
@@ -1885,15 +2337,34 @@
       "name": "mob.co.uk",
       "url": "https://www.mob.co.uk/recipes/mobs-ultimate-carbonara"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "source",
+      "calories": 708,
+      "protein": 49,
+      "fat": 38,
+      "saturatedFat": 19,
+      "carbs": 41,
+      "sugars": 2,
+      "fibre": 2,
+      "sodium": 1234
+    }
   },
   {
     "slug": "hummus",
     "title": "Hummus",
     "blurb": "Silky hummus from a jar of chickpeas, tahini, cumin and lemon, blitzed with the chickpea liquid and finished with olive oil and za’atar.",
     "description": "Mob's silky hummus, and the trick is what goes in the blender: a whole jar of chickpeas with their liquid, tahini, a little garlic, cumin and lemon, blitzed until completely smooth. The olive oil is not blended in but poured over at the end, which is what keeps it light, and the best chickpeas and extra virgin olive oil you can find make a real difference. It keeps for 3 to 5 days in the fridge.",
-    "categories": ["sauces", "veggie", "quick"],
-    "tags": ["Dip", "Vegan", "No cook"],
+    "categories": [
+      "sauces",
+      "veggie",
+      "quick"
+    ],
+    "tags": [
+      "Dip",
+      "Vegan",
+      "No cook"
+    ],
     "image": "/recipes/hummus.jpg",
     "imageAlt": "A speckled bowl of swirled hummus topped with olive oil, whole chickpeas and za’atar, a hand dipping a piece of bread into it",
     "time": 10,
@@ -1943,15 +2414,33 @@
       "name": "mob.co.uk",
       "url": "https://www.mob.co.uk/recipes/ultimate-hummus"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "source",
+      "calories": 736,
+      "protein": 29,
+      "fat": 33,
+      "saturatedFat": 4,
+      "carbs": 88,
+      "sugars": 15,
+      "fibre": 24,
+      "sodium": 134
+    }
   },
   {
     "slug": "healthy-cheesecake",
     "title": "Healthy cheesecake",
     "blurb": "Four ingredients and no crust: Greek yogurt, eggs, honey and vanilla whisked in one bowl, baked until just set and chilled overnight.",
     "description": "A crustless cheesecake made from thick Greek yogurt, eggs, honey and vanilla: whisk in one bowl, bake until the edges are set and the middle still wobbles, then cool and chill for at least four hours (overnight is better). It sets to a smooth, custardy slice with a good amount of protein and no refined sugar. Use thick yogurt, not a watery one, and do not overbake. Fold in a handful of blueberries or add lemon zest to the batter if you like; it keeps for 4 to 5 days in the fridge, and slices freeze for a month.",
-    "categories": ["dessert", "baking"],
-    "tags": ["High protein", "Make ahead", "Eggs"],
+    "categories": [
+      "dessert",
+      "baking"
+    ],
+    "tags": [
+      "High protein",
+      "Make ahead",
+      "Eggs"
+    ],
     "image": "/recipes/healthy-cheesecake.jpg",
     "imageAlt": "A baked cheesecake with a caramelised top on a glass cake stand, one slice cut out to show the creamy inside",
     "time": 50,
@@ -1993,15 +2482,34 @@
       "name": "food.niceyummy.com",
       "url": "https://food.niceyummy.com/healthy-cheesecake/"
     },
-    "added": "2026-09-17"
+    "added": "2026-09-17",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 158,
+      "protein": 11.3,
+      "fat": 7,
+      "saturatedFat": 3.8,
+      "carbs": 12.1,
+      "sugars": 11.7,
+      "fibre": 0,
+      "sodium": 72
+    }
   },
   {
     "slug": "spicy-peanut-butter-noodles",
     "title": "Spicy peanut butter noodles",
     "blurb": "Rice noodles in a peanut, soy, ginger and sriracha sauce whisked together in the pan. Vegan, and about 15 minutes.",
     "description": "Garlic and ginger softened in a little oil, then peanut butter, tamari, rice vinegar, sesame oil, sriracha and a spoon of maple syrup whisked in with hot water until smooth. Rice noodles are tossed through half the sauce to start, with the rest added to taste, and the bowl finished with crushed peanuts, spring onions and chilli flakes. It makes more sauce than you strictly need, which is the point: stir in tofu, chicken or vegetables and there is enough to coat them too.",
-    "categories": ["dinner", "quick", "veggie"],
-    "tags": ["Pasta", "Vegan", "Weeknight"],
+    "categories": [
+      "dinner",
+      "quick",
+      "veggie"
+    ],
+    "tags": [
+      "Pasta",
+      "Vegan",
+      "Weeknight"
+    ],
     "image": "/recipes/spicy-peanut-butter-noodles.jpg",
     "imageAlt": "A bowl of rice noodles coated in peanut sauce, topped with crushed peanuts, sliced spring onions and chilli flakes, chopsticks resting on the rim",
     "time": 15,
@@ -2109,6 +2617,17 @@
       "name": "eatwithclarity.com",
       "url": "https://eatwithclarity.com/spicy-peanut-butter-noodles/"
     },
-    "added": "2026-09-18"
+    "added": "2026-09-18",
+    "nutrition": {
+      "basis": "source",
+      "calories": 465,
+      "protein": 8.6,
+      "fat": 16.5,
+      "saturatedFat": 3,
+      "carbs": 59,
+      "sugars": 4,
+      "fibre": 3,
+      "sodium": 870
+    }
   }
 ]

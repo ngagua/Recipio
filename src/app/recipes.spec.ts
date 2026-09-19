@@ -22,6 +22,20 @@ describe('recipes.json', () => {
       expect(r.servings, `${r.slug} needs servings for the stepper`).toBeGreaterThan(0);
       expect(r.image, `${r.slug} image must be a URL or a /path`).toMatch(/^(https:\/\/|\/)/);
       expect(r.added, `${r.slug} added must be an ISO date`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      const n = (r as Recipe).nutrition;
+      expect(n, `${r.slug} has no nutrition (node scripts/nutrition.mjs ${r.slug})`).toBeTruthy();
+      expect(['source', 'estimate']).toContain(n.basis);
+      for (const key of [
+        'calories',
+        'protein',
+        'fat',
+        'saturatedFat',
+        'carbs',
+        'sugars',
+        'fibre',
+        'sodium',
+      ] as const)
+        expect(n[key], `${r.slug}: nutrition.${key}`).toBeGreaterThanOrEqual(0);
       if (r.cover)
         expect(
           r.categories,

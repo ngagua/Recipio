@@ -4,11 +4,13 @@
 //   node scripts/import-recipe.mjs <url> [--category dinner,kid-friendly] [--tags "One pan,Freezer friendly"] [--level Easy|Medium|Hard] [--force]
 //
 // Picks the largest photo on offer, saves it to public/recipes/<slug>.<ext> (downscaled to 2000px on macOS, never upscaled),
-// converts imperial amounts to metric, and appends the recipe to src/data/recipes.json.
+// converts imperial amounts to metric, takes per-serving nutrition from the page (schema.org, or Mob's page data) or
+// estimates it from the ingredients (scripts/nutrition.mjs), and appends the recipe to src/data/recipes.json.
 // Review the printed JSON afterwards: blurbs, categories, ingredient parsing and cup-to-gram conversions are best guesses.
 import { execFile } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { promisify } from 'node:util';
+import { estimateNutrition } from './nutrition.mjs';
 
 const args = process.argv.slice(2);
 const url = args.find((a, i) => !a.startsWith('--') && !args[i - 1]?.startsWith('--'));
@@ -464,6 +466,36 @@ for (const candidate of [ld.video?.contentUrl, ld.video?.embedUrl].map(cleanUrl)
   }
 }
 
+/** Per-serving nutrition as the page publishes it: schema.org NutritionInformation, or the figures in a mob.co.uk page's data. */
+const nutritionFromPage = () => {
+  const mob = html.match(
+    /"calories":(\d+),"fat":(\d+),"saturatedFat":(\d+),"carbohydrates":(\d+),"dietaryFibre":(\d+),"sugars":(\d+),"protein":(\d+),"sodium":(\d+)/,
+  );
+  if (mob) {
+    const [, calories, fat, saturatedFat, carbs, fibre, sugars, protein, sodium] = mob.map(Number);
+    return { basis: 'source', calories, protein, fat, saturatedFat, carbs, sugars, fibre, sodium };
+  }
+  const n = ld.nutrition;
+  if (!n) return undefined;
+  const num = (v) => (v == null ? NaN : parseFloat(String(v).replace(/,/g, '')));
+  const sodium = /\bg\b/.test(String(n.sodiumContent))
+    ? num(n.sodiumContent) * 1000
+    : num(n.sodiumContent);
+  const values = {
+    calories: num(n.calories),
+    protein: num(n.proteinContent),
+    fat: num(n.fatContent),
+    saturatedFat: num(n.saturatedFatContent),
+    carbs: num(n.carbohydrateContent),
+    sugars: num(n.sugarContent),
+    fibre: num(n.fiberContent),
+    sodium,
+  };
+  // A partial table is worse than an estimate: the estimate at least agrees with itself.
+  if (Object.values(values).some(Number.isNaN)) return undefined;
+  return { basis: 'source', ...values };
+};
+
 const recipe = {
   slug,
   title: text(ld.name),
@@ -481,10 +513,18 @@ const recipe = {
   servings: parseInt([].concat(ld.recipeYield ?? [])[0]) || 4,
   ingredients: [].concat(ld.recipeIngredient ?? []).map(parseIngredient),
   steps,
+  nutrition: undefined,
   ...(video ? { video } : {}),
   source: { name: new URL(url).hostname.replace(/^www\./, ''), url },
   added: new Date().toISOString().slice(0, 10),
 };
+
+recipe.nutrition = nutritionFromPage();
+if (!recipe.nutrition) {
+  const { nutrition, report } = estimateNutrition(recipe);
+  recipe.nutrition = nutrition;
+  console.error(`No nutrition on the page; estimated from the ingredients:\n${report.join('\n')}`);
+}
 
 const file = 'src/data/recipes.json';
 const recipes = JSON.parse(await readFile(file, 'utf8'));

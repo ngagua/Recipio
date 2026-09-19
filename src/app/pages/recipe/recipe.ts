@@ -36,7 +36,17 @@ export class RecipePage {
     return first && this.recipes.category(first);
   });
   /** Phones show one panel at a time; from md both are visible side by side. */
-  protected readonly tab = signal<'ingredients' | 'method'>('ingredients');
+  protected readonly tab = signal<'ingredients' | 'method' | 'nutrition'>('ingredients');
+  /** The list under the two headline tiles, in Mob's order; grams rounded like a label. */
+  protected readonly nutritionRows = computed(() => {
+    const n = this.recipe()?.nutrition;
+    if (!n) return [];
+    return (['fat', 'saturatedFat', 'carbs', 'sugars', 'fibre', 'sodium'] as const).map((key) => ({
+      key,
+      value: Math.round(n[key]),
+      unit: key === 'sodium' ? ('mg' as const) : ('g' as const),
+    }));
+  });
   protected readonly servings = linkedSignal(() => this.recipe()?.servings ?? 4);
   /** Batch recipes start high, so the stepper allows up to double the stated servings. */
   protected readonly maxServings = computed(() => Math.max(12, (this.recipe()?.servings ?? 4) * 2));
@@ -66,6 +76,8 @@ export class RecipePage {
       this.ui.currentRecipe.set(null);
     });
   }
+
+  protected readonly round = Math.round;
 
   protected adjust(delta: number): void {
     this.servings.update((s) => Math.min(this.maxServings(), Math.max(1, s + delta)));

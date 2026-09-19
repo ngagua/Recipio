@@ -100,12 +100,12 @@
     </header>
 
     <div class="mt-10 md:mt-16 md:grid md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] md:gap-x-16">
-      <div class="flex gap-7 border-b border-line md:hidden">
+      <div class="flex gap-7 overflow-x-auto border-b border-line ka:gap-5 md:hidden">
         <button
           type="button"
           (click)="tab.set('ingredients')"
           [attr.aria-pressed]="tab() === 'ingredients'"
-          class="pb-3 text-[13px] font-semibold tracking-[0.1em] uppercase transition-colors"
+          class="pb-3 text-[13px] font-semibold tracking-[0.1em] whitespace-nowrap uppercase transition-colors ka:text-xs ka:tracking-[0.03em]"
           [class]="
             tab() === 'ingredients'
               ? 'text-bone shadow-[inset_0_-2px_0_0_var(--color-acid)]'
@@ -118,7 +118,7 @@
           type="button"
           (click)="tab.set('method')"
           [attr.aria-pressed]="tab() === 'method'"
-          class="pb-3 text-[13px] font-semibold tracking-[0.1em] uppercase transition-colors"
+          class="pb-3 text-[13px] font-semibold tracking-[0.1em] whitespace-nowrap uppercase transition-colors ka:text-xs ka:tracking-[0.03em]"
           [class]="
             tab() === 'method'
               ? 'text-bone shadow-[inset_0_-2px_0_0_var(--color-acid)]'
@@ -126,6 +126,19 @@
           "
         >
           {{ lang.t('method') }}
+        </button>
+        <button
+          type="button"
+          (click)="tab.set('nutrition')"
+          [attr.aria-pressed]="tab() === 'nutrition'"
+          class="pb-3 text-[13px] font-semibold tracking-[0.1em] whitespace-nowrap uppercase transition-colors ka:text-xs ka:tracking-[0.03em]"
+          [class]="
+            tab() === 'nutrition'
+              ? 'text-bone shadow-[inset_0_-2px_0_0_var(--color-acid)]'
+              : 'text-dim'
+          "
+        >
+          {{ lang.t('nutrition') }}
         </button>
       </div>
 
@@ -205,7 +218,7 @@
 
       <section
         [class.hidden]="tab() !== 'method'"
-        class="md:col-start-2 md:row-start-1 md:block"
+        class="md:col-start-2 md:row-span-2 md:row-start-1 md:block"
         aria-labelledby="method-title"
       >
         <h2
@@ -228,6 +241,59 @@
             </li>
           }
         </ol>
+      </section>
+
+      <section
+        [class.hidden]="tab() !== 'nutrition'"
+        class="md:col-start-1 md:row-start-2 md:mt-12 md:block"
+        aria-labelledby="nutrition-title"
+      >
+        <h2
+          id="nutrition-title"
+          class="sr-only md:not-sr-only md:font-display md:text-2xl md:font-semibold md:tracking-[-0.02em] md:text-bone"
+        >
+          {{ lang.t('nutrition') }}
+        </h2>
+        <p class="mt-[26px] text-[11px] font-semibold tracking-[0.14em] text-dim uppercase md:mt-5">
+          {{ lang.t('nutritionPerServing') }}
+        </p>
+        <div class="mt-3 grid grid-cols-2 gap-2">
+          <div class="rounded-[4px] bg-raised px-4 py-4 text-center">
+            <p class="text-xs font-medium text-muted">{{ lang.t('calories') }}</p>
+            <p
+              class="mt-1 font-display text-[26px] leading-none font-bold tracking-[-0.02em] text-bone"
+            >
+              {{ round(r.nutrition.calories) }}
+              <span class="text-sm font-semibold text-muted">{{ lang.t('kcal') }}</span>
+            </p>
+          </div>
+          <div class="rounded-[4px] bg-raised px-4 py-4 text-center">
+            <p class="text-xs font-medium text-muted">{{ lang.t('protein') }}</p>
+            <p
+              class="mt-1 font-display text-[26px] leading-none font-bold tracking-[-0.02em] text-bone"
+            >
+              {{ round(r.nutrition.protein) }}
+              <span class="text-sm font-semibold text-muted">{{ lang.t('g') }}</span>
+            </p>
+          </div>
+        </div>
+        <dl class="mt-2 divide-y divide-hair rounded-[4px] border border-line">
+          @for (row of nutritionRows(); track row.key) {
+            <div class="flex items-baseline justify-between gap-4 px-4 py-3">
+              <dt class="text-[15px] text-body">{{ lang.t(row.key) }}</dt>
+              <dd class="font-display text-base font-semibold text-bone tabular-nums">
+                {{ row.value }}{{ lang.t(row.unit) }}
+              </dd>
+            </div>
+          }
+        </dl>
+        <p class="mt-3 text-xs text-dim">
+          {{
+            r.nutrition.basis === 'source' && r.source
+              ? lang.t('nutritionSource')(r.source.name)
+              : lang.t('nutritionEstimated')
+          }}
+        </p>
       </section>
     </div>
   </article>
