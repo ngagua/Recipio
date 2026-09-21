@@ -4,14 +4,8 @@
     "title": "Brown butter banana pancakes",
     "blurb": "Uses the bananas nobody wants.",
     "description": "Speckled bananas, nutty brown butter and a batter you can mix in one bowl. Fluffy enough for a Saturday, quick enough for a Tuesday.",
-    "categories": [
-      "breakfast",
-      "kid-friendly"
-    ],
-    "tags": [
-      "No nuts",
-      "Make ahead"
-    ],
+    "categories": ["breakfast", "kid-friendly"],
+    "tags": ["No nuts", "Make ahead"],
     "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
     "imageAlt": "A stack of golden banana pancakes with syrup running down the sides",
     "time": 25,
@@ -85,13 +79,8 @@
     "title": "Granola",
     "blurb": "Our big-batch version. Do not skimp on the maple syrup.",
     "description": "Our double batch of Cookie and Kate’s granola: 650g of oats, a proper pile of nuts, less oil than the original and the full amount of maple syrup, because 12 tablespoons was not sweet enough. Makes about 32 servings and keeps for a couple of weeks.",
-    "categories": [
-      "breakfast"
-    ],
-    "tags": [
-      "Make ahead",
-      "Big batch"
-    ],
+    "categories": ["breakfast"],
+    "tags": ["Make ahead", "Big batch"],
     "image": "/recipes/granola.jpg",
     "imageAlt": "Big clumps of golden granola on a baking sheet",
     "time": 35,
@@ -172,14 +161,8 @@
     "title": "Zucchini pesto pasta",
     "blurb": "Courgettes, pesto and penne in about half an hour.",
     "description": "Courgettes cooked until just tender, folded through pesto and penne with a splash of the pasta water. Dinner in about half an hour, and it takes any short pasta you have.",
-    "categories": [
-      "dinner",
-      "veggie"
-    ],
-    "tags": [
-      "Weeknight",
-      "Pasta"
-    ],
+    "categories": ["dinner", "veggie"],
+    "tags": ["Weeknight", "Pasta"],
     "image": "/recipes/zucchini-pesto-pasta.jpg",
     "imageAlt": "Penne tossed with pesto and sliced zucchini, topped with grated parmesan",
     "time": 35,
@@ -255,14 +238,8 @@
     "title": "Baked feta salmon pasta",
     "blurb": "The baked feta pasta, with salmon. One dish, high protein.",
     "description": "Salmon fillets roasted on top of a block of feta and cherry tomatoes, which collapse into a creamy sauce. Spinach wilts in at the end and the penne gets tossed through. One dish and about 35 minutes.",
-    "categories": [
-      "dinner"
-    ],
-    "tags": [
-      "One pan",
-      "High protein",
-      "Pasta"
-    ],
+    "categories": ["dinner"],
+    "tags": ["One pan", "High protein", "Pasta"],
     "image": "/recipes/baked-feta-salmon-pasta.jpg",
     "imageAlt": "Salmon fillets baked on a block of feta with cherry tomatoes, tossed with penne and spinach",
     "time": 35,
@@ -352,15 +329,8 @@
     "title": "Creamy roasted eggplant and tomato pasta",
     "blurb": "Silky, smoky, and all made in one pan.",
     "description": "Whole eggplant, tomatoes and garlic cooked down under a lid until they collapse, mashed into a smoky sauce with oat cream, chilli crisp and vegan parmesan, then tossed with linguine. Throw a zucchini into the pan too if you have one.",
-    "categories": [
-      "dinner",
-      "veggie"
-    ],
-    "tags": [
-      "Vegan",
-      "One pan",
-      "Pasta"
-    ],
+    "categories": ["dinner", "veggie"],
+    "tags": ["Vegan", "One pan", "Pasta"],
     "image": "/recipes/creamy-roasted-eggplant-and-tomato-pasta.webp",
     "imageAlt": "Linguine in a creamy, smoky roasted eggplant and tomato sauce topped with chilli crisp and parsley",
     "time": 35,
@@ -470,15 +440,8 @@
     "title": "Blueberry banana muffins",
     "blurb": "Banana, peanut butter and oats. No flour, no fuss.",
     "description": "Fifteen muffins from one bowl: mashed banana and peanut butter for the body, oats and a heaped spoon of baking powder for lift, blueberries throughout. About 6g of protein each.",
-    "categories": [
-      "breakfast",
-      "baking",
-      "kid-friendly"
-    ],
-    "tags": [
-      "High protein",
-      "Make ahead"
-    ],
+    "categories": ["breakfast", "baking", "kid-friendly"],
+    "tags": ["High protein", "Make ahead"],
     "image": "/recipes/blueberry-banana-muffins.jpg",
     "imageAlt": "Two blueberry muffins with crumb topping stacked on a board, scattered with fresh blueberries",
     "time": 35,
@@ -551,14 +514,8 @@
     "title": "High-protein salmon toast",
     "blurb": "Mix, pile on toast, done. About 30g of protein a serve.",
     "description": "Flaked salmon, avocado, Greek yoghurt and cucumber with a squeeze of citrus, mixed in one bowl and piled onto toast or a baked sweet potato. Makes two generous serves.",
-    "categories": [
-      "lunch",
-      "quick"
-    ],
-    "tags": [
-      "High protein",
-      "No cook"
-    ],
+    "categories": ["lunch", "quick"],
+    "tags": ["High protein", "No cook"],
     "image": "/recipes/high-protein-salmon-toast.jpg",
     "imageAlt": "Seeded toast topped with smashed avocado, flaked grilled salmon, feta and chives on a plate with a lemon wedge",
     "time": 10,
@@ -631,11 +588,7 @@
     "title": "Honey garlic chicken marinade",
     "blurb": "Soy, honey, ginger and garlic. Sticky, glossy, and it caramelises on the grill.",
     "description": "A sticky soy and honey marinade with grated garlic, ginger and smoked paprika. Enough for about 700g of chicken. Thirty minutes minimum, overnight is where the magic happens. Brush the leftover marinade on at the end so the honey chars rather than burns.",
-    "tags": [
-      "Make ahead",
-      "High protein",
-      "Sticky"
-    ],
+    "tags": ["Make ahead", "High protein", "Sticky"],
     "image": "/recipes/honey-garlic-chicken-marinade.jpg",
     "imageAlt": "Glossy honey garlic chicken breasts in a pan of sticky sauce, sprinkled with parsley",
     "ingredients": [
@@ -685,9 +638,7 @@
       "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
       "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through. Brush the marinade on towards the end so the honey does not burn."
     ],
-    "categories": [
-      "sauces"
-    ],
+    "categories": ["sauces"],
     "time": 10,
     "level": "Easy",
     "servings": 4,
@@ -716,11 +667,7 @@
     "title": "Lemon garlic herb chicken marinade",
     "blurb": "Olive oil, a whole lemon, five cloves of garlic and dried herbs. Bright and clean.",
     "description": "Olive oil, the juice and zest of a whole lemon, plenty of garlic and a spoon each of Dijon and honey, with dried herbs to round it out. Enough for about 700g of chicken. Thirty minutes minimum, overnight is where the magic happens.",
-    "tags": [
-      "Make ahead",
-      "High protein",
-      "Lemon"
-    ],
+    "tags": ["Make ahead", "High protein", "Lemon"],
     "image": "/recipes/lemon-garlic-herb-chicken-marinade.jpg",
     "imageAlt": "Raw chicken breasts on foil coated in lemon, garlic and chopped herbs, with lemon slices",
     "ingredients": [
@@ -784,9 +731,7 @@
       "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
       "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through."
     ],
-    "categories": [
-      "sauces"
-    ],
+    "categories": ["sauces"],
     "time": 10,
     "level": "Easy",
     "servings": 4,
@@ -815,11 +760,7 @@
     "title": "Creamy chipotle lime chicken marinade",
     "blurb": "Greek yoghurt, chipotles in adobo and lime. Smoky, creamy, a little hot.",
     "description": "Greek yoghurt keeps the chicken tender while chipotles in adobo, lime and cumin bring smoke and heat. Enough for about 700g of chicken. Blend it if you want it smooth. Thirty minutes minimum, overnight is where the magic happens.",
-    "tags": [
-      "Make ahead",
-      "High protein",
-      "Smoky"
-    ],
+    "tags": ["Make ahead", "High protein", "Smoky"],
     "image": "/recipes/creamy-chipotle-lime-chicken-marinade.jpg",
     "imageAlt": "Chargrilled chipotle chicken breasts on a plate with lime wedges and coriander",
     "ingredients": [
@@ -892,9 +833,7 @@
       "Add about 700g of chicken thighs or breast, turn to coat, and marinate for at least 30 minutes. Overnight is best.",
       "Cook however you like: grill, pan-fry, or roast at 200°C for 20 to 25 minutes until cooked through."
     ],
-    "categories": [
-      "sauces"
-    ],
+    "categories": ["sauces"],
     "time": 10,
     "level": "Easy",
     "servings": 4,
@@ -923,12 +862,8 @@
     "title": "Loaded sweet potato taco bowl",
     "blurb": "A roasted sweet potato, smashed, then piled high.",
     "description": "A whole sweet potato roasted until caramelised, smashed in a bowl and topped with seasoned beef mince, mozzarella, tomato, onion, jalapeños and avocado. A big single serve that keeps you full for hours.",
-    "categories": [
-      "dinner"
-    ],
-    "tags": [
-      "High protein"
-    ],
+    "categories": ["dinner"],
+    "tags": ["High protein"],
     "image": "/recipes/loaded-sweet-potato-taco-bowl.jpg",
     "imageAlt": "Top-down view of a roasted sweet potato in a black bowl, loaded with beef mince, pico de gallo and a fan of sliced avocado with flaky salt",
     "time": 50,
@@ -1009,13 +944,8 @@
     "title": "Easy baked salmon",
     "blurb": "Lemon, garlic and herbs. On the table in 25 minutes.",
     "description": "Salmon fillets rubbed with olive oil, garlic, herbs and lemon juice, each topped with a slice of lemon and baked until just flaky. Finish under the grill for a minute if you like colour on top.",
-    "categories": [
-      "dinner",
-      "quick"
-    ],
-    "tags": [
-      "One pan"
-    ],
+    "categories": ["dinner", "quick"],
+    "tags": ["One pan"],
     "image": "/recipes/easy-baked-salmon.jpg",
     "imageAlt": "Three baked salmon fillets covered in herbs, with lemon slices, on a grey plate",
     "time": 25,
@@ -1092,14 +1022,8 @@
     "title": "Overnight oats",
     "blurb": "My one-jar version: oats and chia soaked in almond milk, banana for sweetness, peanut butter because it works.",
     "description": "Overnight oats the way I make them: a small jar of oats and chia soaked in almond milk, mashed banana for sweetness, a spoon of Greek yogurt for tang and protein, and peanut butter because it just goes. Stir it together before bed and breakfast is done. The amounts are for one jar; use the stepper to make a few for the week.",
-    "categories": [
-      "breakfast"
-    ],
-    "tags": [
-      "Overnight",
-      "No cook",
-      "Meal prep"
-    ],
+    "categories": ["breakfast"],
+    "tags": ["Overnight", "No cook", "Meal prep"],
     "image": "/recipes/overnight-oats.jpg",
     "imageAlt": "Four jars of overnight oats topped with apple and pecans, strawberries and peanut butter, peaches and granola, and banana with chocolate chips",
     "time": 10,
@@ -1174,16 +1098,8 @@
     "title": "Creamy sausage pasta",
     "blurb": "Two kinds of sausage in a paprika cream sauce with melted mozzarella. Done in the time the pasta takes.",
     "description": "Sliced sausages, one cheese-filled and one frankfurter, browned and stirred into a quick paprika cream sauce with garlic and a pinch of curry powder, then mozzarella melted through and shells tossed in. It takes as long as the pasta takes to boil, which is why it shows up on busy weeknights.",
-    "categories": [
-      "dinner",
-      "lunch",
-      "quick"
-    ],
-    "tags": [
-      "Sausage",
-      "One pan",
-      "Pasta"
-    ],
+    "categories": ["dinner", "lunch", "quick"],
+    "tags": ["Sausage", "One pan", "Pasta"],
     "image": "/recipes/creamy-sausage-pasta.jpg",
     "imageAlt": "Shell pasta and sliced sausages in an orange paprika cream sauce, a forkful lifted from a white bowl",
     "time": 20,
@@ -1289,15 +1205,8 @@
     "title": "Rolled egg breakfast wraps",
     "blurb": "Ugandan Rolex technique: a thin omelette cooked onto a tortilla, then filled with halloumi and roast veg. Freezer friendly.",
     "description": "Inspired by the Ugandan Rolex: a thin omelette cooked straight onto a tortilla, then filled with grated halloumi, roasted mushrooms and red onion, wilted spinach and hot sauce. Make four at once, wrap them, freeze them, and breakfast on the go is sorted for the week.",
-    "categories": [
-      "breakfast",
-      "veggie"
-    ],
-    "tags": [
-      "Freezer friendly",
-      "Make ahead",
-      "Halloumi"
-    ],
+    "categories": ["breakfast", "veggie"],
+    "tags": ["Freezer friendly", "Make ahead", "Halloumi"],
     "image": "/recipes/rolled-eggs-breakfast-wrap.jpg",
     "imageAlt": "Three halved breakfast wraps in parchment, showing layers of omelette, mushrooms and spinach",
     "time": 40,
@@ -1384,16 +1293,8 @@
     "title": "Tzatziki",
     "blurb": "Greek yogurt, squeezed cucumber, garlic, lemon and dill. Fifteen minutes, keeps for days.",
     "description": "The classic Greek yogurt and cucumber sauce. The one trick is squeezing the grated cucumber dry so the dip stays thick. Makes about 600ml: enough to go with the chicken marinades, pile onto flatbreads, or eat with vegetables all week.",
-    "categories": [
-      "sauces",
-      "quick",
-      "veggie"
-    ],
-    "tags": [
-      "Dip",
-      "Make ahead",
-      "Greek"
-    ],
+    "categories": ["sauces", "quick", "veggie"],
+    "tags": ["Dip", "Make ahead", "Greek"],
     "image": "/recipes/tzatziki.jpg",
     "imageAlt": "A patterned bowl of tzatziki drizzled with olive oil, with grilled pitta and crudités alongside",
     "time": 15,
@@ -1466,15 +1367,8 @@
     "title": "Red lentil curry",
     "blurb": "Slow-cooked onions and carrots, red lentils and coconut milk. One pot, pantry staples.",
     "description": "A simple, deeply savoury curry from pantry staples: onions and carrots cooked slowly until sweet, curry powder, a tin of tomatoes, a tin of coconut milk and a handful of red lentils that melt into the sauce. Vegan, one pot, and better the next day. Serve with rice or flatbreads.",
-    "categories": [
-      "dinner",
-      "veggie"
-    ],
-    "tags": [
-      "Vegan",
-      "One pan",
-      "Curry"
-    ],
+    "categories": ["dinner", "veggie"],
+    "tags": ["Vegan", "One pan", "Curry"],
     "image": "/recipes/red-lentil-curry.jpg",
     "imageAlt": "A bowl of orange red lentil curry topped with parsley, with the pot and a dish of dried lentils beside it",
     "time": 55,
@@ -1559,16 +1453,8 @@
     "title": "Avocado toast",
     "blurb": "Crisp toast, mashed avocado with lemon and salt, a fried egg on top if you like.",
     "description": "The ten-minute breakfast: bread toasted until properly crisp, a ripe avocado mashed with lemon juice and salt so it keeps some texture, then chilli flakes and a thread of olive oil. Add a fried or poached egg to make it a meal.",
-    "categories": [
-      "breakfast",
-      "quick",
-      "veggie"
-    ],
-    "tags": [
-      "Toast",
-      "Eggs",
-      "10 minutes"
-    ],
+    "categories": ["breakfast", "quick", "veggie"],
+    "tags": ["Toast", "Eggs", "10 minutes"],
     "image": "/recipes/avocado-toast.jpg",
     "imageAlt": "Avocado toast topped with a fried egg, basil leaves and everything seasoning on a white plate",
     "time": 10,
@@ -1635,16 +1521,8 @@
     "title": "Vegetable omelette",
     "blurb": "Three eggs, pepper, mushroom and spinach, folded over melted cheese. Ten minutes.",
     "description": "A soft, fluffy omelette for one. The vegetables are softened first so the eggs cook fast over gentle heat, then the pan is tilted so the raw egg runs underneath and the omelette folds over cheese while the top is still barely set.",
-    "categories": [
-      "breakfast",
-      "quick",
-      "veggie"
-    ],
-    "tags": [
-      "Eggs",
-      "10 minutes",
-      "High protein"
-    ],
+    "categories": ["breakfast", "quick", "veggie"],
+    "tags": ["Eggs", "10 minutes", "High protein"],
     "image": "/recipes/vegetable-omelette.jpg",
     "imageAlt": "A folded omelette with melted cheese and chives on a white plate with lettuce and tomato",
     "time": 10,
@@ -1718,16 +1596,8 @@
     "title": "Balsamic roasted vegetables",
     "blurb": "Sweet potato, peppers and broccoli roasted hot, then glazed with balsamic. A week of sides in one tray.",
     "description": "A big tray of roasted vegetables for the week: sweet potato gets a head start in a hot oven, peppers and broccoli join later, and a splash of balsamic at the end glazes everything as it finishes browning. Eat them warm as a side or cold on salads. Vegan and gluten-free.",
-    "categories": [
-      "dinner",
-      "veggie"
-    ],
-    "tags": [
-      "Vegan",
-      "Side",
-      "Sheet pan",
-      "Meal prep"
-    ],
+    "categories": ["dinner", "veggie"],
+    "tags": ["Vegan", "Side", "Sheet pan", "Meal prep"],
     "image": "/recipes/balsamic-roasted-vegetables.jpg",
     "imageAlt": "Roasted sweet potato, broccoli and red and green peppers piled on a speckled plate with a serving spoon",
     "time": 50,
@@ -1801,18 +1671,8 @@
     "title": "Tomato and egg cottage cheese pot",
     "blurb": "Oregano-marinated cherry tomatoes, cottage cheese, cucumber and a jammy egg in a jar. Prep the night before.",
     "description": "Cherry tomatoes marinated in oregano and olive oil until they release their juices, which become the dressing, layered in a jar with cool cottage cheese, crunchy cucumber and a seven-minute egg, then basil torn over the top. Eat it straight away or keep it sealed in the fridge for a couple of days.",
-    "categories": [
-      "breakfast",
-      "lunch",
-      "quick",
-      "veggie"
-    ],
-    "tags": [
-      "High protein",
-      "Meal prep",
-      "No cook",
-      "Eggs"
-    ],
+    "categories": ["breakfast", "lunch", "quick", "veggie"],
+    "tags": ["High protein", "Meal prep", "No cook", "Eggs"],
     "image": "/recipes/tomato-egg-cottage-cheese-pot.jpg",
     "imageAlt": "A white bowl of cottage cheese, halved jammy eggs, cherry tomatoes, cucumber and basil",
     "time": 17,
@@ -1886,16 +1746,8 @@
     "title": "Parmesan asparagus with poached eggs",
     "blurb": "Blanched asparagus grilled under a crust of parmesan, a poached egg on top, toast on the side.",
     "description": "Simple and elegant: thick asparagus blanched until just tender, brushed with butter, showered with Parmigiano-Reggiano and flashed under the grill, then topped with a poached egg cooked in the same water. Break the yolk over the spears and mop it up with toast.",
-    "categories": [
-      "breakfast",
-      "lunch",
-      "veggie"
-    ],
-    "tags": [
-      "Eggs",
-      "Asparagus",
-      "High protein"
-    ],
+    "categories": ["breakfast", "lunch", "veggie"],
+    "tags": ["Eggs", "Asparagus", "High protein"],
     "image": "/recipes/parmesan-asparagus-with-poached-eggs.jpg",
     "imageAlt": "Two fried eggs with chilli flakes and herbs on a bed of roasted asparagus spears",
     "time": 30,
@@ -1963,15 +1815,8 @@
     "title": "Creamy lemon garlic salmon pasta",
     "blurb": "Seared salmon flaked through egg pasta in a lemon, garlic and parmesan cream sauce.",
     "description": "Salmon seared in olive oil and flaked into ribbons of egg pasta coated in a sauce of butter, onion, garlic, chicken stock and cream, sharpened with lemon juice and zest and thickened with Parmigiano-Reggiano. The caption only listed the ingredients; the method here is how it goes together in the video.",
-    "categories": [
-      "dinner"
-    ],
-    "tags": [
-      "Pasta",
-      "Salmon",
-      "High protein",
-      "Weeknight"
-    ],
+    "categories": ["dinner"],
+    "tags": ["Pasta", "Salmon", "High protein", "Weeknight"],
     "image": "/recipes/creamy-lemon-garlic-salmon-pasta.jpg",
     "imageAlt": "Tongs lifting creamy tagliatelle with flakes of seared salmon and chopped parsley",
     "time": 30,
@@ -2087,18 +1932,8 @@
     "title": "Georgian salad",
     "blurb": "Tomato, cucumber and red onion in a walnut, garlic and blue fenugreek dressing.",
     "description": "The tomato and cucumber salad from every Georgian table, in its walnut version: the walnuts are blended with garlic, lemon juice, Kakhetian oil, coriander and utskho suneli into a thick dressing that clings to the vegetables. Kakhetian oil is unrefined sunflower oil; utskho suneli is blue fenugreek. Both are worth finding, but ordinary sunflower oil and a pinch of ground fenugreek will get you close.",
-    "categories": [
-      "lunch",
-      "quick",
-      "veggie"
-    ],
-    "tags": [
-      "Salad",
-      "Georgian",
-      "Walnuts",
-      "No cook",
-      "Vegan"
-    ],
+    "categories": ["lunch", "quick", "veggie"],
+    "tags": ["Salad", "Georgian", "Walnuts", "No cook", "Vegan"],
     "image": "/recipes/georgian-salad.jpg",
     "imageAlt": "A plate of tomato, cucumber and red onion salad coated in a crumbly walnut dressing with herbs",
     "time": 15,
@@ -2178,15 +2013,8 @@
     "title": "Carrot cake overnight oats",
     "blurb": "Oats, yogurt and grated carrot with cinnamon, ginger and nutmeg. Tastes like cake, counts as breakfast.",
     "description": "Carrot cake flavours in a jar of overnight oats: grated carrot, cinnamon, ginger and nutmeg stirred into oats, Greek yogurt and milk, with raisins for sweetness and walnuts on top for crunch. Make two jars the night before and breakfast is done. Swap the yogurt and milk for plant-based ones to keep it vegan.",
-    "categories": [
-      "breakfast"
-    ],
-    "tags": [
-      "Overnight",
-      "No cook",
-      "Meal prep",
-      "Vegan"
-    ],
+    "categories": ["breakfast"],
+    "tags": ["Overnight", "No cook", "Meal prep", "Vegan"],
     "image": "/recipes/carrot-cake-overnight-oats.jpg",
     "imageAlt": "A glass jar of carrot cake overnight oats with raisins and cinnamon, a gold spoon standing in it",
     "time": 10,
@@ -2276,13 +2104,8 @@
     "title": "Ultimate carbonara",
     "blurb": "No cream, lots of black pepper: egg yolks, smoked bacon, two cheeses and starchy pasta water, plus a little garlic.",
     "description": "Mob's take on the classic, and there is no cream anywhere near it. Egg yolks are whisked with grated pecorino, parmesan and a very generous amount of black pepper, crisp smoked bacon and sliced garlic wait in the pan, and the drained spaghetti is tossed through with ladles of starchy pasta water until it turns silky. Crack the eggs into a separate bowl first, keep the whites for meringue, and if it looks thick add more pasta water: it should be smooth, not scrambled.",
-    "categories": [
-      "dinner",
-      "quick"
-    ],
-    "tags": [
-      "Pasta"
-    ],
+    "categories": ["dinner", "quick"],
+    "tags": ["Pasta"],
     "image": "/recipes/ultimate-carbonara.jpg",
     "imageAlt": "Tongs lifting a tangle of creamy carbonara spaghetti flecked with bacon out of a black frying pan",
     "time": 25,
@@ -2355,16 +2178,8 @@
     "title": "Hummus",
     "blurb": "Silky hummus from a jar of chickpeas, tahini, cumin and lemon, blitzed with the chickpea liquid and finished with olive oil and za’atar.",
     "description": "Mob's silky hummus, and the trick is what goes in the blender: a whole jar of chickpeas with their liquid, tahini, a little garlic, cumin and lemon, blitzed until completely smooth. The olive oil is not blended in but poured over at the end, which is what keeps it light, and the best chickpeas and extra virgin olive oil you can find make a real difference. It keeps for 3 to 5 days in the fridge.",
-    "categories": [
-      "sauces",
-      "veggie",
-      "quick"
-    ],
-    "tags": [
-      "Dip",
-      "Vegan",
-      "No cook"
-    ],
+    "categories": ["sauces", "veggie", "quick"],
+    "tags": ["Dip", "Vegan", "No cook"],
     "image": "/recipes/hummus.jpg",
     "imageAlt": "A speckled bowl of swirled hummus topped with olive oil, whole chickpeas and za’atar, a hand dipping a piece of bread into it",
     "time": 10,
@@ -2432,15 +2247,8 @@
     "title": "Healthy cheesecake",
     "blurb": "Four ingredients and no crust: Greek yogurt, eggs, honey and vanilla whisked in one bowl, baked until just set and chilled overnight.",
     "description": "A crustless cheesecake made from thick Greek yogurt, eggs, honey and vanilla: whisk in one bowl, bake until the edges are set and the middle still wobbles, then cool and chill for at least four hours (overnight is better). It sets to a smooth, custardy slice with a good amount of protein and no refined sugar. Use thick yogurt, not a watery one, and do not overbake. Fold in a handful of blueberries or add lemon zest to the batter if you like; it keeps for 4 to 5 days in the fridge, and slices freeze for a month.",
-    "categories": [
-      "dessert",
-      "baking"
-    ],
-    "tags": [
-      "High protein",
-      "Make ahead",
-      "Eggs"
-    ],
+    "categories": ["dessert", "baking"],
+    "tags": ["High protein", "Make ahead", "Eggs"],
     "image": "/recipes/healthy-cheesecake.jpg",
     "imageAlt": "A baked cheesecake with a caramelised top on a glass cake stand, one slice cut out to show the creamy inside",
     "time": 50,
@@ -2500,16 +2308,8 @@
     "title": "Spicy peanut butter noodles",
     "blurb": "Rice noodles in a peanut, soy, ginger and sriracha sauce whisked together in the pan. Vegan, and about 15 minutes.",
     "description": "Garlic and ginger softened in a little oil, then peanut butter, tamari, rice vinegar, sesame oil, sriracha and a spoon of maple syrup whisked in with hot water until smooth. Rice noodles are tossed through half the sauce to start, with the rest added to taste, and the bowl finished with crushed peanuts, spring onions and chilli flakes. It makes more sauce than you strictly need, which is the point: stir in tofu, chicken or vegetables and there is enough to coat them too.",
-    "categories": [
-      "dinner",
-      "quick",
-      "veggie"
-    ],
-    "tags": [
-      "Pasta",
-      "Vegan",
-      "Weeknight"
-    ],
+    "categories": ["dinner", "quick", "veggie"],
+    "tags": ["Pasta", "Vegan", "Weeknight"],
     "image": "/recipes/spicy-peanut-butter-noodles.jpg",
     "imageAlt": "A bowl of rice noodles coated in peanut sauce, topped with crushed peanuts, sliced spring onions and chilli flakes, chopsticks resting on the rim",
     "time": 15,
@@ -2629,5 +2429,518 @@
       "fibre": 3,
       "sodium": 870
     }
+  },
+  {
+    "slug": "red-lentil-soup",
+    "title": "Red lentil soup",
+    "blurb": "Turkish-style: cumin, tomato paste and a little chilli, half puréed, finished with lemon and coriander.",
+    "description": "Based on the Turkish mercimek çorbası, this is a light, spicy, bright red lentil soup that takes under an hour. Onion and garlic soften in olive oil, then tomato paste, cumin and chilli cook for a couple of minutes to deepen the flavour before the stock, water, red lentils and diced carrot go in for 30 minutes. Blending half the pot leaves it somewhere between chunky and smooth, and a squeeze of lemon at the end lifts the cumin and chilli.",
+    "categories": ["dinner", "lunch", "veggie"],
+    "tags": ["Soup", "Vegan", "Freezer friendly"],
+    "image": "/recipes/red-lentil-soup.jpg",
+    "imageAlt": "Two bowls of orange red lentil soup topped with coriander leaves and olive oil, with the pot and a wooden spoon behind and a plate of lemon wedges beside them",
+    "time": 45,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "olive oil, plus more for drizzling"
+      },
+      {
+        "qty": 1,
+        "name": "large onion, chopped"
+      },
+      {
+        "qty": 2,
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "tomato paste"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "unit": "to taste",
+        "name": "salt and black pepper"
+      },
+      {
+        "unit": "pinch",
+        "name": "chilli powder or ground cayenne, plus more to taste"
+      },
+      {
+        "qty": 950,
+        "unit": "ml",
+        "name": "vegetable or chicken stock"
+      },
+      {
+        "qty": 480,
+        "unit": "ml",
+        "name": "water"
+      },
+      {
+        "qty": 190,
+        "unit": "g",
+        "name": "red lentils"
+      },
+      {
+        "qty": 1,
+        "name": "large carrot, peeled and diced"
+      },
+      {
+        "qty": 0.5,
+        "name": "lemon, juiced, plus more to taste"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "fresh coriander, chopped"
+      }
+    ],
+    "steps": [
+      "In a large pot, heat the oil over high heat until shimmering. Add the onion and garlic and sauté until golden, about 4 minutes.",
+      "Stir in the tomato paste, cumin, ¼ teaspoon each of salt and black pepper and the chilli powder, and cook for 2 minutes more.",
+      "Add the stock, 480ml water, the lentils and the carrot. Bring to a simmer, then partly cover and turn the heat to medium-low. Simmer until the lentils are soft, about 30 minutes. Taste and add salt if needed.",
+      "Purée half the soup with a stick blender (or in a blender or food processor) and return it to the pot. The soup should still be somewhat chunky.",
+      "Reheat if needed, then stir in the lemon juice and coriander. Serve drizzled with good olive oil and dusted lightly with chilli powder."
+    ],
+    "nutrition": {
+      "basis": "source",
+      "calories": 297,
+      "protein": 13,
+      "fat": 11,
+      "saturatedFat": 1.5,
+      "carbs": 39,
+      "sugars": 4,
+      "fibre": 7,
+      "sodium": 835
+    },
+    "video": {
+      "url": "https://vp.nyt.com/video/2024/06/24/120001_1_HP-Red-Lentil-Soup-CV_wg_480p.mp4",
+      "duration": "2:43"
+    },
+    "source": {
+      "name": "cooking.nytimes.com",
+      "url": "https://cooking.nytimes.com/recipes/1016062-red-lentil-soup"
+    },
+    "added": "2026-09-21"
+  },
+  {
+    "slug": "creamy-bacon-carbonara",
+    "title": "Creamy bacon carbonara",
+    "blurb": "Bacon, mushrooms and onion tossed through spaghetti in a cream, egg and parmesan sauce. 30 minutes.",
+    "description": "A creamy American-style carbonara: crisp bacon, mushrooms and onion cooked in the bacon fat, tossed through warm spaghetti with a sauce of eggs, cream and parmesan that thickens over a low heat. Not the Roman way, but it is on the table in 30 minutes and children eat it without argument.",
+    "categories": ["dinner", "quick", "kid-friendly"],
+    "tags": ["Pasta", "Weeknight", "Bacon"],
+    "image": "/recipes/creamy-bacon-carbonara.jpg",
+    "imageAlt": "A bowl of spaghetti carbonara with crumbled bacon, grated parmesan and chopped parsley, with a fork",
+    "time": 30,
+    "level": "Easy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "qty": 2,
+        "name": "eggs"
+      },
+      {
+        "qty": 60,
+        "unit": "ml",
+        "name": "cream"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "parmesan, grated, plus more to serve"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "fresh parsley, chopped"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "chilli flakes"
+      },
+      {
+        "qty": 225,
+        "unit": "g",
+        "name": "bacon"
+      },
+      {
+        "qty": 3,
+        "name": "mushrooms, chopped (optional)"
+      },
+      {
+        "qty": 1,
+        "name": "small onion, chopped (optional)"
+      },
+      {
+        "qty": 225,
+        "unit": "g",
+        "name": "spaghetti or other pasta"
+      }
+    ],
+    "steps": [
+      "Cook the pasta in a large pot of salted boiling water until al dente.",
+      "Meanwhile, beat the eggs, cream, parmesan, parsley, salt and chilli flakes together in a bowl.",
+      "Fry the bacon until crisp, then crumble it and set aside.",
+      "In 1 to 2 tablespoons of the bacon fat, sauté the onion and mushrooms until the onion is translucent and golden.",
+      "Drain the pasta and, while it is still warm, add the onion and mushrooms.",
+      "Pour the egg mixture over the pasta and stir over a low heat for 1 to 2 minutes until it thickens. Keep the heat low, or you will make scrambled eggs.",
+      "Stir in the crumbled bacon and serve with extra parmesan."
+    ],
+    "nutrition": {
+      "basis": "source",
+      "calories": 385,
+      "protein": 14,
+      "fat": 22,
+      "saturatedFat": 9,
+      "carbs": 32,
+      "sugars": 2,
+      "fibre": 2,
+      "sodium": 450
+    },
+    "video": {
+      "url": "https://content.jwplatform.com/videos/wmuvBeUD.mp4"
+    },
+    "source": {
+      "name": "therecipecritic.com",
+      "url": "https://therecipecritic.com/creamy-bacon-carbonara/"
+    },
+    "added": "2026-09-21"
+  },
+  {
+    "slug": "syrniki",
+    "title": "Syrniki (Russian cheese pancakes)",
+    "blurb": "Pillowy farmer's cheese pancakes, dredged in flour and fried golden. Serve with sour cream and jam.",
+    "description": "Soft, cheesy little pancakes made from farmer's cheese (dry-curd cottage cheese, or Georgian khacho), egg, a little flour and sugar. The dough is thick, so each one is shaped by hand, dredged in flour and fried slowly until golden. Eat them with syrup like American pancakes, or the traditional way with a spoonful of sour cream and fruit preserves.",
+    "categories": ["breakfast", "kid-friendly", "veggie", "quick"],
+    "tags": ["Pancakes", "Russian"],
+    "image": "/recipes/syrniki.jpg",
+    "imageAlt": "Three golden syrniki on a gold-rimmed plate with blueberries, a spoon dropping blueberry sauce onto the top one",
+    "time": 25,
+    "level": "Easy",
+    "servings": 12,
+    "ingredients": [
+      {
+        "qty": 450,
+        "unit": "g",
+        "name": "farmer's cheese (dry-curd cottage cheese), strained if wet"
+      },
+      {
+        "qty": 2,
+        "name": "eggs"
+      },
+      {
+        "qty": 65,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "qty": 65,
+        "unit": "g",
+        "name": "plain flour, for dredging"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "sugar"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "name": "raisins (optional)"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil, for frying"
+      }
+    ],
+    "steps": [
+      "Crumble the farmer's cheese into small pieces in a large bowl with a fork (strain it first if it is wet rather than crumbly).",
+      "Add the eggs and mix well. Add 65g of the flour, the sugar and the salt and mix, using the fork to break up any lumps of flour or cheese. Stir in the raisins, if using. The batter is thick like a dough, not a pourable pancake batter.",
+      "Put the flour for dredging in a small bowl. Scoop out about 60g of dough at a time, gently flatten it into a small patty with your hands and dredge both sides in flour. Shake off the excess and set aside until all are shaped.",
+      "Heat 3 to 4 tablespoons of vegetable oil in a large frying pan and lay the pancakes in gently with a spatula. Cook over medium-low heat for 4 to 5 minutes per side until golden brown, then drain on kitchen paper. Do not crowd the pan: cook them in 2 or 3 batches.",
+      "Serve dusted with icing sugar or drizzled with maple syrup or honey, or the traditional way with sour cream and your favourite fruit preserves."
+    ],
+    "nutrition": {
+      "basis": "source",
+      "calories": 133,
+      "protein": 7,
+      "fat": 7,
+      "saturatedFat": 3,
+      "carbs": 10,
+      "sugars": 4,
+      "fibre": 0.2,
+      "sodium": 210
+    },
+    "video": {
+      "url": "https://www.youtube.com/watch?v=yIePzEYf45Q",
+      "duration": "1:15"
+    },
+    "source": {
+      "name": "babaganosh.org",
+      "url": "https://www.babaganosh.org/syrniki-russian-cheese-pancakes/"
+    },
+    "added": "2026-09-21"
+  },
+  {
+    "slug": "pad-see-ew-woon-sen",
+    "title": "Soy sauce glass noodles (pad see ew woon sen)",
+    "blurb": "Pad see ew with glass noodles: chicken, egg and Chinese broccoli in a sweet soy sauce, with chilli vinegar on the side.",
+    "description": "Marion Grasby's take on pad see ew made with glass noodles instead of wide rice noodles. Thin slices of chicken thigh marinate briefly in soy and sesame oil, then everything goes through a hot wok in minutes: garlic, chicken, egg, Chinese broccoli, the soaked noodles and a sauce of soy, fish sauce and sweet dark soy. The chilli vinegar on the side is what makes it taste like the street stall, so don't skip it.",
+    "categories": ["dinner", "quick"],
+    "tags": ["Noodles", "Thai", "Weeknight"],
+    "image": "/recipes/pad-see-ew-woon-sen.jpg",
+    "imageAlt": "A fork lifting glass noodles from a plate of pad see ew woon sen with chicken, Chinese broccoli and sliced red chilli",
+    "time": 20,
+    "level": "Easy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "chicken thighs, sliced into thin bite-sized pieces"
+      },
+      {
+        "qty": 160,
+        "unit": "g",
+        "name": "dried glass noodles (mung bean, cellophane or bean thread noodles)"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil"
+      },
+      {
+        "qty": 3,
+        "unit": "cloves",
+        "name": "garlic, roughly chopped"
+      },
+      {
+        "qty": 2,
+        "name": "eggs, lightly whisked"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "Chinese broccoli, cut into bite-sized pieces"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground white pepper"
+      },
+      {
+        "group": "Marinade",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "light soy sauce"
+      },
+      {
+        "group": "Marinade",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "sesame oil"
+      },
+      {
+        "group": "Marinade",
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ground white pepper"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "soy sauce"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "fish sauce"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 2,
+        "unit": "tsp",
+        "name": "sweet dark soy sauce (kecap manis)"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "sugar"
+      },
+      {
+        "group": "Chilli vinegar",
+        "qty": 60,
+        "unit": "ml",
+        "name": "white vinegar"
+      },
+      {
+        "group": "Chilli vinegar",
+        "qty": 1,
+        "name": "long red chilli, finely sliced"
+      }
+    ],
+    "steps": [
+      "Combine the chicken with the marinade ingredients and set aside while you prepare the noodles.",
+      "Put the noodles in a large bowl and cover with warm (not boiling) water. Soak for 2 to 3 minutes until just tender, then drain and set aside.",
+      "Mix the stir-fry sauce ingredients together.",
+      "Make the chilli vinegar by combining the vinegar and chilli in a small bowl.",
+      "Heat the oil in a large wok or frying pan over high heat. Add the garlic and toss for a couple of seconds, then add the chicken and stir-fry until just cooked. Add the egg and let it set for a minute or so before breaking it up. Add the Chinese broccoli and stir-fry for another half a minute. Add the noodles and the stir-fry sauce and toss until well combined, then toss through the white pepper. Serve with the chilli vinegar."
+    ],
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 730,
+      "protein": 36.1,
+      "fat": 27.5,
+      "saturatedFat": 5.6,
+      "carbs": 82.1,
+      "sugars": 7.1,
+      "fibre": 2.2,
+      "sodium": 1972
+    },
+    "source": {
+      "name": "marionskitchen.com",
+      "url": "https://www.marionskitchen.com/thai-soy-sauce-glass-noodles-pad-see-ew-woon-sen/"
+    },
+    "added": "2026-09-21"
+  },
+  {
+    "slug": "pad-woon-sen",
+    "title": "Thai glass noodle stir-fry (pad woon sen)",
+    "blurb": "Glass noodles soak up a soy, fish sauce and hoisin stir-fry sauce with chicken, mushrooms and red pepper. 30 minutes.",
+    "description": "Pad woon sen from The Spruce Eats: bean thread noodles that drink up a sweet-salty stir-fry sauce of stock, soy, fish sauce, hoisin and brown sugar, with chicken (or tofu), mushrooms, red pepper, garlic and shallot. The sauce is made first and used three ways: a little to marinate the chicken, some to keep the pan from drying out, and the rest tossed through the noodles at the end. Finish with a squeeze of lime and a handful of coriander.",
+    "categories": ["dinner", "lunch", "quick"],
+    "tags": ["Noodles", "Thai", "Weeknight"],
+    "image": "/recipes/pad-woon-sen.jpg",
+    "imageAlt": "Two grey bowls of glass noodle stir-fry with chicken, mushrooms, red pepper and coriander, each with a lime wedge, and a gold fork between them",
+    "time": 30,
+    "level": "Easy",
+    "servings": 3,
+    "ingredients": [
+      {
+        "qty": 1,
+        "name": "chicken breast (or 175g firm tofu)"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "bean thread noodles (or thin rice noodles)"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil, plus ½ tsp for the noodles"
+      },
+      {
+        "qty": 3,
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "qty": 1,
+        "name": "shallot, finely chopped (or 40g red onion)"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "mushrooms, chopped"
+      },
+      {
+        "qty": 1,
+        "name": "small red bell pepper, diced"
+      },
+      {
+        "unit": "to taste",
+        "name": "lemon or lime juice (optional)"
+      },
+      {
+        "unit": "handful",
+        "name": "fresh coriander leaves"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 80,
+        "unit": "ml",
+        "name": "vegetable or chicken stock"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "soy sauce"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 1.5,
+        "unit": "tbsp",
+        "name": "fish sauce (or another 1½ tbsp soy sauce for a vegan version)"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "hoisin sauce"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "group": "Stir-fry sauce",
+        "unit": "to taste",
+        "name": "chilli flakes"
+      }
+    ],
+    "steps": [
+      "Mix the stir-fry sauce ingredients in a cup or bowl. Drizzle 2 tablespoons of it over the chicken or tofu, toss to coat and leave in the fridge to marinate until you are ready to cook.",
+      "Cook the noodles according to the packet, either in a large pot of boiling water or by pouring boiling water over them in a bowl. Stir to separate them and cook or soak until transparent and soft enough to eat (rice noodles should stay al dente). Drain, rinse with cold water, drizzle with ½ teaspoon of vegetable oil and toss so they don't stick.",
+      "Heat a wok or large frying pan over medium-high heat. Drizzle in 2 tablespoons of vegetable oil, add the garlic and shallot and stir-fry for 1 minute. Add the chicken or tofu and stir-fry until the chicken turns opaque or the tofu starts to brown, about 2 minutes. If the pan dries out, add 1 to 2 tablespoons of the stir-fry sauce.",
+      "Add the mushrooms, pepper and 2 to 3 tablespoons of the stir-fry sauce. Stir-fry for 1 to 2 minutes.",
+      "Add the noodles and three-quarters of the remaining sauce. Use tongs or two forks to lift and toss the noodles with everything else so they absorb most of the sauce.",
+      "Taste, adding more or all of the remaining sauce as needed. For more salt, add fish sauce or soy sauce; to cut the saltiness, add a squeeze of lemon or lime juice.",
+      "Serve straight away with the coriander scattered on top."
+    ],
+    "nutrition": {
+      "basis": "source",
+      "calories": 290,
+      "protein": 20,
+      "fat": 6,
+      "saturatedFat": 1,
+      "carbs": 41,
+      "sugars": 12,
+      "fibre": 6,
+      "sodium": 1503
+    },
+    "source": {
+      "name": "thespruceeats.com",
+      "url": "https://www.thespruceeats.com/thai-glass-noodles-3217107"
+    },
+    "added": "2026-09-21"
   }
 ]

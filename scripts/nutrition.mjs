@@ -166,6 +166,11 @@ const FOODS = [
     per100: [29, 0.9, 0.4, 0, 6.5, 4.1, 2.8, 3],
     piece: 14,
   },
+  {
+    keys: ['chilli', 'chili', 'red chilli', 'long red chilli', 'red chili', 'fresh chilli'],
+    per100: [40, 1.9, 0.4, 0, 8.8, 5.3, 1.5, 9],
+    piece: 15,
+  },
   { keys: ['mushroom', 'mushrooms'], per100: [22, 3.1, 0.3, 0, 3.3, 2, 1, 5], piece: 18 },
   { keys: ['carrot', 'carrots'], per100: [41, 0.9, 0.2, 0, 9.6, 4.7, 2.8, 69], piece: 61, tbsp: 7 },
   { keys: ['broccoli', 'broccoli florets'], per100: [34, 2.8, 0.4, 0.1, 6.6, 1.7, 2.6, 33] },
@@ -195,6 +200,10 @@ const FOODS = [
   {
     keys: ['rice noodles', 'noodles', 'brown rice noodles'],
     per100: [364, 7, 2.8, 0.6, 76, 1, 3, 20],
+  },
+  {
+    keys: ['glass noodles', 'bean thread noodles', 'cellophane noodles', 'mung bean noodles'],
+    per100: [351, 0.2, 0.1, 0, 86, 0, 0.5, 10],
   },
   {
     keys: ['flour', 'self-raising flour', 'plain flour'],
@@ -259,6 +268,13 @@ const FOODS = [
     per100: [57, 8, 0.1, 0, 7, 2, 0.8, 3600],
     tbsp: 16,
   },
+  { keys: ['fish sauce'], per100: [35, 5.1, 0, 0, 3.6, 3.6, 0, 7850], tbsp: 18 },
+  {
+    keys: ['sweet dark soy sauce', 'sweet soy sauce', 'kecap manis'],
+    per100: [260, 5, 0, 0, 60, 55, 0, 3500],
+    tbsp: 20,
+  },
+  { keys: ['hoisin sauce', 'hoisin'], per100: [220, 3.3, 3.4, 0.5, 44, 27, 2.8, 1615], tbsp: 16 },
   { keys: ['hot sauce', 'sriracha'], per100: [93, 1.9, 0.9, 0.1, 19, 15, 2.2, 2100], tbsp: 17 },
   {
     keys: ['chilli garlic sauce', 'chili garlic sauce'],
@@ -296,7 +312,7 @@ const FOODS = [
     taste: 1,
   },
   {
-    keys: ['black pepper', 'pepper flakes', 'peppercorns'],
+    keys: ['black pepper', 'white pepper', 'ground white pepper', 'pepper flakes', 'peppercorns'],
     per100: [251, 10, 3.3, 1.4, 64, 0.6, 25, 20],
     tbsp: 7,
     pinch: 0.3,
