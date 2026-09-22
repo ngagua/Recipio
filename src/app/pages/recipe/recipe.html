@@ -153,9 +153,7 @@
         >
           {{ lang.t('ingredients') }}
         </h2>
-        <div
-          class="mt-[26px] flex items-center justify-between rounded-[4px] bg-raised px-[18px] py-4 md:mt-5"
-        >
+        <div class="card mt-[26px] flex items-center justify-between px-[18px] py-4 md:mt-5">
           <div>
             <p class="text-[10px] font-semibold tracking-[0.14em] text-dim uppercase">
               {{ lang.t('servingsLabel') }}
@@ -227,17 +225,31 @@
         >
           {{ lang.t('method') }}
         </h2>
-        <ol class="mt-7 flex flex-col gap-[26px] md:mt-6">
-          @for (step of r.steps; track $index) {
-            <li class="flex gap-4">
-              <span
-                class="shrink-0 pt-[3px] font-display text-[15px] font-semibold text-acid tabular-nums"
-                aria-hidden="true"
-                >{{ $index + 1 }}</span
+        <ol class="mt-4 flex flex-col gap-1.5 md:mt-3">
+          @for (step of r.steps; track slug() + $index) {
+            <li>
+              <!-- The row is a checkbox label: tick a step to strike it through. -->
+              <label
+                class="-mx-3 flex cursor-pointer gap-4 rounded-[8px] px-3 py-2.5 transition-colors hover:bg-raised/60"
               >
-              <p class="text-[15px] leading-[1.65] text-pretty text-body md:text-base">
-                {{ step }}
-              </p>
+                <input type="checkbox" class="peer sr-only" />
+                <span
+                  class="shrink-0 pt-[3px] font-display text-[15px] font-semibold text-acid tabular-nums transition-colors duration-300 peer-checked:text-dim"
+                  aria-hidden="true"
+                  >{{ $index + 1 }}</span
+                >
+                <p
+                  class="flex-1 text-[15px] leading-[1.65] text-pretty text-body transition-colors duration-300 peer-checked:text-dim peer-checked:line-through md:text-base"
+                >
+                  {{ step }}
+                </p>
+                <span
+                  class="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full border border-line-2 text-transparent transition-colors duration-300 peer-checked:animate-pop peer-checked:border-acid peer-checked:bg-acid peer-checked:text-surface peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-acid"
+                  aria-hidden="true"
+                >
+                  <span class="ms text-[18px]">check</span>
+                </span>
+              </label>
             </li>
           }
         </ol>
@@ -258,21 +270,25 @@
           {{ lang.t('nutritionPerServing') }}
         </p>
         <div class="mt-3 grid grid-cols-2 gap-2">
-          <div class="rounded-[4px] bg-raised px-4 py-4 text-center">
+          <div class="card px-4 py-4 text-center">
             <p class="text-xs font-medium text-muted">{{ lang.t('calories') }}</p>
             <p
               class="mt-1 font-display text-[26px] leading-none font-bold tracking-[-0.02em] text-bone"
             >
-              {{ round(r.nutrition.calories) }}
+              <span [appCountUp]="round(r.nutrition.calories)">{{
+                round(r.nutrition.calories)
+              }}</span>
               <span class="text-sm font-semibold text-muted">{{ lang.t('kcal') }}</span>
             </p>
           </div>
-          <div class="rounded-[4px] bg-raised px-4 py-4 text-center">
+          <div class="card px-4 py-4 text-center">
             <p class="text-xs font-medium text-muted">{{ lang.t('protein') }}</p>
             <p
               class="mt-1 font-display text-[26px] leading-none font-bold tracking-[-0.02em] text-bone"
             >
-              {{ round(r.nutrition.protein) }}
+              <span [appCountUp]="round(r.nutrition.protein)">{{
+                round(r.nutrition.protein)
+              }}</span>
               <span class="text-sm font-semibold text-muted">{{ lang.t('g') }}</span>
             </p>
           </div>

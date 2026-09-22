@@ -10,6 +10,7 @@ import {
   signal,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { CountUpDirective } from '../../core/count-up.directive';
 import { ingredientIcon } from '../../core/ingredient-icon';
 import { LangService } from '../../core/lang.service';
 import { formatQuantity } from '../../core/quantity';
@@ -20,7 +21,7 @@ import { CookMode } from './cook-mode';
 
 @Component({
   selector: 'app-recipe',
-  imports: [RouterLink, NgOptimizedImage, CookMode],
+  imports: [RouterLink, NgOptimizedImage, CookMode, CountUpDirective],
   templateUrl: './recipe.html',
   host: { class: 'block animate-page-in' },
 })

@@ -4,14 +4,15 @@ import { RouterLink } from '@angular/router';
 import { LangService } from '../core/lang.service';
 import { Recipe } from '../core/recipe.model';
 import { RecipeService } from '../core/recipe.service';
+import { TiltDirective } from '../core/tilt.directive';
 
 @Component({
   selector: 'app-recipe-card',
-  imports: [RouterLink, NgOptimizedImage],
+  imports: [RouterLink, NgOptimizedImage, TiltDirective],
   host: { class: 'block' },
   template: `
-    <a [routerLink]="lang.link('/recipes/' + recipe().slug)" class="group block">
-      <div class="relative aspect-[4/5] overflow-hidden rounded-[3px] bg-raised">
+    <a [routerLink]="lang.link('/recipes/' + recipe().slug)" appTilt class="card group flex h-full flex-col p-2">
+      <div class="relative aspect-[4/5] overflow-hidden rounded-[7px] bg-hair">
         <img
           [ngSrc]="recipe().image"
           [alt]="recipe().imageAlt ?? ''"
@@ -25,11 +26,11 @@ import { RecipeService } from '../core/recipe.service';
         >
       </div>
       <h3
-        class="mt-3 font-display text-[17px] leading-[1.15] font-semibold tracking-[-0.025em] text-pretty text-bone"
+        class="mt-3 px-1 font-display text-[17px] leading-[1.15] font-semibold tracking-[-0.025em] text-pretty text-bone"
       >
         {{ recipe().title }}
       </h3>
-      <p class="caps mt-1.5 text-dim">{{ categoryName() }}</p>
+      <p class="caps mt-1.5 px-1 pb-1 text-dim">{{ categoryName() }}</p>
     </a>
   `,
 })

@@ -25,9 +25,18 @@
 
   --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
 
+  /* Elevation on a dark surface: a hairline highlight on top, a soft drop below. */
+  --shadow-card:
+    inset 0 1px 0 rgb(255 255 255 / 0.04), 0 1px 2px rgb(0 0 0 / 0.5),
+    0 14px 32px -10px rgb(0 0 0 / 0.6);
+  --shadow-card-hover:
+    inset 0 1px 0 rgb(255 255 255 / 0.07), 0 2px 4px rgb(0 0 0 / 0.5),
+    0 28px 48px -14px rgb(0 0 0 / 0.75);
+
   --animate-page-in: page-in 420ms var(--ease-expo) both;
   --animate-sheet-in: sheet-in 450ms var(--ease-expo) both;
   --animate-rise: rise 900ms var(--ease-expo) both;
+  --animate-pop: pop 380ms var(--ease-expo);
 
   @keyframes page-in {
     from {
@@ -53,6 +62,17 @@
     to {
       opacity: 1;
       transform: none;
+    }
+  }
+  @keyframes pop {
+    from {
+      transform: scale(0.6);
+    }
+    60% {
+      transform: scale(1.18);
+    }
+    to {
+      transform: scale(1);
     }
   }
 }
@@ -143,6 +163,20 @@
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
+  }
+}
+/* Elevated card: raised surface, hairline border, shadow that deepens on hover (the lift itself is `appTilt`) */
+@utility card {
+  border-radius: 12px;
+  border: 1px solid var(--color-hair);
+  background: var(--color-raised);
+  box-shadow: var(--shadow-card);
+  transition:
+    box-shadow 400ms var(--ease-expo),
+    border-color 400ms;
+  &:hover {
+    border-color: var(--color-line-2);
+    box-shadow: var(--shadow-card-hover);
   }
 }
 @utility icon-btn {
