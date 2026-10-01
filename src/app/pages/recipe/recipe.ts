@@ -32,9 +32,11 @@ export class RecipePage {
   private readonly ui = inject(UiState);
   protected readonly saved = inject(SavedService);
   protected readonly recipe = computed(() => this.recipes.bySlug(this.slug()));
+  /** Where the back link goes: the category the reader came from if the recipe is filed there, otherwise its first. */
   protected readonly category = computed(() => {
-    const first = this.recipe()?.categories[0];
-    return first && this.recipes.category(first);
+    const categories = this.recipe()?.categories ?? [];
+    const slug = categories.find((c) => c === this.ui.lastCategory()) ?? categories[0];
+    return slug && this.recipes.category(slug);
   });
   /** Phones show one panel at a time; from md both are visible side by side. */
   protected readonly tab = signal<'ingredients' | 'method' | 'nutrition'>('ingredients');

@@ -7,4 +7,6 @@ export class UiState {
   readonly barTitle = signal('');
   /** Slug of the recipe being viewed, so the header bookmark button can toggle it. */
   readonly currentRecipe = signal<string | null>(null);
+  /** Slug of the category page the reader was last on, so a recipe filed under several categories links back to that one. */
+  readonly lastCategory = signal<string | null>(null);
 }

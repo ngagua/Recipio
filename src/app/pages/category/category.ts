@@ -1,8 +1,9 @@
-import { Component, computed, inject, input, linkedSignal } from '@angular/core';
+import { Component, computed, effect, inject, input, linkedSignal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { LangService } from '../../core/lang.service';
 import { RecipeService } from '../../core/recipe.service';
 import { RevealDirective } from '../../core/reveal.directive';
+import { UiState } from '../../core/ui-state.service';
 import { RecipeRow } from '../../shared/recipe-row';
 
 @Component({
@@ -32,6 +33,11 @@ export class CategoryPage {
     computation: () => 'All',
   });
   protected readonly filtered = computed(() => this.matching(this.filter()));
+
+  constructor() {
+    const ui = inject(UiState);
+    effect(() => ui.lastCategory.set(this.slug()));
+  }
 
   private matching(f: string) {
     if (f === 'All') return this.all();
