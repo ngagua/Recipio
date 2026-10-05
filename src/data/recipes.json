@@ -875,47 +875,108 @@
         "name": "large sweet potato (about 350g)"
       },
       {
+        "group": "Taco beef",
         "qty": 200,
         "unit": "g",
         "name": "extra-lean beef mince"
       },
       {
+        "group": "Taco beef",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "onion powder"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "chilli powder or cayenne (optional)"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "group": "Taco beef",
+        "name": "black pepper"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "olive oil, if the mince is very lean"
+      },
+      {
+        "group": "Taco beef",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "water, plus more if needed"
+      },
+      {
+        "group": "To serve",
         "qty": 35,
         "unit": "g",
         "name": "fat-free mozzarella, grated"
       },
       {
+        "group": "To serve",
         "qty": 40,
         "unit": "g",
         "name": "tomato, diced"
       },
       {
+        "group": "To serve",
         "qty": 20,
         "unit": "g",
         "name": "onion, diced"
       },
       {
+        "group": "To serve",
         "qty": 20,
         "unit": "g",
         "name": "jalapeños, sliced"
       },
       {
+        "group": "To serve",
         "qty": 0.5,
         "name": "medium avocado (about 75g)"
       },
       {
+        "group": "To serve",
         "qty": 2,
         "unit": "tbsp",
         "name": "lime juice"
       },
       {
+        "group": "To serve",
         "name": "flaky salt"
       }
     ],
     "steps": [
       "Heat the oven to 220°C. Slice the sweet potato in half lengthways and season the cut sides with flaky salt.",
       "Lay it cut side down on a lined baking tray and bake for about 40 minutes, until soft and caramelised.",
-      "While it cooks, brown the beef mince in a frying pan and season it to your liking.",
+      "About 10 minutes before the sweet potato is ready, heat a frying pan over a medium-high heat. Add the oil if needed, then the beef, breaking it into small pieces. Cook for 4 to 5 minutes, stirring now and then, until browned.",
+      "Add the paprika, cumin, garlic powder, onion powder, chilli (if using), salt and pepper with 1 to 2 tbsp water. Stir everything together and cook for another 1 to 2 minutes, until the spices coat the beef and the liquid has mostly evaporated.",
       "Put both sweet potato halves in a bowl and smash the flesh gently with a fork to make a base.",
       "Top with the mince, mozzarella, tomato, onion, jalapeños and avocado. Finish with the lime juice and a sprinkle of flaky salt."
     ],
@@ -929,14 +990,14 @@
     "added": "2026-09-16",
     "nutrition": {
       "basis": "estimate",
-      "calories": 773,
-      "protein": 61.2,
-      "fat": 21.6,
-      "saturatedFat": 6.2,
-      "carbs": 84.8,
-      "sugars": 18.8,
-      "fibre": 17,
-      "sodium": 966
+      "calories": 832,
+      "protein": 62,
+      "fat": 26.6,
+      "saturatedFat": 6.9,
+      "carbs": 88.8,
+      "sugars": 19,
+      "fibre": 18.3,
+      "sodium": 1552
     }
   },
   {
