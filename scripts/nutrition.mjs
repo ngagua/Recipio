@@ -80,6 +80,11 @@ const FOODS = [
     per100: [165, 25, 6.5, 1.8, 0, 0, 0, 70],
     piece: 150,
   },
+  // weighed on the bone, which is about 30% of it
+  {
+    keys: ['pork ribs', 'ribs', 'spare ribs', 'baby back ribs'],
+    per100: [194, 10.8, 16.4, 5.3, 0, 0, 0, 57],
+  },
   {
     keys: ['chicken stock', 'stock', 'broth'],
     per100: [4, 0.5, 0.1, 0, 0.4, 0.2, 0, 340],
@@ -264,6 +269,11 @@ const FOODS = [
     little: 2,
   },
   {
+    keys: ['instant coffee', 'espresso powder'],
+    per100: [353, 12.2, 0.5, 0.2, 75.4, 0, 0, 37],
+    tbsp: 5,
+  },
+  {
     keys: ['soy sauce', 'tamari', 'low-sodium soy sauce', 'low sodium soy sauce'],
     per100: [57, 8, 0.1, 0, 7, 2, 0.8, 3600],
     tbsp: 16,
@@ -276,6 +286,7 @@ const FOODS = [
   },
   { keys: ['hoisin sauce', 'hoisin'], per100: [220, 3.3, 3.4, 0.5, 44, 27, 2.8, 1615], tbsp: 16 },
   { keys: ['hot sauce', 'sriracha'], per100: [93, 1.9, 0.9, 0.1, 19, 15, 2.2, 2100], tbsp: 17 },
+  { keys: ['ketchup', 'tomato ketchup'], per100: [101, 1, 0.1, 0, 27.4, 22.8, 0.3, 907], tbsp: 17 },
   {
     keys: ['chilli garlic sauce', 'chili garlic sauce'],
     per100: [90, 2, 1, 0.2, 18, 12, 2, 2500],

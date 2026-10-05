@@ -2878,5 +2878,154 @@
       "url": "https://www.thespruceeats.com/thai-glass-noodles-3217107"
     },
     "added": "2026-09-21"
+  },
+  {
+    "slug": "bbq-pork-ribs",
+    "title": "BBQ pork ribs",
+    "blurb": "A coffee and black pepper rub, three hours in foil, then a sticky sweet and spicy glaze.",
+    "description": "Pork ribs brushed with sweet mustard and coated in a rub of black pepper, paprika, garlic, brown sugar and instant coffee, then baked low and slow in foil with a splash of vinegar until the meat comes away from the bone. A sweet and spicy sauce of ketchup, sriracha and brown sugar goes on for the last 15 minutes in a hotter oven, with spring onions and peanuts on top as in the reel. The rub and method are chef.tevzi's; the sauce and the doneness test come from Inspired Taste's oven-baked ribs. The caption gives no weight for the ribs, but the rub is right for about 1.5kg.",
+    "categories": ["dinner"],
+    "tags": ["Sticky"],
+    "image": "/recipes/bbq-pork-ribs.jpg",
+    "imageAlt": "A whole rack of pork ribs with a glossy dark barbecue glaze on baking paper, topped with sliced spring onions and peanuts",
+    "time": 195,
+    "level": "Easy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "qty": 1.5,
+        "unit": "kg",
+        "name": "pork ribs (1 large rack or 2 smaller ones)"
+      },
+      {
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "sweet mustard"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "apple cider vinegar"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "black pepper"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 1.5,
+        "unit": "tbsp",
+        "name": "paprika"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "garlic powder"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 1.5,
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "instant coffee"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "salt"
+      },
+      {
+        "group": "Spice rub",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 60,
+        "unit": "g",
+        "name": "onion, finely diced"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 0.75,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 180,
+        "unit": "ml",
+        "name": "ketchup"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 1.5,
+        "unit": "tbsp",
+        "name": "sriracha or another hot chilli sauce"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "light brown sugar"
+      },
+      {
+        "group": "Barbecue sauce",
+        "qty": 1.5,
+        "unit": "tbsp",
+        "name": "apple cider vinegar"
+      },
+      {
+        "group": "To serve",
+        "name": "spring onions, sliced"
+      },
+      {
+        "group": "To serve",
+        "name": "crushed peanuts"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 150°C. Pull the thin membrane off the back of the ribs and trim off any excess fat. Brush the ribs all over with the sweet mustard and set aside.",
+      "Mix the black pepper, paprika, garlic powder, brown sugar, instant coffee, salt and cumin for the rub, then press it all over the ribs.",
+      "Lay the ribs meaty side down on a large sheet of foil on a baking tray (cut the rack in half if it won't fit) and pour over the vinegar. Wrap them up tightly so no steam can escape and bake at 150°C for 2½ to 3 hours.",
+      "Start checking after 2 hours. The ribs are ready when a knife slides into the meat with almost no resistance and the meat starts to come away from the bone when you bend the rack. If they are still tough, give them longer.",
+      "While the ribs bake, make the sauce. Soften the onion in the olive oil in a small pan over a medium heat for 5 to 8 minutes. Stir in the cumin for 30 seconds, then add the ketchup, sriracha, brown sugar and vinegar, simmer for 2 minutes and set aside.",
+      "Take the ribs out and turn the oven up to 180°C. Open the foil and pour off the juices, brush the ribs generously on both sides with the sauce and turn them meaty side up. Bake uncovered for another 10 to 15 minutes, until the sauce is sticky and nicely coloured, then scatter with spring onions and peanuts to serve."
+    ],
+    "video": {
+      "url": "https://www.instagram.com/reel/DYkJrMDIf6S/"
+    },
+    "source": {
+      "name": "chef.tevzi on Instagram",
+      "url": "https://www.instagram.com/reel/DYkJrMDIf6S/"
+    },
+    "added": "2026-10-05",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 915,
+      "protein": 43.1,
+      "fat": 66.1,
+      "saturatedFat": 20.5,
+      "carbs": 36.3,
+      "sugars": 26.4,
+      "fibre": 3.1,
+      "sodium": 2633
+    }
   }
 ]
