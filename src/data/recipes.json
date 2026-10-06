@@ -3027,5 +3027,140 @@
       "fibre": 3.1,
       "sodium": 2633
     }
+  },
+  {
+    "slug": "butternut-squash-soup",
+    "title": "Butternut squash soup",
+    "blurb": "Roasted squash and carrots blended with ginger, curry and coconut milk, with toasted pumpkin seeds on top.",
+    "description": "Butternut squash, carrots, red onion, pepper, tomatoes and garlic roasted until they catch at the edges, then blended with ginger and curry powder fried in butter, stock and a little coconut milk, with toasted pumpkin seeds on top. The amounts and the curry, ginger and coconut are anncooksss's; roasting the vegetables first is from GQ Jordan Nutrition's take on dr.vegan's viral butternut squash soup. For more protein, do as they do: use bone broth, and blend in 2 tbsp of cottage cheese instead of the coconut milk.",
+    "categories": ["dinner", "lunch", "veggie"],
+    "tags": ["Soup", "Freezer friendly"],
+    "image": "/recipes/butternut-squash-soup.jpg",
+    "imageAlt": "A bowl of smooth orange butternut squash soup with a white swirl, toasted pumpkin seeds, thyme leaves and cracked black pepper",
+    "time": 80,
+    "level": "Easy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "qty": 700,
+        "unit": "g",
+        "name": "butternut squash or pumpkin, peeled and cut into 3cm chunks"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "carrots, cut into chunks"
+      },
+      {
+        "qty": 1,
+        "name": "red onion (about 100g), cut into wedges"
+      },
+      {
+        "qty": 1,
+        "name": "red pepper, deseeded and cut into chunks"
+      },
+      {
+        "qty": 2,
+        "name": "tomatoes, halved"
+      },
+      {
+        "qty": 6,
+        "unit": "cloves",
+        "name": "garlic, unpeeled"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "dried thyme"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "fresh ginger, grated"
+      },
+      {
+        "qty": 2,
+        "unit": "tsp",
+        "name": "curry powder"
+      },
+      {
+        "qty": 1,
+        "unit": "l",
+        "name": "vegetable stock or bone broth"
+      },
+      {
+        "qty": 200,
+        "unit": "ml",
+        "name": "coconut milk"
+      },
+      {
+        "group": "To serve",
+        "name": "pumpkin seeds"
+      },
+      {
+        "group": "To serve",
+        "name": "chilli oil (optional)"
+      },
+      {
+        "group": "To serve",
+        "name": "fresh coriander (optional)"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200°C. Spread the squash, carrots, onion, pepper, tomatoes and garlic cloves over a large baking tray, or two so they aren't crowded. Drizzle with the olive oil, sprinkle over the cumin, paprika, thyme, black pepper and a good pinch of salt, and toss to coat.",
+      "Roast for 45 minutes to 1 hour, turning halfway, until everything is soft and catching at the edges. Big chunks can take up to 1½ hours.",
+      "Meanwhile, toast the pumpkin seeds in a dry frying pan over a medium heat for 3 to 4 minutes, until they start to pop, and set aside.",
+      "Melt the butter in a large pot over a medium heat. Add the ginger and curry powder and stir for about a minute, until fragrant.",
+      "Squeeze the garlic out of its skins into the pot and tip in the rest of the roasted vegetables with any juices from the tray. Pour in the stock, bring to the boil and simmer for 10 minutes.",
+      "Blend until smooth with a stick blender, or in batches in a blender. Stir in most of the coconut milk, loosen with a splash of water if it's too thick and season with salt.",
+      "Serve with a swirl of the remaining coconut milk and the toasted pumpkin seeds, plus a drizzle of chilli oil and some coriander if you like."
+    ],
+    "video": {
+      "url": "https://www.instagram.com/p/DeHp6xUIr7d/"
+    },
+    "source": {
+      "name": "anncooksss on Instagram",
+      "url": "https://www.instagram.com/p/DeHp6xUIr7d/"
+    },
+    "added": "2026-10-06",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 245,
+      "protein": 4.2,
+      "fat": 16.4,
+      "saturatedFat": 9.6,
+      "carbs": 25.1,
+      "sugars": 7.5,
+      "fibre": 5.2,
+      "sodium": 701
+    }
   }
 ]

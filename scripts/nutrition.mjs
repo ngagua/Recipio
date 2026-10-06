@@ -161,6 +161,7 @@ const FOODS = [
     per100: [86, 1.6, 0.1, 0, 20, 4.2, 3, 55],
     piece: 350,
   },
+  { keys: ['butternut squash', 'squash', 'pumpkin'], per100: [45, 1, 0.1, 0, 11.7, 2.2, 2, 4] },
   {
     keys: ['pepper', 'green pepper', 'red pepper', 'bell pepper', 'peppers'],
     per100: [26, 1, 0.3, 0, 6, 4.2, 2.1, 4],

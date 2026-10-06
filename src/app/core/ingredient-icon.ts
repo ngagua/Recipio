@@ -10,6 +10,7 @@ const ICONS: [string, ...string[]][] = [
   ['🥕', 'carrot'],
   ['🥔', 'potato'],
   ['🍠', 'sweet potato'],
+  ['🎃', 'pumpkin', 'squash', 'butternut'],
   ['🍅', 'tomato', 'passata'],
   ['🫑', 'pepper', 'capsicum'],
   [
@@ -100,7 +101,7 @@ const ICONS: [string, ...string[]][] = [
   ['☕', 'coffee', 'espresso'],
   ['🥜', 'peanut'],
   ['icons/nut.svg', 'walnut', 'pecan', 'almond', 'cashew', 'hazelnut', 'pistachio', 'nut'],
-  ['icons/seeds.svg', 'chia', 'seed', 'sesame'],
+  ['icons/seeds.svg', 'chia', 'seed', 'sesame', 'pumpkin seed'],
   [
     'icons/spice.svg',
     'curry',
