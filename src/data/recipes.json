@@ -3842,5 +3842,231 @@
       "fibre": 0.1,
       "sodium": 229
     }
+  },
+  {
+    "slug": "honey-garlic-parmesan-chicken-and-potatoes",
+    "title": "Honey garlic Parmesan chicken and potatoes",
+    "blurb": "Sticky Parmesan chicken and crispy potatoes in a creamy Tuscan sauce. Ten lunches sorted.",
+    "description": "A big batch for the week: chicken thighs marinated in honey, garlic, Parmesan and herbs and roasted until sticky, with crispy paprika potatoes folded through a light Tuscan sauce of blended cottage cheese, sun-dried tomatoes, basil and Parmesan. Makes ten portions with over 50g of protein each.",
+    "categories": ["dinner", "lunch"],
+    "tags": ["High protein", "Chicken", "Meal prep", "Sheet pan"],
+    "image": "/recipes/honey-garlic-parmesan-chicken-and-potatoes.jpg",
+    "imageAlt": "A white bowl of sliced chicken in a sticky honey garlic glaze next to roast potatoes in a creamy Parmesan sauce, scattered with parsley",
+    "time": 90,
+    "level": "Medium",
+    "servings": 10,
+    "ingredients": [
+      {
+        "group": "Chicken marinade",
+        "qty": 1500,
+        "unit": "g",
+        "name": "boneless chicken thighs, cubed"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 3,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 3,
+        "unit": "tsp",
+        "name": "chilli flakes"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 3,
+        "unit": "tsp",
+        "name": "paprika"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 4,
+        "unit": "tsp",
+        "name": "dried parsley"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 4,
+        "unit": "tsp",
+        "name": "garlic powder or granules"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 4,
+        "unit": "tsp",
+        "name": "dried Italian herbs"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 130,
+        "unit": "g",
+        "name": "Parmigiano Reggiano, grated"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 45,
+        "unit": "g",
+        "name": "honey"
+      },
+      {
+        "group": "Chicken marinade",
+        "qty": 40,
+        "unit": "g",
+        "name": "olive oil"
+      },
+      {
+        "group": "To finish",
+        "qty": 15,
+        "unit": "g",
+        "name": "honey"
+      },
+      {
+        "group": "To finish",
+        "qty": 20,
+        "unit": "g",
+        "name": "Parmesan, grated"
+      },
+      {
+        "group": "To finish",
+        "unit": "to serve",
+        "name": "fresh parsley"
+      },
+      {
+        "group": "Crispy potatoes",
+        "qty": 1800,
+        "unit": "g",
+        "name": "white or yellow potatoes, cubed"
+      },
+      {
+        "group": "Crispy potatoes",
+        "qty": 4,
+        "unit": "tsp",
+        "name": "paprika"
+      },
+      {
+        "group": "Crispy potatoes",
+        "qty": 4,
+        "unit": "tsp",
+        "name": "onion powder"
+      },
+      {
+        "group": "Crispy potatoes",
+        "qty": 4,
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "group": "Crispy potatoes",
+        "unit": "a little",
+        "name": "olive oil cooking spray"
+      },
+      {
+        "group": "Blended cream",
+        "qty": 700,
+        "unit": "g",
+        "name": "fat-free cottage cheese"
+      },
+      {
+        "group": "Blended cream",
+        "qty": 250,
+        "unit": "g",
+        "name": "skimmed milk"
+      },
+      {
+        "group": "Blended cream",
+        "qty": 250,
+        "unit": "g",
+        "name": "light evaporated milk"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 30,
+        "unit": "g",
+        "name": "light butter"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 200,
+        "unit": "g",
+        "name": "white onion, finely chopped"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 45,
+        "unit": "g",
+        "name": "garlic, finely chopped"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 200,
+        "unit": "g",
+        "name": "sun-dried tomatoes, drained and chopped"
+      },
+      {
+        "group": "Tuscan sauce",
+        "unit": "handful",
+        "name": "fresh basil leaves, roughly chopped"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "chilli flakes"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 2,
+        "unit": "tsp",
+        "name": "dried Italian herbs"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 100,
+        "unit": "g",
+        "name": "Parmesan, grated"
+      },
+      {
+        "group": "Tuscan sauce",
+        "qty": 20,
+        "unit": "g",
+        "name": "Parmesan rind, in chunks"
+      }
+    ],
+    "steps": [
+      "Put the chicken in a bowl with the salt, chilli flakes, paprika, parsley, garlic powder, Italian herbs, grated Parmesan, honey and olive oil. Mix until evenly coated and set aside.",
+      "Blend the cottage cheese, skimmed milk and evaporated milk until completely smooth.",
+      "Heat the oven to 200°C. Spread the potatoes over a large lined baking tray, spray with oil, add the paprika, onion powder and oregano and mix well, then spread out evenly. Roast for 35 to 40 minutes until golden and crisp.",
+      "Meanwhile, melt the butter in a large, deep pan over a medium heat. Add the onion, garlic and sun-dried tomatoes and cook for 10 minutes until soft, then add the salt, chilli flakes, Italian herbs and basil and toast for 2 minutes.",
+      "Turn the heat to low and add the blended cream, grated Parmesan and Parmesan rind. Stir gently until smooth and creamy; do not let it boil.",
+      "Take out the potatoes and turn the oven to 190°C. Spread the chicken over the same tray and bake for 20 minutes, then grill for 5 to 6 minutes until golden. Drizzle with the extra honey and scatter over the extra Parmesan and the parsley.",
+      "Fold the potatoes into the sauce until coated. Serve with the chicken, or divide between 10 containers for the week."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/watch/?v=1611019700577161"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by Jalalsamfit)",
+      "url": "https://www.facebook.com/watch/?v=1611019700577161"
+    },
+    "added": "2026-10-12",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 731,
+      "protein": 63.6,
+      "fat": 27.6,
+      "saturatedFat": 10.4,
+      "carbs": 58.1,
+      "sugars": 15.5,
+      "fibre": 7.2,
+      "sodium": 1836
+    }
   }
 ]
