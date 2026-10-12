@@ -19,6 +19,7 @@ const FOODS = [
   { keys: ['unsalted butter'], per100: [717, 0.9, 81, 51, 0.1, 0.1, 0, 11], tbsp: 14 },
   { keys: ['egg', 'eggs'], per100: [143, 12.6, 9.5, 3.1, 0.7, 0.4, 0, 142], piece: 50 },
   { keys: ['egg yolk', 'egg yolks'], per100: [322, 15.9, 26.5, 9.6, 3.6, 0.6, 0, 48], piece: 17 },
+  { keys: ['egg white', 'egg whites'], per100: [52, 10.9, 0.2, 0, 0.7, 0.7, 0, 166], piece: 33 },
   { keys: ['milk'], per100: [61, 3.2, 3.3, 1.9, 4.8, 5.1, 0, 43], tbsp: 15 },
   { keys: ['almond milk'], per100: [17, 0.6, 1.2, 0.1, 0.6, 0.2, 0.3, 60], tbsp: 15 },
   { keys: ['coconut milk'], per100: [197, 2, 21, 19, 2.8, 1, 0, 13], tbsp: 15 },
@@ -94,6 +95,7 @@ const FOODS = [
   { keys: ['banana', 'bananas'], per100: [89, 1.1, 0.3, 0.1, 22.8, 12.2, 2.6, 1], piece: 118 },
   { keys: ['avocado'], per100: [160, 2, 14.7, 2.1, 8.5, 0.7, 6.7, 7], piece: 150 },
   { keys: ['blueberries', 'blueberry'], per100: [57, 0.7, 0.3, 0, 14.5, 10, 2.4, 1] },
+  { keys: ['berries', 'mixed berries'], per100: [45, 0.9, 0.4, 0, 10.5, 6, 3.5, 1] },
   {
     keys: ['lemon', 'lemon juice', 'lemons'],
     per100: [22, 0.4, 0.2, 0, 6.9, 2.5, 0.3, 1],
@@ -263,6 +265,7 @@ const FOODS = [
   { keys: ['honey'], per100: [304, 0.3, 0, 0, 82, 82, 0.2, 4], tbsp: 21 },
   { keys: ['maple syrup', 'maple'], per100: [260, 0, 0.1, 0, 67, 60, 0, 12], tbsp: 20 },
   { keys: ['sugar', 'caster sugar'], per100: [387, 0, 0, 0, 100, 100, 0, 1], tbsp: 12.5 },
+  { keys: ['sweetener', 'monkfruit sweetener'], per100: [0, 0, 0, 0, 0, 0, 0, 0], tbsp: 12 },
   {
     keys: ['vanilla', 'vanilla extract'],
     per100: [288, 0.1, 0.1, 0, 12.7, 12.7, 0, 9],

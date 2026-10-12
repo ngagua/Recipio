@@ -3162,5 +3162,89 @@
       "fibre": 5.2,
       "sodium": 701
     }
+  },
+  {
+    "slug": "high-protein-oat-waffles",
+    "title": "High-protein oat waffles",
+    "blurb": "Oats, egg whites and yoghurt in the blender. Go big on the berries.",
+    "description": "Oats, egg whites and Greek yoghurt blended into a batter with no flour, butter or added sugar, then cooked in a waffle maker. A batch makes about six waffles, two serves with over 30g of protein each. Fresh berries are what make them, so be generous.",
+    "categories": ["breakfast", "quick", "kid-friendly", "veggie"],
+    "tags": ["High protein", "Waffles"],
+    "image": "/recipes/high-protein-oat-waffles.jpg",
+    "imageAlt": "Two golden waffles on a dark plate piled with strawberries, blueberries and raspberries, with syrup pouring over them",
+    "time": 20,
+    "level": "Easy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "qty": 135,
+        "unit": "g",
+        "name": "rolled oats"
+      },
+      {
+        "qty": 250,
+        "unit": "ml",
+        "name": "liquid egg whites (about 8 eggs’ worth)"
+      },
+      {
+        "qty": 240,
+        "unit": "g",
+        "name": "Greek yoghurt, plain or vanilla"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "qty": 1.5,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "monkfruit sweetener, optional"
+      },
+      {
+        "unit": "to serve",
+        "name": "fresh berries"
+      },
+      {
+        "unit": "to serve",
+        "name": "sugar-free maple syrup, optional"
+      }
+    ],
+    "steps": [
+      "Put the oats, egg whites, yoghurt, baking powder, vanilla, cinnamon and the sweetener, if using, in a blender and blend until completely smooth.",
+      "Leave the batter to sit for a few minutes to thicken while the waffle maker heats up.",
+      "Pour enough batter into the hot waffle maker to fill it and cook until golden. Repeat with the rest; a batch makes about six waffles.",
+      "Serve straight away, piled with fresh berries and a drizzle of sugar-free maple syrup if you like."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/watch/?v=982394954179429",
+      "duration": "0:40"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by @nourished_and_whole)",
+      "url": "https://www.facebook.com/watch/?v=982394954179429"
+    },
+    "added": "2026-10-12",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 451,
+      "protein": 33.3,
+      "fat": 10.7,
+      "saturatedFat": 5,
+      "carbs": 53.4,
+      "sugars": 6.2,
+      "fibre": 7.4,
+      "sodium": 498
+    }
   }
 ]
