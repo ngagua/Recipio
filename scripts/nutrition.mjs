@@ -16,15 +16,18 @@ import { pathToFileURL } from 'node:url';
 const FOODS = [
   // dairy and eggs
   { keys: ['butter'], per100: [717, 0.9, 81, 51, 0.1, 0.1, 0, 640], tbsp: 14 },
+  { keys: ['ghee', 'clarified butter'], per100: [900, 0.3, 99.5, 62, 0, 0, 0, 2], tbsp: 12.8 },
   { keys: ['unsalted butter'], per100: [717, 0.9, 81, 51, 0.1, 0.1, 0, 11], tbsp: 14 },
   { keys: ['egg', 'eggs'], per100: [143, 12.6, 9.5, 3.1, 0.7, 0.4, 0, 142], piece: 50 },
   { keys: ['egg yolk', 'egg yolks'], per100: [322, 15.9, 26.5, 9.6, 3.6, 0.6, 0, 48], piece: 17 },
   { keys: ['egg white', 'egg whites'], per100: [52, 10.9, 0.2, 0, 0.7, 0.7, 0, 166], piece: 33 },
   { keys: ['milk'], per100: [61, 3.2, 3.3, 1.9, 4.8, 5.1, 0, 43], tbsp: 15 },
+  { keys: ['buttermilk'], per100: [40, 3.3, 0.9, 0.5, 4.8, 4.8, 0, 105], tbsp: 15 },
   { keys: ['almond milk'], per100: [17, 0.6, 1.2, 0.1, 0.6, 0.2, 0.3, 60], tbsp: 15 },
   { keys: ['coconut milk'], per100: [197, 2, 21, 19, 2.8, 1, 0, 13], tbsp: 15 },
   { keys: ['oat cream', 'vegan cream'], per100: [148, 1, 13, 1.2, 5, 1, 0.5, 40], tbsp: 15 },
   { keys: ['cream'], per100: [292, 2.3, 31, 19.4, 3, 3, 0, 27], tbsp: 15 },
+  { keys: ['sour cream'], per100: [198, 2.4, 19.4, 10.1, 4.6, 3.4, 0, 31], tbsp: 14 },
   { keys: ['double cream'], per100: [449, 1.7, 48, 30, 2.7, 2.7, 0, 27], tbsp: 15 },
   {
     keys: [
@@ -159,6 +162,10 @@ const FOODS = [
     piece: 150,
   },
   {
+    keys: ['pickled cucumber', 'gherkin', 'pickle'],
+    per100: [12, 0.5, 0.2, 0, 2.4, 1.1, 1, 875],
+  },
+  {
     keys: ['sweet potato', 'sweet potatoes'],
     per100: [86, 1.6, 0.1, 0, 20, 4.2, 3, 55],
     piece: 350,
@@ -228,6 +235,7 @@ const FOODS = [
     per100: [312, 8.5, 7.9, 3, 51, 3, 3, 700],
     piece: 50,
   },
+  { keys: ['fries', 'french fries'], per100: [196, 2.8, 7.6, 1.2, 28, 0.3, 2.6, 300] },
   // nuts, seeds, spreads
   {
     keys: ['walnuts', 'walnut', 'nuts', 'pecans'],
@@ -291,6 +299,7 @@ const FOODS = [
   { keys: ['hoisin sauce', 'hoisin'], per100: [220, 3.3, 3.4, 0.5, 44, 27, 2.8, 1615], tbsp: 16 },
   { keys: ['hot sauce', 'sriracha'], per100: [93, 1.9, 0.9, 0.1, 19, 15, 2.2, 2100], tbsp: 17 },
   { keys: ['ketchup', 'tomato ketchup'], per100: [101, 1, 0.1, 0, 27.4, 22.8, 0.3, 907], tbsp: 17 },
+  { keys: ['mayonnaise', 'mayo'], per100: [680, 1, 75, 11.7, 0.6, 0.6, 0, 635], tbsp: 14 },
   {
     keys: ['chilli garlic sauce', 'chili garlic sauce'],
     per100: [90, 2, 1, 0.2, 18, 12, 2, 2500],
@@ -344,6 +353,18 @@ const FOODS = [
     tbsp: 7,
   },
   { keys: ['cumin', 'ground cumin'], per100: [375, 18, 22, 1.5, 44, 2.3, 10.5, 168], tbsp: 6 },
+  { keys: ['ground coriander'], per100: [298, 12.4, 17.8, 1, 55, 0, 41.9, 35], tbsp: 5 },
+  {
+    keys: ['ground turmeric', 'turmeric'],
+    per100: [312, 9.7, 3.3, 1.8, 67, 3.2, 22.7, 27],
+    tbsp: 9.4,
+  },
+  {
+    keys: ['chilli powder', 'chili powder'],
+    per100: [318, 12, 17.3, 3.3, 56.6, 10.3, 27.2, 30],
+    tbsp: 5.3,
+  },
+  { keys: ['sumac'], per100: [239, 2.6, 13.9, 1.5, 71, 0, 30, 20], tbsp: 7 },
   {
     keys: ['cinnamon', 'ground cinnamon'],
     per100: [247, 4, 1.2, 0.3, 81, 2.2, 53, 10],

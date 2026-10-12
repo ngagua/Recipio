@@ -3246,5 +3246,250 @@
       "fibre": 7.4,
       "sodium": 498
     }
+  },
+  {
+    "slug": "chicken-shawarma-wraps",
+    "title": "Chicken shawarma wraps",
+    "blurb": "Spiced chicken, sumac onions and a punchy sauce, with fries rolled inside.",
+    "description": "Thinly sliced chicken marinated in mayonnaise, lemon and warm spices, fried in batches until browned, then rolled into warm tortillas with sumac onions, a creamy paprika garlic sauce, tomato, cucumber, pickles and spiced fries. Makes six; the chicken needs an hour in the marinade.",
+    "categories": ["dinner", "lunch"],
+    "tags": ["High protein", "Chicken"],
+    "image": "/recipes/chicken-shawarma-wraps.jpg",
+    "imageAlt": "A hand holding a chicken shawarma wrap in paper, filled with spiced chicken, red onion, tomato, cucumber and pink sauce, fries behind",
+    "time": 90,
+    "level": "Easy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "group": "For the chicken",
+        "qty": 900,
+        "unit": "g",
+        "name": "boneless chicken breasts or thighs, thinly sliced"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "garlic, finely chopped"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "mayonnaise"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "smoked paprika"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "ground black pepper"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground coriander"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "chilli powder"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric"
+      },
+      {
+        "group": "For the chicken",
+        "unit": "to taste",
+        "name": "salt"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "lemon juice"
+      },
+      {
+        "group": "For the chicken",
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "ghee or oil, for frying"
+      },
+      {
+        "group": "Sumac onions",
+        "qty": 1,
+        "name": "large red onion, thinly sliced and rinsed"
+      },
+      {
+        "group": "Sumac onions",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "parsley, chopped"
+      },
+      {
+        "group": "Sumac onions",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "sumac"
+      },
+      {
+        "group": "Sumac onions",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lemon juice"
+      },
+      {
+        "group": "Sumac onions",
+        "unit": "to taste",
+        "name": "salt"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 80,
+        "unit": "g",
+        "name": "mayonnaise"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 80,
+        "unit": "g",
+        "name": "sour cream"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 3,
+        "unit": "tbsp",
+        "name": "buttermilk, plus more to loosen"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "ketchup"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "hot sauce"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "parsley, chopped"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 1,
+        "unit": "tsp",
+        "name": "lemon juice"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "garlic powder"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "smoked paprika"
+      },
+      {
+        "group": "Garlic sauce",
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "ground black pepper"
+      },
+      {
+        "group": "Garlic sauce",
+        "unit": "to taste",
+        "name": "salt"
+      },
+      {
+        "group": "To assemble",
+        "qty": 6,
+        "name": "tortilla wraps"
+      },
+      {
+        "group": "To assemble",
+        "qty": 65,
+        "unit": "g",
+        "name": "cucumber, chopped"
+      },
+      {
+        "group": "To assemble",
+        "qty": 90,
+        "unit": "g",
+        "name": "tomatoes, chopped"
+      },
+      {
+        "group": "To assemble",
+        "qty": 70,
+        "unit": "g",
+        "name": "pickled cucumbers, sliced"
+      },
+      {
+        "group": "To assemble",
+        "name": "spiced French fries"
+      }
+    ],
+    "steps": [
+      "Put the chicken in a bowl and season with salt, the pepper, garlic powder, smoked paprika, cumin, coriander, chilli powder and turmeric. Add the mayonnaise, garlic, olive oil and lemon juice and mix until every piece is coated. Cover and leave to marinate for at least 1 hour.",
+      "For the sauce, whisk the mayonnaise, sour cream, buttermilk, ketchup, hot sauce, garlic powder, smoked paprika, parsley, lemon juice, salt and pepper until smooth and creamy. Loosen with a little more buttermilk if it is too thick.",
+      "For the sumac onions, toss the onion with the parsley, sumac, lemon juice and a pinch of salt.",
+      "Heat the ghee in a large frying pan over a medium heat. Cook the chicken in batches so the pan is not crowded, tossing now and then, for 8 to 10 minutes until cooked through.",
+      "Warm the tortillas. Spread each with sauce, then add sumac onions, chicken, tomato, cucumber, pickles and fries, and finish with more sauce. Roll up tightly and serve."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/watch/?v=1405721988325201",
+      "duration": "0:16"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by Im’s foodstory)",
+      "url": "https://www.facebook.com/watch/?v=1405721988325201"
+    },
+    "added": "2026-10-12",
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 682,
+      "protein": 44.2,
+      "fat": 39.3,
+      "saturatedFat": 12.1,
+      "carbs": 37.8,
+      "sugars": 6.6,
+      "fibre": 4.1,
+      "sodium": 1054
+    }
   }
 ]
