@@ -115,6 +115,7 @@ const ICONS: [string, ...string[]][] = [
     "za'atar",
     'zaatar',
     'sumac',
+    'ranch seasoning',
   ],
   ['icons/cinnamon.svg', 'cinnamon'],
   ['icons/mustard.svg', 'mustard'],

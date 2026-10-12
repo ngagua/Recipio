@@ -3577,5 +3577,270 @@
       "url": "https://feelgoodfoodie.net/recipe/yogurt-marinated-chicken/"
     },
     "added": "2026-10-12"
+  },
+  {
+    "slug": "yum-yum-sauce",
+    "title": "Yum yum sauce",
+    "blurb": "The pink Japanese steakhouse sauce, made on Greek yoghurt. Stir it in the jar.",
+    "description": "A lighter take on hibachi-style yum yum sauce: fat-free Greek yoghurt with a little light mayo, ketchup, rice vinegar, honey and smoked paprika, stirred together in a jar. The whole jar is about 430 kcal with 29g of protein. Use it as a dip or a dressing.",
+    "categories": ["sauces", "quick", "veggie"],
+    "tags": ["High protein", "Dip", "No cook"],
+    "time": 5,
+    "level": "Easy",
+    "servings": 8,
+    "added": "2026-10-12",
+    "image": "/recipes/yum-yum-sauce.jpg",
+    "imageAlt": "A gloved hand holding a mason jar of pale pink yum yum sauce, with sauce running down the side from a dipped chicken tender",
+    "ingredients": [
+      {
+        "qty": 280,
+        "unit": "g",
+        "name": "fat-free Greek yoghurt"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "name": "light mayonnaise"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "ketchup"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "rice vinegar"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "qty": 1.5,
+        "unit": "tsp",
+        "name": "smoked paprika"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "unit": "to taste",
+        "name": "salt"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "skimmed milk, plus more to thin"
+      }
+    ],
+    "steps": [
+      "Put everything in a jar, milk included, and stir until smooth.",
+      "Thin with more milk, 1 to 2 tablespoons at a time, until it is the consistency you like.",
+      "For the best flavour, chill for 15 to 30 minutes so the flavours meld. Serve as a dip or dressing."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/watch/?v=4607378389497185",
+      "duration": "0:26"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by FontyFitness)",
+      "url": "https://www.facebook.com/watch/?v=4607378389497185"
+    },
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 61,
+      "protein": 3.9,
+      "fat": 2.6,
+      "saturatedFat": 0.3,
+      "carbs": 5.7,
+      "sugars": 4.8,
+      "fibre": 0.2,
+      "sodium": 167
+    }
+  },
+  {
+    "slug": "buffalo-ranch",
+    "title": "Buffalo ranch",
+    "blurb": "Creamy ranch with a buffalo kick, built on Greek yoghurt.",
+    "description": "Fat-free Greek yoghurt and light mayo with buffalo hot sauce, lemon, vinegar and plenty of dill, parsley and chives. Fresh herbs taste best, but dried work too. Thin it with milk to dip or drizzle.",
+    "categories": ["sauces", "quick", "veggie"],
+    "tags": ["High protein", "Dip", "No cook"],
+    "time": 5,
+    "level": "Easy",
+    "servings": 8,
+    "added": "2026-10-12",
+    "image": "/recipes/buffalo-ranch.jpg",
+    "imageAlt": "A mason jar of orange buffalo ranch flecked with herbs, with a sprig of dill tucked in and sauce spilling over the rim",
+    "ingredients": [
+      {
+        "qty": 280,
+        "unit": "g",
+        "name": "fat-free Greek yoghurt"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "light mayonnaise"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "buffalo hot sauce (such as Frank’s RedHot)"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "white vinegar"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "lemon juice"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "dill, chopped (fresh or dried)"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "parsley, chopped (fresh or dried)"
+      },
+      {
+        "qty": 1,
+        "unit": "tsp",
+        "name": "chives, chopped (fresh or dried)"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "onion powder"
+      },
+      {
+        "qty": 0.25,
+        "unit": "tsp",
+        "name": "ranch seasoning"
+      },
+      {
+        "unit": "to taste",
+        "name": "salt"
+      },
+      {
+        "qty": 2,
+        "unit": "tbsp",
+        "name": "skimmed milk, plus more to thin"
+      }
+    ],
+    "steps": [
+      "Put everything in a jar, milk included, and stir until smooth.",
+      "Thin with more milk, 1 to 2 tablespoons at a time, until it is the consistency you like.",
+      "For the best flavour, chill for 15 to 30 minutes so the flavours meld. Serve as a dip or dressing."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/watch/?v=1709428276779675",
+      "duration": "0:26"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by FontyFitness)",
+      "url": "https://www.facebook.com/watch/?v=1709428276779675"
+    },
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 47,
+      "protein": 3.9,
+      "fat": 2.1,
+      "saturatedFat": 0.2,
+      "carbs": 3.1,
+      "sugars": 2.3,
+      "fibre": 0.1,
+      "sodium": 214
+    }
+  },
+  {
+    "slug": "bang-bang-sauce",
+    "title": "Bang bang sauce",
+    "blurb": "Sweet, creamy and a little hot. Greek yoghurt does the heavy lifting.",
+    "description": "Bang bang sauce made lighter: fat-free Greek yoghurt and light mayo with sugar-free sweet chilli sauce, honey and sriracha, stirred together in a jar. The whole jar is about 410 kcal with 27g of protein. Thin it with water for a dressing.",
+    "categories": ["sauces", "quick", "veggie"],
+    "tags": ["High protein", "Dip", "No cook"],
+    "time": 5,
+    "level": "Easy",
+    "servings": 8,
+    "added": "2026-10-12",
+    "image": "/recipes/bang-bang-sauce.jpg",
+    "imageAlt": "A mason jar of creamy pink bang bang sauce with a red chilli on the side, as a chicken tender coated in sauce is lifted out",
+    "ingredients": [
+      {
+        "qty": 300,
+        "unit": "g",
+        "name": "fat-free Greek yoghurt"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "light mayonnaise"
+      },
+      {
+        "qty": 80,
+        "unit": "g",
+        "name": "sugar-free sweet chilli sauce (such as G Hughes)"
+      },
+      {
+        "qty": 1.5,
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "qty": 1,
+        "unit": "tbsp",
+        "name": "sriracha"
+      },
+      {
+        "qty": 0.5,
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "unit": "to taste",
+        "name": "salt"
+      },
+      {
+        "name": "water, to thin"
+      }
+    ],
+    "steps": [
+      "Put everything except the water in a jar and stir until smooth.",
+      "Thin with water, 1 to 2 tablespoons at a time, until it is the consistency you like.",
+      "For the best flavour, chill for 15 to 30 minutes so the flavours meld. Serve as a dip or dressing."
+    ],
+    "video": {
+      "url": "https://www.facebook.com/reel/1410390180575007",
+      "duration": "0:30"
+    },
+    "source": {
+      "name": "Facebook reel (recipe by FontyFitness)",
+      "url": "https://www.facebook.com/reel/1410390180575007"
+    },
+    "nutrition": {
+      "basis": "estimate",
+      "calories": 60,
+      "protein": 4,
+      "fat": 2.1,
+      "saturatedFat": 0.2,
+      "carbs": 6.4,
+      "sugars": 5,
+      "fibre": 0.1,
+      "sodium": 229
+    }
   }
 ]

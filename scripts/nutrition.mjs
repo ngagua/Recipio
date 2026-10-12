@@ -22,6 +22,11 @@ const FOODS = [
   { keys: ['egg yolk', 'egg yolks'], per100: [322, 15.9, 26.5, 9.6, 3.6, 0.6, 0, 48], piece: 17 },
   { keys: ['egg white', 'egg whites'], per100: [52, 10.9, 0.2, 0, 0.7, 0.7, 0, 166], piece: 33 },
   { keys: ['milk'], per100: [61, 3.2, 3.3, 1.9, 4.8, 5.1, 0, 43], tbsp: 15 },
+  {
+    keys: ['skimmed milk', 'skim milk', 'fat-free milk'],
+    per100: [34, 3.4, 0.1, 0.1, 5, 5, 0, 42],
+    tbsp: 15,
+  },
   { keys: ['buttermilk'], per100: [40, 3.3, 0.9, 0.5, 4.8, 4.8, 0, 105], tbsp: 15 },
   { keys: ['almond milk'], per100: [17, 0.6, 1.2, 0.1, 0.6, 0.2, 0.3, 60], tbsp: 15 },
   { keys: ['coconut milk'], per100: [197, 2, 21, 19, 2.8, 1, 0, 13], tbsp: 15 },
@@ -200,7 +205,17 @@ const FOODS = [
   },
   { keys: ['adobo sauce'], per100: [79, 2, 2.5, 0.3, 14, 7, 5, 1500], tbsp: 15 },
   {
-    keys: ['basil', 'parsley', 'dill', 'mint', 'coriander', 'thyme', 'herbs', 'fresh herbs'],
+    keys: [
+      'basil',
+      'parsley',
+      'dill',
+      'chives',
+      'mint',
+      'coriander',
+      'thyme',
+      'herbs',
+      'fresh herbs',
+    ],
     per100: [30, 3, 0.6, 0.1, 6, 0.9, 3, 50],
     tbsp: 4,
     handful: 15,
@@ -298,8 +313,19 @@ const FOODS = [
   },
   { keys: ['hoisin sauce', 'hoisin'], per100: [220, 3.3, 3.4, 0.5, 44, 27, 2.8, 1615], tbsp: 16 },
   { keys: ['hot sauce', 'sriracha'], per100: [93, 1.9, 0.9, 0.1, 19, 15, 2.2, 2100], tbsp: 17 },
+  {
+    keys: ['sweet chilli sauce', 'sweet chili sauce'],
+    per100: [190, 0.4, 0.3, 0, 46, 42, 0.5, 900],
+    tbsp: 18,
+  },
+  { keys: ['sugar-free sweet chilli sauce'], per100: [33, 0, 0, 0, 8, 0, 0, 700], tbsp: 15 },
   { keys: ['ketchup', 'tomato ketchup'], per100: [101, 1, 0.1, 0, 27.4, 22.8, 0.3, 907], tbsp: 17 },
   { keys: ['mayonnaise', 'mayo'], per100: [680, 1, 75, 11.7, 0.6, 0.6, 0, 635], tbsp: 14 },
+  {
+    keys: ['light mayonnaise', 'light mayo'],
+    per100: [260, 0.7, 26, 2.5, 6, 3.5, 0, 700],
+    tbsp: 15,
+  },
   {
     keys: ['chilli garlic sauce', 'chili garlic sauce'],
     per100: [90, 2, 1, 0.2, 18, 12, 2, 2500],
@@ -365,6 +391,7 @@ const FOODS = [
     tbsp: 5.3,
   },
   { keys: ['sumac'], per100: [239, 2.6, 13.9, 1.5, 71, 0, 30, 20], tbsp: 7 },
+  { keys: ['ranch seasoning'], per100: [320, 5, 2, 0.5, 65, 6, 1, 9500], tbsp: 9 },
   {
     keys: ['cinnamon', 'ground cinnamon'],
     per100: [247, 4, 1.2, 0.3, 81, 2.2, 53, 10],
